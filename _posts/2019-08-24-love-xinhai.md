@@ -4,7 +4,11 @@ title: "Love Letter to Xinhai"
 categories: misc
 author: Yizheng Huang
 ---
-I love Xinhai so much!!!
+I love Xinhai so $e^{i\pi}$ much!!!
+
+Here is an equation of love: 
+
+$$\begin{pmatirx}1 & 0 \\ 0 & 1\end{pmatrix}\begin{pmatrix}love \\ u\end{pmartix}$$
 
 **Attached please find a styling portrait of Xinhai (sketch style using gaussian filter).**
 
