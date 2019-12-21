@@ -8,55 +8,19 @@ layout: default
   itemtype="http://schema.org/BlogPosting"
 >
   
-  <script>
-window.MathJax = {
-    loader: {
-        load: ['[tex]/tagFormat']
+ <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true
     },
-    startup: {
-      ready: function () {
-        var Configuration = MathJax._.input.tex.Configuration.Configuration;
-        var TagsFactory = MathJax._.input.tex.Tags.TagsFactory;
-        var tagFormatConfig = MathJax._.input.tex.tag_format.TagFormatConfiguration.tagFormatConfig;
-        var TagformatConfiguration = MathJax._.input.tex.tag_format.TagFormatConfiguration.TagformatConfiguration;
-        Configuration.create('tagFormat', {
-          config: function (config, jax) {
-            var tags = jax.parseOptions.options.tags;
-            if (tags !== 'base' && config.tags.hasOwnProperty(tags)) {
-              TagsFactory.add(tags, config.tags[tags]);
-            }
-            return tagFormatConfig(config, jax);
-          },
-          configPriority: 5,
-          options: TagformatConfiguration.options
-        });
-        return MathJax.startup.defaultReady();
-      }
-    },
-    tex: {
-        packages: {'[+]': ['tagFormat']},
-        tags: "ams",
-        tagFormat: {
-            number: function(n){
-                return String(n)
-                        .replace(/0/g,"۰")
-                        .replace(/1/g,"۱")
-                        .replace(/2/g,"۲")
-                        .replace(/3/g,"۳")
-                        .replace(/4/g,"۴")
-                        .replace(/5/g,"۵")
-                        .replace(/6/g,"۶")
-                        .replace(/7/g,"۷")
-                        .replace(/8/g,"۸")
-                        .replace(/9/g,"۹");
-            }
-        }
-    }
-};
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
 </script>
-<script id="MathJax-script" async
-   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 
   <head>
     <title>{{ page.title }}</title>
