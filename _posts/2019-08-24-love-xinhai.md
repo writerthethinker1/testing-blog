@@ -8,7 +8,7 @@ I love Xinhai so $e^{i\pi}$ much!!!
 
 Here is an equation of love: 
 
-$$\begin{pmatirx}1 & 0 \\ 0 & 1\end{pmatrix}\begin{pmatrix}love \\ u\end{pmartix}$$
+$$\begin{pmatrix}1 & 0 \\ 0 & 1\end{pmatrix}\begin{pmatrix}love \\ u\end{pmatrix}$$  
 
 **Attached please find a styling portrait of Xinhai (sketch style using gaussian filter).**
 
