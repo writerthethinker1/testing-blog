@@ -48,3 +48,12 @@ remote_theme: huangyz0918/moving # note, please use huangyz0918/moving if you wa
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  
+# the categories
+sections: [
+    ['proofs', 'Proofs'],
+    ['misc', 'Misc'],
+    ['theory', 'Theory'],
+    ['tut', 'Tutorials'],
+    ['fun', 'For Fun']
+]
