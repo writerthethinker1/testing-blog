@@ -9,18 +9,55 @@ layout: default
 >
   
   <script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']],
-    displayMath: [             // start/end delimiter pairs for display math
-      ['$$', '$$'],
-      ['\\[', '\\]']
-    ]
-  }
+window.MathJax = {
+    options: {
+        renderActions: {
+            addMenu: []
+        },
+        skipHtmlTags: ["script", "style", "textarea", "pre", "code"],   //their contents won't be scanned for math
+        includeHtmlTags: {br: '\n', wbr: '', '#comment': ''},   //  HTML tags that can appear within math
+    },
+    loader: {
+        load: ['[tex]/tagFormat']
+    },
+    tex: {
+        inlineMath: [ ["$","$"] ],
+        displayMath: [ ["$$","$$"] ],
+        processEscapes: true,
+        packages: {'[+]': ['tagFormat']},
+        digits: /^(?:[\d۰-۹]+(?:[,٬'][\d۰-۹]{3})*(?:[\.\/٫][\d۰-۹]*)?|[\.\/٫][\d۰-۹]+)/,    // introduce numbers
+        tagSide: "right",
+        tagIndent: ".8em",
+        multlineWidth: "85%",
+        tags: "all",
+        tagFormat: {
+            number: function(n){
+                return String(n)
+                        .replace(/0/g,"۰")
+                        .replace(/1/g,"۱")
+                        .replace(/2/g,"۲")
+                        .replace(/3/g,"۳")
+                        .replace(/4/g,"۴")
+                        .replace(/5/g,"۵")
+                        .replace(/6/g,"۶")
+                        .replace(/7/g,"۷")
+                        .replace(/8/g,"۸")
+                        .replace(/9/g,"۹");
+            }
+        }
+    },
+    svg: {
+        fontCache: 'global',        // or 'local' or 'none'
+        mtextInheritFont: true,     // required to correctly render RTL Persian text inside a formula
+        scale: 0.97,                // global scaling factor for all expressions
+        minScale: 0.6               // smallest scaling factor to use
+    }
 };
 </script>
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript" ></script>
-  
+<script id="MathJax-script" async
+   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
   <head>
     <title>{{ page.title }}</title>
   </head>
