@@ -41,4 +41,6 @@ Suppose that $A$ is positive definite, then by definition $\vec{x}^TA\vec{x} > 0
 
 $$\sum_{i = 1}^{n} \alpha_i \vec{v}_i^T(\alpha_i\lambda_i\vec{v}_i) = \sum_{i = 1}^{n}\left(\alpha_i\vec{v}_i\right)^TA(\alpha_i\vec{v}_i)$$ 
 
+Now, each summand $\left(\alpha_i\vec{v}_i\right)^TA(\alpha_i\vec{v}_i)$  
+
 Since both sides of the bi-implication have been proven, we may conclude that symmetric invertible matricies are positive semi-definite if and only if their eigenvalues are positive. This concludes the proof. Q.E.D.
