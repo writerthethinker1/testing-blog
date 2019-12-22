@@ -1,8 +1,8 @@
 title: Hibiscus Café # The title of the blog
 author: Ramneek Narayan # Your name 
 email: ramneeknarayan@gmail.com # your email shown in the footer
-url: https://writerthethinker1.github.io # this is your site's root address.
-baseurl: /myblog
+url: https://writerthethinker1.github.io/myblog # this is your site's root address.
+baseurl: /myblog/
 description: > # this means to ignore newlines until "show_excerpts:"
   Welcome! Our thoughts are hot and aromatic. Everything is made with love...
 favicon: "./favicon.ico" # set the favicon of the site 
