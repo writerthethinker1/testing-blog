@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Positive Definite Matrix Proof"
-categories: proofs
+category: proofs
+tags: thoughts
 author: Ramneek Narayan
 ---
 

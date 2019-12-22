@@ -3,11 +3,16 @@ layout: default
 ---
 
 
+    <div class="post-back">
+      <a class="black-link" href="{{ site.url | relative_url }}">
+        ← {{ site.moving.back_to }}
+      </a>
+    </div>
 <div class="post">
 <h1>Tag: {{ page.tag }}</h1>
 <ul>
 {% for post in site.tags[page.tag] %}
-  <li><a href="\myblog\{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
+  <li><a href="\myblog\{{ post.url }}" style = "color: #32cd32">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
     {{ post.description }}
   </li>
 {% endfor %}
@@ -15,4 +20,4 @@ layout: default
 </div>
 <hr>
 
-{% include archive.html %}
+{% include tag_archive.html %}

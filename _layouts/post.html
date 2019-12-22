@@ -38,14 +38,23 @@ layout: default
     <h1 class="post-title p-name" itemprop="name headline">
       {{ page.title | escape }}
     </h1>
- 
-    <span>
-  {% for tag in page.tags %}
-    {% capture tag_name %}{{ tag }}{% endcapture %}
-    <a href="/myblog/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+
+ <span>
+  {% for category in page.categories %}
+    {% capture category_name %}{{ category }}{% endcapture %}
+    <a href="/category/{{ category_name }}" style = "color: #ff8c00 "><code class="highligher-rouge"><nobr>{{ category_name }}</nobr></code>&nbsp;</a>
+  {% endfor %}
+</span>
+<br>
+
+ <span>
+   {% for tag in page.tags %}
+     {% capture tag_name %}{{ tag }}{% endcapture %}
+     <a href="/myblog/tag/{{ tag_name }}" style = "color:#32cd32 "><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
   {% endfor %}</span>
 <br>
-    <p class="post-meta">
+
+   <p class="post-meta">
       <time
         class="dt-published"
         datetime="{{ page.date | date_to_xmlschema }}"

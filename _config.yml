@@ -2,12 +2,12 @@ title: Hibiscus Café # The title of the blog
 author: Ramneek Narayan # Your name 
 email: ramneeknarayan@gmail.com # your email shown in the footer
 url: https://writerthethinker1.github.io/myblog # this is your site's root address.
-baseurl: /myblog/
+
 description: > # this means to ignore newlines until "show_excerpts:"
   Welcome! Our thoughts are hot and aromatic. Everything is made with love...
 favicon: "./favicon.ico" # set the favicon of the site 
 
-#show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true  # set to true to show excerpts on the homepage
   
 # Moving date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -21,12 +21,12 @@ moving:
   social_links:
     twitter: NarayanRamneek
     github: writerthethinker1
-    rss: RSS
+#   rss: RSS
     # dribbble: 
     #facebook:
     # flickr:   
     # instagram: 
-    #linkedin: yizheng-huang
+    linkedin: ramneek-narayan-277001162 
     # pinterest: 
     # youtube: 
     # youtube_channel: 
@@ -50,11 +50,3 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   
-# the categories
-sections: [
-    ['proofs', 'Proofs'],
-    ['misc', 'Misc'],
-    ['theory', 'Theory'],
-    ['tut', 'Tutorials'],
-    ['fun', 'For Fun']
-]
