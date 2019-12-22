@@ -1,5 +1,6 @@
 ---
-layout: home
+layout: blog_index
+title: Blog
 ---
 
 <h1 class="page-title" style="display:inline-block;"> {{ page.title }} </h1>
