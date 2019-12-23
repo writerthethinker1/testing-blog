@@ -24,10 +24,10 @@ layout: default
   
       <li>
           {%- assign date_format = site.moving.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">
+          <div class="post-meta">
             {{ post.date | date: date_format }}
-          </span>
- 	  <div style="margin-left:15%; margin-right:10%; margin-top: -5%">
+          </div>
+	  <div style="margin-left:20%; margin-right:5%; margin-top: -5%" align="left" >
 	  <a class="black-link post-link-layout" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
