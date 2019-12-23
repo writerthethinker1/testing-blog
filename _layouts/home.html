@@ -27,11 +27,11 @@ layout: default
           <div class="post-meta">
             {{ post.date | date: date_format }}
           </div>
-	  <div style="margin-left:20%; margin-right:5%; margin-top: -5%" align="left" >
+	  <p style="margin-left:20%; margin-right:5%; margin-top: -5%" align="left" >
 	  <a class="black-link post-link-layout" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-	  </div>
+	  </p>
      </li>
   
       {% if forloop.last %}
