@@ -204,14 +204,16 @@
 }
 
 .post-link-layout {
-  margin-left: 10%;
+  margin: 0%;
   display: inline;
+  
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     @include relative-font-size(1);
   }
 
   @include relative-font-size(1.2);
+
 }
 
 .black-link {
@@ -219,10 +221,11 @@
   text-decoration: none;
 
   &:hover {
-    color: $text-color;
+    color: #01A9DB;
     text-decoration: underline;
   }
-}
+
+ }
 
 .post-back {
   margin-bottom: 20px;
