@@ -2,13 +2,30 @@
 layout: default
 ---
 
+<style>
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding-left: 1.3em;
+}
+li:before {
+  content: "🍵"; /* FontAwesome Unicode */
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}</style>
+
 <div class="home">
   <head>
       <title>{{ site.title }}</title>
   </head>
   <div class="home-title">
-    <p class="home-heading">{{ site.title }}</p>
-    <p class="home-sub-heading">{{- site.description | escape -}}</p>
+    <p class="home-heading">{{ site.title }} ☕
+    </p>
+    <p class="home-sub-heading"><i>{{- site.description | escape -}}</i></p>
   </div>
 
   {%- if site.posts.size > 0 -%}
@@ -24,14 +41,14 @@ layout: default
   
       <li>
           {%- assign date_format = site.moving.date_format | default: "%b %-d, %Y" -%}
-          <div class="post-meta">
-            {{ post.date | date: date_format }}
-          </div>
-	  <p style="margin-left:20%; margin-right:5%; margin-top: -5%" align="left" >
+	  <div class="post-meta"> 
+		  {{ post.date | date: date_format }} 
+	  </div>
+	  <div style="margin-left:20%; margin-right:15%; margin-top: -5.3%">
 	  <a class="black-link post-link-layout" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
+		  <i>{{ post.title | escape }} </i>
           </a>
-	  </p>
+ 	  </div>
      </li>
   
       {% if forloop.last %}
@@ -39,7 +56,7 @@ layout: default
       {% else %}
           {% if this_year != next_year %}
           </ul>
-          <h2 id="{{ next_year }}-ref" class="post-year">{{next_year}}</h2>
+	  <h2 id="{{ next_year }}-ref" class="post-year">{{next_year}}</h2>
           <ul>
           {% endif %}
       {% endif %}
