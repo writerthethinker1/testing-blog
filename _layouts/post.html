@@ -27,15 +27,8 @@ layout: default
     <title>{{ page.title }}</title>
   </head>
   <header class="post-header">
-    <div class="post-back">
-      <a class="black-link" href="{{ site.url | relative_url }}">
-        ← {{ site.moving.back_to }}
-      </a>
-    </div>
-    
 
-    
-    <h1 class="post-title p-name" itemprop="name headline">
+    <h1 class="post-title p-name" itemprop="name headline" style="margin-bottom: .1%">
       {{ page.title | escape }}
     </h1>
 
@@ -77,6 +70,4 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

@@ -133,8 +133,15 @@
  * Page content
  */
 .page-content {
+  padding: $spacing-unit 10%;
+  flex: 1 0 auto;
+}
+
+@media (max-width: 990px) {
+  .page-content{
   padding: $spacing-unit 0;
   flex: 1 0 auto;
+}
 }
 
 .page-heading {
@@ -142,12 +149,14 @@
 }
 
 .home-title {
-  margin-top: -10px;
+  margin-top: 15px;
 }
 
 .home-heading {
   font-weight: 1000;
-  color: lighten($text-color, 15%);
+  color: #fff;
+  margin-left: 3%;
+  margin-right: 3%;
 
   @media (max-width: 500px) {
     margin-top: 20px;
@@ -158,8 +167,10 @@
 }
 
 .home-sub-heading {
-  margin-top: -0.6rem;
-  color: lighten($text-color, 25%);
+  margin-top: -1.0rem;
+  margin-left: 3%;
+  margin-right: 3%;
+  color: lighten($text-color, 75%);
 
   @media (max-width: 500px) {
     @include relative-font-size(0.8);
@@ -179,10 +190,10 @@
 }
 
 .post-year {
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-bottom: 0.25rem;
   font-weight: 700;
-  color: lighten($text-color, 15%);
+  color: #c9c9c9;
 
   @media (max-width: 500px) {
     @include relative-font-size(1.2);
@@ -196,17 +207,17 @@
   min-width: 60px;
 
   @media (max-width: 500px) {
-    @include relative-font-size(0.8);
+    @include relative-font-size(1);
   }
 
   @include relative-font-size(1);
-  color: lighten($text-color, 25%);
+  color: lighten($text-color, 15%);
 }
 
 .post-link-layout {
   margin: 0%;
   display: inline;
-  
+
 
   @media (max-width: 600px) {
     @include relative-font-size(1);
@@ -217,11 +228,11 @@
 }
 
 .black-link {
-  color: $text-color;
+  color: #9FF781;
   text-decoration: none;
 
   &:hover {
-    color: #01A9DB;
+    color: #9FF781;
     text-decoration: none;
   }
 
@@ -236,6 +247,7 @@
  * Posts
  */
 .post-header {
+  margin-top: $spacing-unit;
   margin-bottom: $spacing-unit;
 }
 
@@ -321,7 +333,7 @@
       padding: 1px;
       border: 1px solid $grey-color-light;
       width: 10rem;
-      height: 10rem;
+      height: 13rem;
       margin: 0 2rem 0 0;
     }
 

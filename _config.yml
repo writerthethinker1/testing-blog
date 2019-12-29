@@ -1,18 +1,20 @@
-title: Café &#35;4&#58; # The title of the blog
-author: Ramneek Narayan # Your name 
+title: Cocoa-nut Café # The title of the blog
+author: Ramneek Narayan # Your name
 email: ramneeknarayan@gmail.com # your email shown in the footer
 url: https://writerthethinker1.github.io/myblog # this is your site's root address.
 
 description: > # this means to ignore newlines until "show_excerpts:"
   Welcome! Our thoughts are hot and aromatic. Enjoy them as they are...
-favicon: "./favicon.ico" # set the favicon of the site 
+favicon: "./favicon.ico" # set the favicon of the site
 
 show_excerpts: true  # set to true to show excerpts on the homepage
-  
+paginate: 5
+paginate_path: "/page:num"
+
 # Moving date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 moving:
-  avatar_url: "hot_chocolate_hot_cocoa.jpg" # avatar in about page
+  avatar_url: "/images/me.jpeg" # avatar in about page
   about_you: Hello! ツ # short description about you in about page
   date_format: "%b %d" # date format of posts in home page
   back_to: "Café Home" # In the post page, you have a back button above the title, you can custom the text by yourself.
@@ -22,27 +24,27 @@ moving:
     twitter: NarayanRamneek
     github: writerthethinker1
 #   rss: RSS
-    # dribbble: 
-   #facebook: Ramneek Narayan 
-    # flickr:   
-    # instagram: 
-    linkedin: ramneek-narayan-277001162 
-    # pinterest: 
-    # youtube: 
-    # youtube_channel: 
-    # youtube_channel_name: 
-    # telegram: 
-    # googleplus: 
-    # microdotblog: 
+    # dribbble:
+   #facebook: Ramneek Narayan
+    # flickr:
+    # instagram:
+    linkedin: ramneek-narayan-277001162
+    # pinterest:
+    # youtube:
+    # youtube_channel:
+    # youtube_channel_name:
+    # telegram:
+    # googleplus:
+    # microdotblog:
     reddit: prob_thinker
-    tumblr: r-thought-stuff 
+    tumblr: r-thought-stuff
 
     # Mastodon instances
     # mastodon:
-    # - username: 
-    #   instance: 
-    # - username: 
-    #   instance: 
+    # - username:
+    #   instance:
+    # - username:
+    #   instance:
 
 # Build settings
 remote_theme: huangyz0918/moving # note, please use huangyz0918/moving if you want to publish to Github Pages.
@@ -50,4 +52,4 @@ remote_theme: huangyz0918/moving # note, please use huangyz0918/moving if you wa
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  
+  - jekyll-paginate

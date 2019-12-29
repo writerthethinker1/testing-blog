@@ -1,5 +1,6 @@
 {%- assign social = site.moving.social_links -%}
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="{{ site.url }}/assets/css/social.css">
 
@@ -129,8 +130,7 @@
     <a
       class="fa fa-reddit"
       href="https://reddit.com/user/{{ social.reddit | cgi_escape | escape }}"
-    >
-    </a>
+    ></a>
   </li>
   {%- endif -%} {%- if social.rss -%}
   <li>
@@ -142,8 +142,7 @@
   <li>
     <a
       class="fa fa-tumblr" href="https://{{ social.tumblr | cgi_escape | escape }}.tumblr.com"
-    ></a
-    >
+    ></a>
   </li>
 {%- endif -%}
 </ul>

@@ -1,11 +1,13 @@
 .fa {
- padding: 6px;
-  font-size: 20px;
-  width: 20px;
-  top: 15px;
+  padding: 8px;
+  font-size: 21px;
+  width: 23px;
+  top: 19px;
   text-align: center;
   text-decoration: none;
-  margin: 2px 2px;}
+  margin: 2px 2px;
+  border-radius: 50%;
+  }
 
 .fa:hover {
     opacity: 0.7;

@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
         {%- include head.html -%}
-    <body>
+
+<style>
+.container {
+	display: flex;
+	margin-left: 25%;
+  margin-top:-2.5%;
+}
+
+@media screen and (max-width: 900px) {
+	.container {
+		display: flex;
+		margin-left: 10%;
+    margin-top: -5.5%;
+	}
+}
+
+#reference {
+  text-decoration: none;
+  color: #9FF781;
+}
+
+</style>
+    <body style="padding: 0 0%">
+<div>
+<ul class="sidenav">
+
+<p class="home-heading"><a class="black-link" href="{{ site.url | relative_url}}"><i>{{ site.title }}</i></a>
+</p>
+<p class="home-sub-heading"><i>{{- site.description | escape -}}</i></p>
+<img src="/images/Matcha-Tea.jpg" />
+	{%- if site.author -%}
+	<li><a href="{{ site.url }}/about.html">
+			About
+		</a></li>
+              {%- endif -%}
+	      {%- if site.email -%}
+	      <li><a href="mailto:{{ site.email }}">Email me
+		      </a></li>
+            {%- endif -%}
+
+</ul>
+</div>
     <main class="page-content" aria-label="Content">
-        <div class="wrapper">
+  <div class="container">
             {{ content }}
-        </div>
     </main>
+</div>
         {%- include footer.html -%}
     </body>
 </html>

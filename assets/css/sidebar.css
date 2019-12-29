@@ -1,0 +1,61 @@
+ul.sidenav {
+  list-style-type: none;
+  height: 100%;
+  width: 275px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -3%;
+  background-color: #000;
+  overflow-x: hidden;
+  padding-top: 0px;
+  text-align: center;
+}
+
+ul.sidenav li a {
+  padding: 0px 11px 3px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  color: #fff;
+  display: block;
+}
+
+ul.sidenav li a:hover {
+  color: #9FF781;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/*FUTURE: modify padding for pretty view */
+@media screen and (max-width: 990px) {
+  ul.sidenav {
+    width: 100%;
+    height: auto;
+    position: revert;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  ul.sidenav li a {
+    float: left;
+    padding: 15px;
+    font-size: 17px;
+  }
+
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  ul.sidenav  li a {
+    text-align: center;
+    float: none;
+    margin-left: auto;
+    padding: 10px;
+    font-size: 17px;
+  }
+}

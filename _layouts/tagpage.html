@@ -3,12 +3,7 @@ layout: default
 ---
 
 
-    <div class="post-back">
-      <a class="black-link" href="{{ site.url | relative_url }}">
-        ← {{ site.moving.back_to }}
-      </a>
-    </div>
-<div class="post">
+<div class="post" style="margin-top: -5%">
 <h1>Tag: {{ page.tag }}</h1>
 <ul>
 {% for post in site.tags[page.tag] %}
@@ -17,7 +12,6 @@ layout: default
   </li>
 {% endfor %}
 </ul>
-</div>
 <hr>
-
 {% include tag_archive.html %}
+</div>
