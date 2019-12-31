@@ -300,7 +300,7 @@
   margin-top: -1rem;
   @include relative-font-size(1);
   li {
-    float: left;
+    float: none;
     a {
       padding-right: $spacing-unit / 5;
     }

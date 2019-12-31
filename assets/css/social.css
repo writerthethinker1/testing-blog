@@ -67,7 +67,7 @@ a, a:hover {
       text-align: left;
       border-radius: 10px;
       -moz-border-radius: 20px;
-      -webkit-border-radius: 90px;
+      -webkit-border-radius: 20px;
       -o-border-radius: 20px;
       transition: all ease 0.3s;
       -moz-transition: all ease 0.3s;

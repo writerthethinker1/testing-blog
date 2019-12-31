@@ -25,6 +25,9 @@ ul.sidenav li a:hover {
   color: #9FF781;
 }
 
+ul.sidenav li span:hover {
+  color: #c9c9c9;
+}
 .main {
   margin-left: 160px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
@@ -42,7 +45,7 @@ ul.sidenav li a:hover {
   }
 
   ul.sidenav li a {
-    float: left;
+    float: none;
     padding: 15px;
     font-size: 17px;
   }
