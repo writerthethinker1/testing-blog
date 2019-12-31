@@ -1,16 +1,90 @@
-.fa {
-  padding: 8px;
-  font-size: 21px;
-  width: 23px;
-  top: 19px;
-  text-align: center;
-  text-decoration: none;
-  margin: 2px 2px;
-  border-radius: 50%;
+/* spinning sm icons */
+a, a:hover {
+    text-decoration: none;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+    margin: auto;
+    padding: 5px;
+
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+    color: #FFF;
+    background-color: #151515;
+    width: 20px;
+    height: 25px;
+    padding-top: 12px;
+    text-align: center;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+}
+
+@media (max-width: 400px) {
+
+  .socialbtns .fa {
+      color: #FFF;
+      background-color: #151515;
+      width: 20px;
+      height: 18px;
+      padding-top: 12px;
+      text-align: center;
+      border-radius: 20px;
+      -moz-border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -o-border-radius: 20px;
+      transition: all ease 0.3s;
+      -moz-transition: all ease 0.3s;
+      -webkit-transition: all ease 0.3s;
+      -o-transition: all ease 0.3s;
   }
 
-.fa:hover {
-    opacity: 0.7;
+  .socialbtns li {
+      list-style: none outside none;
+      display: inline-block;
+      float: none;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 990px) {
+  .socialbtns .fa {
+      color: #FFF;
+      background-color: #151515;
+      height: 17px;
+      width: 13px;
+      padding-top: 10px;
+      text-align: left;
+      border-radius: 10px;
+      -moz-border-radius: 20px;
+      -webkit-border-radius: 90px;
+      -o-border-radius: 20px;
+      transition: all ease 0.3s;
+      -moz-transition: all ease 0.3s;
+      -webkit-transition: all ease 0.3s;
+      -o-transition: all ease 0.3s;
+  }
+}
+
+.socialbtns .fa:hover {
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
 }
 
 .fa-facebook {

@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="{{ site.url }}/assets/css/social.css">
 
-<ul class="social-media-list">
+<ul class="social-media-list socialbtns">
   {%- if social.dribbble -%}
   <li>
     <a
@@ -36,7 +36,7 @@
   {%- endif -%} {%- if social.github -%}
   <li>
     <a
-      class="fa fa-github" href="https://github.com/{{ social.github | cgi_escape | escape }}"
+      class="socialbtns fa fa-github" href="https://github.com/{{ social.github | cgi_escape | escape }}"
     ></a
     >
   </li>
@@ -53,7 +53,7 @@
   {%- endif -%} {%- if social.linkedin -%}
   <li>
     <a
-      class="fa fa-linkedin" href="https://www.linkedin.com/in/{{
+      class="socialbtns fa fa-linkedin" href="https://www.linkedin.com/in/{{
         social.linkedin | cgi_escape | escape
       }}"
       ></a
@@ -84,7 +84,7 @@
   {%- endif -%}{%- endfor -%} {%- if social.twitter -%}
   <li>
     <a
-      class="fa fa-twitter"
+      class="socialbtns fa fa-twitter"
       href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}"
     ></a
     >
@@ -128,7 +128,7 @@
   {%- endif -%} {%- if social.reddit -%}
   <li>
     <a
-      class="fa fa-reddit"
+      class="socialbtns fa fa-reddit"
       href="https://reddit.com/user/{{ social.reddit | cgi_escape | escape }}"
     ></a>
   </li>
@@ -141,9 +141,8 @@
 {%- if social.tumblr -%}
   <li>
     <a
-      class="fa fa-tumblr" href="https://{{ social.tumblr | cgi_escape | escape }}.tumblr.com"
+      class="socialbtns fa fa-tumblr" href="https://{{ social.tumblr | cgi_escape | escape }}.tumblr.com"
     ></a>
   </li>
 {%- endif -%}
 </ul>
-
