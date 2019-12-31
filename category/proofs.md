@@ -1,6 +1,5 @@
 ---
 layout: categorypage
-title: "Category: Proofs"
-category: proofs 
+title: "Category: proofs"
+category: proofs
 ---
-
