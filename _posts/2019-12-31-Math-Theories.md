@@ -56,7 +56,7 @@ When anyone creates a consistent theory like those of mathematicians, statistici
 
     * **Reason:** we can justify what we say! Every theorem has a proof. These statements are essential for the theory and without them, our thoughts would fall apart; like blood in your veins.
 
-    * **Theorem (Law of Cosines):** In any triangle described by the three vectors $\vec{x}$, $\vec{y}$, and $\vec{x} + \vec{y}$ we have the following: $\|\|\vec{x} + \vec{y}\|\|^2 = \|\|\vec{x}\|\|^2 + \|\|\vec{y}\|\|^2 - 2(\vec{x} \cdot \vec{y})$.
+    * **Theorem (Law of Cosines):** In any triangle described by the three vectors $\vec{x}$, $\vec{y}$, and $\vec{x} + \vec{y}$ we have the following: $\|\|\vec{x} + \vec{y}\|\|^2 = \|\|\vec{x}\|\|^2 + \|\|\vec{y}\|\|^2 + 2(\vec{x} \cdot \vec{y})$.
 
 ---
 
