@@ -61,11 +61,14 @@ a, a:hover {
   .socialbtns .fa {
       color: #FFF;
       background-color: #151515;
-      height: 17px;
-      width: 13px;
+      height: 11px;
+      width: 18px;
       padding-top: 10px;
-      text-align: left;
-      border-radius: 10px;
+      padding-left: 9px;
+      padding-right: 9px;
+      text-align: center;
+      vertical-align: middle;
+      border-radius: 20px;
       -moz-border-radius: 20px;
       -webkit-border-radius: 20px;
       -o-border-radius: 20px;
