@@ -9,14 +9,17 @@ description: > # this means to ignore newlines until "show_excerpts:"
 show_excerpts: true  # set to true to show excerpts on the homepage
 paginate: 5
 paginate_path: "/page:num"
+permalink: ":year/:month/:day/:title/"
 
 # Moving date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 moving:
-  avatar_url: "me.jpeg" # avatar in about page
+  avatar_url: "../pages/me.jpeg" # avatar in about page
   about_you: Hello! ツ # short description about you in about page
   date_format: "%b %d" # date format of posts in home page
   back_to: "Café Home" # In the post page, you have a back button above the title, you can custom the text by yourself.
+
+
 
   # generate social links in about page.
   social_links:
@@ -47,6 +50,11 @@ moving:
 
 # Build settings
 remote_theme: huangyz0918/moving # note, please use huangyz0918/moving if you want to publish to Github Pages.
+
+collections:
+  project:
+    output: true
+    permalink: /project/:year/:month/:day/:title/
 
 plugins:
   - jekyll-feed

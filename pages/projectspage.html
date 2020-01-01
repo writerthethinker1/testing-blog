@@ -1,0 +1,20 @@
+---
+layout: default
+title: "Projects"
+permalink: /projects/
+---
+
+<div class="post" style="margin-top: -5%">
+<h1>Projects</h1>
+Nothing yet! Have a cookie in the mean time (it's freshly baked with the chololate melting and the dough warm)... <i class="fas fa-cookie"></i> 
+<ul>
+{% for project in site.project %}
+  <li>
+    <a href="{{ project.url }}">
+      {{ project.title }}
+    </a>({{ project.date | date_to_string }})<br>
+  </li>
+{% endfor %}
+<ul>
+<hr>
+</div>
