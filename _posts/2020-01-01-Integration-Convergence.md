@@ -71,7 +71,7 @@ usually we find this out by direct computation.
 
 ---
 
-## Seeing Integrals as Sequences
+## Seeing Integrals as Limits of Sequences
 
 We can index each approximation we get for an area using the following ($A_n$ is the $n$-th approximation):
 
