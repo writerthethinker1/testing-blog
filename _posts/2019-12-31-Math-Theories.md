@@ -40,7 +40,7 @@ When anyone creates a consistent theory like those of mathematicians, statistici
 
     * **Reason:** these are identical in axioms as they can't be proven but some authors prefer to use these specifically for their own theories thinking it is central to this exact concept rather than universal. If mathematics was a video game system run on a computer and the branches were individual games, we would see that all of them use the same machinery (axioms) to work, but each has different physics or patterns (postulates). Both are undeniable but one is more specific to a the game rather than the whole system.
 
-    * **Postulate (Parallel Lines (Euclid)):** Given any line, there is only *one* line that is parallel to it. (This one is an example of how postulates came from sitting and thinking for a long time unable to find a proof as many mathematicians did ages after Eucild trying to prove the statement above).
+    * **Postulate (Parallel Lines (Euclid)):** Given any line and a point not on that line, there is only *one* line that is parallel to it which includes that point not on the line. (This one is an example of how postulates came from sitting and thinking for a long time unable to find a proof as many mathematicians did ages after Eucild tried to prove the statement above and couldn't do it. Instead, they came up with new types of geometry called *elliptic* and *differential geometry* which breaks this postulate).
 
 ---
 
