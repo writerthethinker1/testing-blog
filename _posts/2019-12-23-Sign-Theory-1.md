@@ -3,6 +3,7 @@ layout: post
 title: "Sign Theory 101: The Basics"
 category: theory
 tags: discussion
+year: "2019"
 author: Ramneek Narayan
 ---
 

@@ -1,0 +1,26 @@
+---
+layout: default
+title: "Categories"
+permalink: /category/
+---
+
+<head>
+  <title>{{ page.title }}</title>
+</head>
+<div class="post" style="margin-top:-5%">
+<h2>Category Archive</h2>
+Hello there! Here are all of the categories for this blog. Read at your pleasure!
+<hr/>
+{% capture tempcategories %}
+  {% for category in site.categories %}
+    {{ category[1].size | plus: 1000 }}#{{ category[0] }}#{{ category[1].size }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtempcategories = tempcategories | split:' ' | sort | reverse %}
+{% for tempcategory in sortedtempcategories %}
+  {% assign categoryitems = tempcategory | split: '#' %}
+  {% capture categoryname %}{{ categoryitems[1] }}{% endcapture %}
+  <a href="{{ site.url }}/category/{{ categoryname }}" style = "color: #ff8c00 "><code class="highligher-rouge"><nobr>{{ categoryname }}</nobr></code></a>
+{% endfor %}
+<hr/>
+</div>

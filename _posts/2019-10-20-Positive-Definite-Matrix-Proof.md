@@ -3,6 +3,7 @@ layout: post
 title: "Positive Definite Matrix Proof"
 category: proofs
 tags: thoughts
+year: "2019"
 author: Ramneek Narayan
 ---
 

@@ -1,0 +1,26 @@
+---
+layout: default
+title: "Tags"
+permalink: /tag/
+---
+
+<head>
+  <title>{{ page.title }}</title>
+</head>
+<div class="post" style="margin-top:-5%">
+<h2>Tag Archive</h2>
+Hi! Here are all of the tags used in this blog. Choose at your leisure!
+<hr/>
+{% capture temptags %}
+  {% for tag in site.tags %}
+    {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtemptags = temptags | split:' ' | sort | reverse %}
+{% for temptag in sortedtemptags %}
+  {% assign tagitems = temptag | split: '#' %}
+  {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
+  <a href="{{ site.url }}/tag/{{ tagname }}" style = "color:#32cd32 "><code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code></a>
+{% endfor %}
+<hr/>
+</div>

@@ -3,6 +3,7 @@ layout: post
 title: "Math Thought Process"
 category: logic
 tags: [discussion, thoughts]
+year: "2019"
 author: Ramneek Narayan
 ---
 
