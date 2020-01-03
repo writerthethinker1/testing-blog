@@ -22,17 +22,13 @@ That's it, nothing more. If one of the two rules was true, then we can write $\p
 This seems okay for an idea of sequential reasoning, but let me show you how this definition of implies can distort what we sometimes think in the mind by the word 'implies'. Consider the following symbolization:
 
 $$
-\begin{equation}
-\phi: \text{The sun is blazingly hot}
-\end{equation}
+\begin{equation}\phi: \text{The sun is blazingly hot}\end{equation}
 $$
 
 and this other symbolization
 
 $$
-\begin{equation}
-\psi: \text{Kit-kat bars are sweet}
-\end{equation}
+\begin{equation}\psi: \text{Kit-kat bars are sweet}\end{equation}
 $$
 
 Both $(1)$ and $(2)$ are true (we hope you know that or at least have tried a Kit-kat bar before) and following the convention of implies we may state $\phi \rightarrow \psi$ or that that sun is blazingly hot implies that Kit-kat bars are sweet. The implication is true, but in terms of the word 'implies' to describe this relation sounds rather odd as the hotness of the sun has nothing to do with how the factory makes the bar (the amount of sugar they put in it). It is not like suddenly the sun drops $4^\circ$ C and we are suddenly no longer making sweet Kit-kat bars. Yet, it is the case the one implies the other.  By the way, even if the sun stops being blazingly hot, the implication still holds (it satisties rule \#2). In this case, the notion of implies is *vacuous*. So, what we can take from this is that logical 'implies' is weak in what we wish to express by the word 'implies' if we are to use it meaningfully. But, to make the point even more clear, let's us it in math...
@@ -42,23 +38,17 @@ Both $(1)$ and $(2)$ are true (we hope you know that or at least have tried a Ki
 Let's say we are performing some computation about the odds of winning Mr. Biscuit's raffle of crackers. You read online before going to the raffle that the odds of winning are $2:3$ and wish to explicitly find out the chance of winning. That's simple, you think you end up with the compuation:
 
 $$
-\begin{equation}
-\frac{\pi}{1 - \pi} = \frac{2}{3} \rightarrow 3\pi = 2 - 2\pi \rightarrow
-\end{equation}
+\begin{equation}\frac{\pi}{1 - \pi} = \frac{2}{3} \rightarrow 3\pi = 2 - 2\pi \rightarrow\end{equation}
 $$
 
 $$
-\begin{equation}
-5\pi = 2 \rightarrow \pi = 2/5. \  \blacksquare
-\end{equation}
+\begin{equation}5\pi = 2 \rightarrow \pi = 2/5. \  \blacksquare\end{equation}
 $$
 
 So the chance of winning is $2/5$ or $40\%$. Now that we know a little more about implies, let's have some fun with the last line of derivation, we can (and have it be true) state the following:
 
 $$
-\begin{equation}
-[5\pi = 2 \rightarrow (\text{Martians party every Funday})] \rightarrow \\ (\text{salty pretzels are delicious to me}) \rightarrow \\ \pi = 2/5. \ \blacksquare
-\end{equation}
+\begin{equation}[5\pi = 2 \rightarrow (\text{Martians love Funday})] \rightarrow \\ (\text{salty pretzels are delicious to me}) \rightarrow \\ \pi = 2/5. \ \blacksquare\end{equation}
 $$
 
 Each bit of the implications following the first are true statements (the first is false), so the chain of reasoning is true, yet not meaningful (there are bits we don't need to have to get the main point across). By this nature of implication, we can see that it is flawed.
@@ -74,17 +64,17 @@ In life, implication is true in *coincidences* but entailment is true only if th
 Perhaps a good line of reasoning in math is such:
 
 $$
-\begin{equation}
-(x + 1 = 2 )\triangleright (x = 1)
-\end{equation}
+\begin{equation}(x + 1 = 2 )\triangleright (x = 1)\end{equation}
 $$
 
 Rather than
 
 $$
-\begin{equation}
-(x + 1 = 2) \rightarrow (x = 1).
-\end{equation}
+\begin{equation}(x + 1 = 2) \rightarrow (x = 1).\end{equation}
 $$
 
 Which is just as valid as the cookies dancing inside a teapot implying 2 is an even number.
+
+This wraps up the discussion, thanks for reading.  ¡Hasta luego!
+
+(づ｡◕‿‿◕｡)づ
