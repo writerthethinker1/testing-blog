@@ -94,7 +94,7 @@ layout: default
     inputTitle: "Go to page",
     pageClickUrl: function(num) { if (num != 1) {return "{{ site.url }}/page" + num;}
                                       else {
-                                       return "/";
+                                       return "{{ site.url }}/";
                                      }}
 });
 pagination2.make(itemsCount, itemsOnPage, {{ paginator.page }});
