@@ -92,7 +92,7 @@ layout: default
     enhancedMode: false,
     maxVisibleElements: 9,
     inputTitle: "Go to page",
-    pageClickUrl: function(num) { if (num != 1) {return "/page" + num;}
+    pageClickUrl: function(num) { if (num != 1) {return "{{ site.url }}/page" + num;}
                                       else {
                                        return "/";
                                      }}
