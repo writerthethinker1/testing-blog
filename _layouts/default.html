@@ -9,6 +9,11 @@
   margin-top:-2.5%;
 }
 
+.styler {
+  margin-top: -1%;
+  margin-bottom: 3%;
+}
+
 @media screen and (max-width: 900px) {
 	.container {
 		display: flex;
@@ -21,6 +26,11 @@
     margin-bottom: 0%;
   }
 
+  .styler {
+    margin-top: -1%;
+    margin-bottom: 1%;
+  }
+
 }
 
 </style>
@@ -31,13 +41,13 @@
 <p class="home-heading"><a class="black-link" href="{{ site.url | relative_url}}"><i>Cocoa-nut Café</i> <i class="fas fa-cookie-bite"></i></a>
 </p>
 <p class="home-sub-heading"><i>{{- site.description | escape -}}</i></p>
-<img src="{{ site.url | escape}}/images/Matcha-Tea.jpg" />
+<img src="{{ site.url | escape}}/images/matcha-banana.jpg" />
 
 <ul class="social-media-list socialbtns icon_closer">
 
     {%- if site.author -%}
     <li>
-    <a class="socialbtns fa fa-info" href="{{ site.url }}/about/"></a>About
+    <a class="socialbtns fa fa-infinity" href="{{ site.url }}/about/"></a>About
     </li>
       {%- endif -%}
       {%- if site.email -%}
@@ -53,10 +63,9 @@
         </li>
 
 </ul>
-
-            <div>
+<hr class="styler"/>
             {%- include social.html -%}
-          </div>
+
 
 
 </ul>

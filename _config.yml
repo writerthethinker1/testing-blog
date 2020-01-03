@@ -4,7 +4,7 @@ email: ramneeknarayan@gmail.com # your email shown in the footer
 url: https://writerthethinker1.github.io/myblog # this is your site's root address.
 
 description: > # this means to ignore newlines until "show_excerpts:"
-  Welcome! Our thoughts are hot and aromatic. Enjoy them like a cup of Matcha...
+  Welcome! Our thoughts are hot and aromatic. Enjoy them like a cup of Matcha with a favorite treat...
 
 show_excerpts: true  # set to true to show excerpts on the homepage
 paginate: 5
