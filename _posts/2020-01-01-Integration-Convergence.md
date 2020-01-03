@@ -26,9 +26,7 @@ This is just a more mathematical way of saying the verbal description aforementi
 Now, how do we know that equation $(1)$ converges? First we define a constant $\beta$ such that (by the well-ordering property of sets) we have
 
 $$
-\begin{equation}
-\beta = \max_{x \in [a,b]}f(x)
-\end{equation}
+\begin{equation}\beta = \max_{x \in [a,b]}f(x)\end{equation}
 $$
 
 Next, we consider the sum (we set $\Delta x$ as $\left(\frac{b - a}{n}\right)$ in the computations following):
@@ -46,7 +44,7 @@ $$
 Further, we have
 
 $$
-\begin{equation}\lim_{n \to \infty} \sum_{j = 1}^{n}f\left(a + j\left(\frac{b -a}{n}\right)\right)\left(\frac{b - a}{n}\right)  < \lim_{n \to \infty} \sum_{j = 1}^{n}\beta\left(\frac{b - a}{n}\right) \end{equation}
+\begin{equation}\lim_{n \to \infty} \sum_{j = 1}^{n}f\left(a + j\left(\frac{b -a}{n}\right)\right)\left(\frac{b - a}{n}\right) \\ < \lim_{n \to \infty} \sum_{j = 1}^{n}\beta\left(\frac{b - a}{n}\right)\end{equation}
 $$
 
 since $\beta \leq f(x)$ for all $x \in [a, b]$. By equations $(4)$ and $(5)$ we can deduce that the integral described by the lefthand side of the inequality above converges. Thus, integrals on closed intervals converge for smooth functions (one's that give us the idea of 'area').
@@ -54,17 +52,13 @@ since $\beta \leq f(x)$ for all $x \in [a, b]$. By equations $(4)$ and $(5)$ we 
 What about unbounded intervals like $(a, \infty)$? Sometimes the integral converges, and other times it doesn't. I will share one way to formally describe what is meant by that. In essence, all we do is set the upper limit $b$ as a variable rather than constant and evaluate that limit. In symbols we define a function $g$ such that
 
 $$
-\begin{equation}
-g(b) = \lim_{n \to \infty} \sum_{j = 1}^n f(a + j\Delta x)\Delta x
-\end{equation}
+\begin{equation}g(b) = \lim_{n \to \infty} \sum_{j = 1}^n f(a + j\Delta x)\Delta x\end{equation}
 $$
 
 where $\Delta x = \frac{b-a}{n}$. The convergence criterion for the integral then becomes:
 
 $$
-\begin{equation}
-\lim_{b \to \infty} g(b) < \infty
-\end{equation}
+\begin{equation}\lim_{b \to \infty} g(b) < \infty\end{equation}
 $$
 
 usually we find this out by direct computation.
@@ -76,9 +70,7 @@ usually we find this out by direct computation.
 We can index each approximation we get for an area using the following ($A_n$ is the $n$-th approximation):
 
 $$
-\begin{equation}
-A_n = \sum_{j = 1}^{n}f(a + j\Delta x)\Delta x
-\end{equation}
+\begin{equation}A_n = \sum_{j = 1}^{n}f(a + j\Delta x)\Delta x\end{equation}
 $$
 
 Then we can construct a sequence $B$ such that $B$ records our approximations, so $B = \lbrace A_1, A_2,...\rbrace$. If this sequence converges to a value $A$, then the integral too converges. We can effectively write
@@ -90,17 +82,13 @@ $$
 We could use the definition of convergence of sequences to prove some integrals converge to our 'hunch' or 'guess' $A$ by showing:
 
 $$
-\begin{equation}
-\forall \epsilon > 0: \exists N \in \mathbb{N}:\forall n \in \mathbb{N}: (n \geq N \Rightarrow |A - A_n| < \epsilon)
-\end{equation}
+\begin{equation}\forall \epsilon > 0: \exists N \in \mathbb{N}:\forall n \in \mathbb{N}:\\ (n \geq N \Rightarrow |A - A_n| < \epsilon)\end{equation}
 $$
 
 If we don't have a good intuition about what the integral converges to, then Cauchy's criterion might be of better use:
 
 $$
-\begin{equation}
-\forall \epsilon > 0: \exists N \in \mathbb{N}:\forall m,n \in \mathbb{N}: (m,n \geq N \Rightarrow |A_m - A_n| < \epsilon)
-\end{equation}
+\begin{equation}\forall \epsilon > 0: \exists N \in \mathbb{N}:\forall m,n \in \mathbb{N}: \\ (m,n \geq N \Rightarrow |A_m - A_n| < \epsilon)\end{equation}
 $$
 
 In practice this is impractical as direct computation might be of better help but this illustrates a point that sequences can be related to integrals. It would be interesting to see a demonstration of this integral convergence using sequences, but this seems enough for now.
