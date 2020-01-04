@@ -3,7 +3,7 @@ layout: post
 title: "Integration as Series/Seq Convergence"
 category: math
 tags: [discussion, thoughts, calc]
-year: "2020"
+date: "2020-01-01"
 author: Ramneek Narayan
 ---
 

@@ -1,25 +1,6 @@
 ---
-layout: default
+layout: year-archive
 title: "2020"
-permalink: /2020/
+date: 2020-01-01
+permalink: "/2020/"
 ---
-
-<head>
-  <title>{{ page.title }}</title>
-  </head>
-<div class="post" style="margin-top: -5%">
-<h1>2020</h1>
-
-<!--list the posts now-->
-{% assign postsByYear =
-    site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
-{% assign current_year = 2019 %}
-<ul>
-{% for post in postsByYear[0].items %}
-
-<li>
-  <a href="{{ post.url }}">{{ post.title }}</a>
-</li>
-{% endfor %}
-</ul>
-</div>

@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<head>
+  <title>{{ page.title }}</title>
+  </head>
+<div class="post" style="margin-top: -5%">
+{% assign current_year = page.date | date: "%Y" %}
+<h1>{{ current_year }} Posts<h1>
+  </div>
+<div>
+  {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+      {% for year in postsByYear %}
+      {% if year.name == current_year %}
+        {% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%B'" %}
+
+        {% for month in postsByMonth %}
+          <h2>{{ month.name }}</h2>
+          <ul>
+            {% for post in month.items %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+            
+          </ul>
+
+        {% endfor %}
+        {% endif %}
+      {% endfor %}
+</div>
