@@ -35,7 +35,7 @@ layout: default
   <head>
       <title>{{ site.title }}</title>
   </head>
-<div class="pagination" >
+<div class="pagination">
 	<div id="pagination-demo"></div>
 </div>
 {%- if site.posts.size > 0 -%}
@@ -45,7 +45,7 @@ layout: default
       {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
       {% if forloop.first %}
-      <h2 id="{{ this_year }}-ref" class="post-year">{{this_year}}</h2>
+      <h2 id="{{ this_year }}-ref" class="post-year">{{this_year}} <i class="fas fa-cookie-bite"></i></h2>
       <ul id="post_mark">
       {% endif %}
       <!--the date of the post-->
@@ -67,7 +67,7 @@ layout: default
       {% else %}
           {% if this_year != next_year %}
           </ul>
-	  <h2 id="{{ next_year }}-ref" class="post-year">{{next_year}}</h2>
+	  <h2 id="{{ next_year }}-ref" class="post-year">{{next_year}} <i class="fas fa-cookie-bite"></i> </h2>
           <ul id="post_mark">
           {% endif %}
       {% endif %}

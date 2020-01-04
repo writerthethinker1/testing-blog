@@ -9,26 +9,31 @@ permalink: /archives/
   </head>
 <div class="post" style="margin-top: -5%">
 <h1>Archives <i class="fas fa-layer-group"></i> </h1>
-<h2>Posts by Category and Tag</h2>
+<h2>Posts by Category and Tag <i class="fas fa-tags"></i></h2>
 <ul>
 <!--make link to category page-->
   <li>
-    <a href="{{ site.url }}/category/">Categories</a>
+    <blockquote style="margin-bottom:-10%; display:inline">
+      <a href="{{ site.url }}/category/">Categories</a></blockquote>
   </li>
 
 <!--make link to tag page-->
   <li>
+    <blockquote style="margin-bottom:-10%; display:inline">
     <a href="{{ site.url }}/tag/">Tags</a>
+    </blockquote>
   </li>
 </ul>
 
 <!--make posts by year-->
-<h2>Posts by Year</h2>
+<h2>Posts by Year <i class="fas fa-clock"></i></h2>
 <ul>
   {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
       {% for year in postsByYear %}
       <li>
+        <blockquote style="margin-bottom:-10%; display:inline">
         <a href="{{ site.url }}/{{ year.name }}">{{ year.name }}</a>
+        </blockquote>
       </li>
       {% endfor %}
 </ul>

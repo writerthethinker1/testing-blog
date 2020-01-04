@@ -18,9 +18,9 @@ layout: default
           <h2>{{ month.name }}</h2>
           <ul>
             {% for post in month.items %}
-              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              <li><blockquote style="margin-bottom:-10%; display:inline"><a href="{{ post.url }}"><i>{{ post.title }}</i></a></blockquote></li>
             {% endfor %}
-            
+
           </ul>
 
         {% endfor %}
