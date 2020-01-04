@@ -3,6 +3,11 @@ layout: default
 title: "Archives"
 permalink: /archives/
 ---
+<style>
+  .spacing_letters {
+    letter-spacing: 0px;
+  }
+</style>
 
 <head>
   <title>{{ page.title }}</title>
@@ -13,13 +18,13 @@ permalink: /archives/
 <ul>
 <!--make link to category page-->
   <li>
-    <blockquote style="margin-bottom:-10%; display:inline">
+    <blockquote class="spacing_letters" style="margin-bottom:-10%; display:inline">
       <a href="{{ site.url }}/category/">Categories</a></blockquote>
   </li>
 
 <!--make link to tag page-->
   <li>
-    <blockquote style="margin-bottom:-10%; display:inline">
+    <blockquote class="spacing_letters" style="margin-bottom:-10%; display:inline">
     <a href="{{ site.url }}/tag/">Tags</a>
     </blockquote>
   </li>
@@ -31,7 +36,7 @@ permalink: /archives/
   {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
       {% for year in postsByYear %}
       <li>
-        <blockquote style="margin-bottom:-10%; display:inline">
+        <blockquote class="spacing_letters" style="margin-bottom:-10%; display:inline">
         <a href="{{ site.url }}/{{ year.name }}">{{ year.name }}</a>
         </blockquote>
       </li>
