@@ -1,18 +1,18 @@
-ul.sidenav {
+div.sidenav {
   list-style-type: none;
   height: 100%;
   width: 275px;
   position: fixed;
   z-index: 1;
   top: 0;
-  left: -3%;
+  left: 0%;
   background-color: #000;
   overflow-x: hidden;
   padding-top: 0px;
   text-align: center;
 }
 
-ul.sidenav li a {
+div.sidenav li a {
   padding: 0px 11px 3px 10px;
   text-align: center;
   text-decoration: none;
@@ -21,22 +21,46 @@ ul.sidenav li a {
   display: block;
 }
 
-ul.sidenav li a:hover {
+div.sidenav li a:hover {
   color: #9FF781;
 }
 
-ul.sidenav li span:hover {
+div.sidenav li span:hover {
   color: #c9c9c9;
 }
-.main {
+/*.main {
   margin-left: 160px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-}
+/*  font-size: 28px; /* Increased text to enable scrolling */
+/*  padding: 0px 10px;*/
 
+
+#sidebar {
+	  /* for the animation */
+	  transition: margin 0.3s ease;
+	}
+	.collapsed {
+	  /* hide it for small displays*/
+	  display: none;
+    margin-right: -30%;
+}
+	@media (min-width: 992px) {
+	  .collapsed {
+	    display: block;
+	    /* same width as sidebar */
+	    margin-left: -30%;
+	  }
+	}
+  #row-main {
+  	  /* necessary to hide collapsed sidebar */
+  	  overflow-x: hidden;
+  	}
+	#content {
+  	  /* for the animation */
+  	  transition: width 0.3s ease;
+  	}
 /*FUTURE: modify padding for pretty view*/
 @media screen and (max-width: 990px) {
-  ul.sidenav {
+  div.sidenav {
     width: 100%;
     height: auto;
     position: revert;
@@ -44,17 +68,16 @@ ul.sidenav li span:hover {
     text-align: center;
   }
 
-  ul.sidenav li a {
+  div.sidenav li a {
     float: none;
     padding: 15px;
     font-size: 17px;
   }
 
-  div.content {margin-left: 0;}
 }
 
 @media screen and (max-width: 400px) {
-  ul.sidenav  li a {
+  div.sidenav  li a {
     text-align: center;
     float: none;
     margin-left: auto;
