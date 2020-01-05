@@ -6,7 +6,7 @@ layout: default
   </head>
 <div class="post" style="margin-top: -5%">
 {% assign current_year = page.date | date: "%Y" %}
-<h1>{{ current_year }} Posts<h1>
+<h1>{{ current_year }} Posts <i class="fas fa-compact-disc"></i><h1>
   </div>
 <div>
   {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
@@ -15,8 +15,8 @@ layout: default
         {% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%B'" %}
 
         {% for month in postsByMonth %}
-          <h2>{{ month.name }}</h2>
-          <ul>
+          <h2>{{ month.name }} <i class="fa fa-moon"></i></h2>
+          <ul style="list-style-type:disclosure-closed">
             {% for post in month.items %}
               <li><blockquote style="margin-bottom:-10%; display:inline; letter-spacing:0px"><a href="{{ site.url }}/{{ post.url }}"><i>{{ post.title }}</i></a></blockquote></li>
             {% endfor %}

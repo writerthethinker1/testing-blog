@@ -14,8 +14,8 @@ permalink: /archives/
   </head>
 <div class="post" style="margin-top: -5%">
 <h1>Archives <i class="fas fa-layer-group"></i> </h1>
-<h2>Posts by Category and Tag <i class="fas fa-tags"></i></h2>
-<ul>
+<h2>Posts by Category and Tag <i class="fas fa-coins"></i></h2>
+<ul style="list-style-type:disclosure-closed">
 <!--make link to category page-->
   <li>
     <blockquote class="spacing_letters" style="margin-bottom:-10%; display:inline">
@@ -31,8 +31,8 @@ permalink: /archives/
 </ul>
 
 <!--make posts by year-->
-<h2>Posts by Year <i class="fas fa-clock"></i></h2>
-<ul>
+<h2>Posts by Year <i class="far fa-clock"></i></h2>
+<ul style="list-style-type:disclosure-closed">
   {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
       {% for year in postsByYear %}
       <li>

@@ -4,8 +4,8 @@ layout: default
 
 
 <div class="post" style="margin-top: -5%">
-<h1>Tag: {{ page.tag }}</h1>
-<ul>
+<h1>Tag: {{ page.tag }} <i class="fas fa-tag"></i></h1>
+<ul style="list-style-type:disclosure-closed">
 {% for post in site.tags[page.tag] %}
 <li><blockquote style="margin-bottom:-10%; display:inline"><a href="{{ site.url }}\{{ post.url }}" style = "color: #32cd32"><i>{{ post.title }}</i></a> ({{ post.date | date_to_string }})</blockquote><br>
     {{ post.description }}
