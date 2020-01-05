@@ -2,13 +2,14 @@
 layout: post
 title: "Logical Fallacies I"
 category: logic
-tags: [reasoning, thoughts]
+tags: [reasoning, thoughts, fallacies]
 author: Ramneek Narayan
 ---
 
 Just some fallacies in logic (I've been guilty of them in the past and present (lol)). This post aims to expose some common errors of reasoning that one may make in making assertions (like debating or arguing in mathematics, physics, statistics, and the like). The writer expresses some reasons as to why humans make these errors and why they can 'feel' true but aren't by means of counterexamples. When counterexamples led to contradictions the law of the excluded middle is violated which bypasses classical logic. Subsequent inferences are then faulty under this field of thought. We use this method to show one who believes in a fallacy why their deductions are not in line with reason (i.e. things can't be true and not true at the same time). All fallacies were found using this [wikipedia page](https://en.wikipedia.org/wiki/Formal_fallacy) (check it out, it goes into greater depth). Also, another really nice comprehensive guide to common fallacies is [Logically Fallacious](https://www.logicallyfallacious.com/tools/lp/Bo/LogicalFallacies/3/Book-Contents) (you might be surprised at how many types of errors we can make; my favorites are the "appeal to..." section of the book). Let's get going, each error starts with a dialogue (see if you can catch the error before reading the explanation!)...  
 
 1.  **Affirming a disjunct**:
+
     > Almond: *We either drink water or the sun shines* <br>
     Cashew: *Here comes some water to drink!* <br>
     Almond: *That means the sun won't shine!* <br>
@@ -23,6 +24,7 @@ Just some fallacies in logic (I've been guilty of them in the past and present (
     where the turnstile '$\vdash$' means "provable." Arguments if this form are always faulty.
 
 2. **Affirming the consequent (my favorite):**
+
     > Toaster: *If I am filled with bread, then the bread will be crispy and brown.* <br>
     Bread: *I am crispy and brown.* <br>
     Toaster: *I must have been filled with you, bread.* <br>

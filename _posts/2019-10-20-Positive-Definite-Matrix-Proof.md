@@ -16,7 +16,7 @@ We will prove this in two sections:
 
 Forward direction ($\Rightarrow$):
 
-Suppose $A$ has positive eigenvalues, then by definition $\lambda_i > 0$ for all $i \in \{1,...,n\}$. Since $A$ is symmetric, it has a spectral decomposition and all of its eigenvectors are mutally orthogonal. Further, these eigenvectors form a basis for $\mathbb{R}^n$. Thus, any vector $\vec{x} \in \mathbb{R}^n$ can be represented as a linear combination of eigenvectors or $\vec{x} = \alpha_1\vec{v}_1 + \dots + \alpha_n \vec{v}_n$ for all $\alpha_i \in \mathbb{R}$ and $\vec{v}_i \in \mathbb{R}^n$. Now the product $\vec{x}^TA\vec{x}$ can be expressed as:
+Suppose $A$ has positive eigenvalues, then by definition $\lambda_i > 0$ for all $i \in \lbrace 1,...,n\rbrace$. Since $A$ is symmetric, it has a spectral decomposition and all of its eigenvectors are mutally orthogonal. Further, these eigenvectors form a basis for $\mathbb{R}^n$. Thus, any vector $\vec{x} \in \mathbb{R}^n$ can be represented as a linear combination of eigenvectors or $\vec{x} = \alpha_1\vec{v}_1 + \dots + \alpha_n \vec{v}_n$ for all $\alpha_i \in \mathbb{R}$ and $\vec{v}_i \in \mathbb{R}^n$. Now the product $\vec{x}^TA\vec{x}$ can be expressed as:
 
 $$
 \begin{equation}\vec{x}^TA\vec{x} = \left(\sum_{i = 1}^{n}\alpha_i\vec{v}_i^T\right)A\left(\sum_{i = 1}^{n} \alpha_i\vec{v}_i\right)\end{equation}

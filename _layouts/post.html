@@ -32,22 +32,24 @@ layout: default
   <header class="post-header">
 
     <h1 class="post-title p-name" itemprop="name headline" style="margin-bottom: .1%">
-      {{ page.title | escape }} <i class="fas fa-meteor"></i> 
+      {{ page.title | escape }} <i class="fas fa-meteor"></i>
     </h1>
 
  <span>
+
   {% for category in page.categories %}
     {% capture category_name %}{{ category }}{% endcapture %}
     <a href="{{ site.url }}/category/{{ category_name }}" style = "color: #ff8c00 "><code class="highligher-rouge"><nobr>{{ category_name }}</nobr></code>&nbsp;</a>
-  {% endfor %}
+  {% endfor %}<i class="fas fa-cat"></i>
 </span>
 <br>
 
  <span>
+
    {% for tag in page.tags %}
      {% capture tag_name %}{{ tag }}{% endcapture %}
      <a href="{{ site.url }}/tag/{{ tag_name }}" style = "color:#32cd32 "><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
-  {% endfor %}</span>
+  {% endfor %}  <i class="fas fa-magic"></i></span>
 <br>
 
    <p class="post-meta">
