@@ -6,8 +6,9 @@ layout: default
   </head>
 <div class="post" style="margin-top: -5%">
 {% assign current_year = page.date | date: "%Y" %}
-<h1>{{ current_year }} Posts <i class="fas fa-compact-disc"></i><h1>
+<h1>{{ current_year }} <i class="fas fa-compact-disc"></i><h1>
   </div>
+
 <div>
   {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
       {% for year in postsByYear %}
@@ -18,7 +19,13 @@ layout: default
           <h2>{{ month.name }} <i class="fa fa-moon"></i></h2>
           <ul style="list-style-type:disclosure-closed">
             {% for post in month.items %}
-              <li><blockquote style="margin-bottom:-10%; display:inline; letter-spacing:0px"><a href="{{ site.url }}/{{ post.url }}"><i>{{ post.title }} <i class="fas fa-meteor"></i> </i></a></blockquote></li>
+            {% assign d = post.date | date: "%-d" %}
+              <li> <blockquote style="margin-bottom:-10%; display:inline; letter-spacing:0px"><a href="{{ site.url }}/{{ post.url }}"><i>{{ post.title }} <i class="fas fa-meteor"></i> </i></a>
+                ({% case d %}
+  {% when '1' or '21' or '31' %}{{ d }}st)
+  {% when '2' or '22' %}{{ d }}nd)
+  {% when '3' or '23' %}{{ d }}rd)
+  {% else %}{{ d }}th){% endcase %}</blockquote></li>
             {% endfor %}
 
           </ul>
