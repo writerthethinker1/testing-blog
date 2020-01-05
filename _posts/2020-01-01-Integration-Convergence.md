@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Integration as Series/Seq Convergence"
+title: "Integration as Series/Seq"
 category: math
 tags: [discussion, thoughts, calc]
 date: "2020-01-01"
