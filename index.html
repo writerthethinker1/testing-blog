@@ -1,32 +1,7 @@
 ---
 layout: default
 ---
-
-<style>
-
-.input_page div {
-    float: none;
-    clear: none;
-}
-
-.post-desc {
-    display: inline;
-}
-
-.quote-size {
-  font-size: 23px;
-}
-
-@media screen and (max-width: 600px) {
-  .quote-size {
-    font-size: 17px;
-  }
-}
-
-#post_mark {
-  list-style-type: inherit;
-}
-</style>
+<!--index.html is where the front (home) page of the site is-->
 
 <div class="home">
   <head>
@@ -36,7 +11,7 @@ layout: default
 	<div id="pagination-demo"></div>
 </div>
 {%- if site.posts.size > 0 -%}
-  <ul class="post-list" style="margin-top:-10%">
+  <ul class="post-list post_vision">
       {% for post in paginator.posts  %}
       {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
       {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
@@ -73,7 +48,7 @@ layout: default
   {%- endif -%}
 <!-- Pagination links -->
 
-
+<!--script that makes paginator work-->
  <script>
 
  var itemsCount = {{ paginator.total_pages }} * 10;

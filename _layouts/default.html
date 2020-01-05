@@ -1,59 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
         {%- include head.html -%}
-
-<style>
-.container {
-	display: inline-block;
-	margin-left: 30%;
-  margin-right: 8%;
-  flex: 1 0 auto;
-}
-
-.styler {
-  margin-top: -1%;
-  margin-bottom: 3%;
-}
-
-.cookie_cutter {
-  margin-top:-30%;
-  margin-right: 10%;
-  float:right;
-}
-
-@media screen and (max-width: 990px) {
-	.container {
-		display: inline-block;
-		margin-left: 8%;
-    margin-top: 5%;
-    margin-right: 0%;
-	}
-
-  .icon_closer {
-    margin-top: 0%;
-    margin-bottom: 0%;
-  }
-
-  .styler {
-    margin-top: -1%;
-    margin-bottom: 1%;
-  }
-
-  .cookie_cutter {
-    margin-top: -5%;
-    margin-bottom: -3%;
-    margin-right: 0%;
-    float: none;
-  }
-
-
-}
-
-</style>
+<!--the default layout for any page in the site as stated in the YAML, layout: default-->
 
 <body style="padding: 0 0%">
-<div class="sidenav">
 
+<!--the sidebar-->
+<div class="sidenav">
 <p class="home-heading"><i><a class="black-link" href="{{ site.url | relative_url }}">Cocoa-nut Café</i></a>
   <div class="cookie_cutter"><ul class="social-media-list socialbtns"><li><a class="socialbtns fa fa-cookie-bite" href="{{ site.url | relative_url}}"></a></li></ul></div>
 </p>
@@ -87,26 +40,16 @@
 
 
 </ul>
-<hr class="styler"/>
+<hr class="dramatic"/>
+
             {%- include social.html -%}
-
 </div>
-
-  <div class="container">
+<!--end sidebar-->
+<!--the main page content (posts or list of them)-->
+  <div class="cookie_jar">
       {{ content }}
   </div>
+<!--end main page content-->
     {%- include footer.html -%}
 </body>
-
-<!--if sidebar
-<script>
-		$(document).ready(function () {
-			$(".toggle-sidebar").click(function () {
-				$("#sidebar").toggleClass("collapsed");
-				$("#content").toggleClass("col-md-12 col-md-9");
-
-				return false;
-			});
-		});
-	</script>-->
 </html>

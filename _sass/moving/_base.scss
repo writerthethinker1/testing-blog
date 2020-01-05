@@ -206,8 +206,8 @@ pre {
 }
 
 /**
-  * Wrapper
-  */
+  * Wrapper*/
+
 .wrapper {
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
   max-width: calc(#{$content-width} - (#{$spacing-unit}));

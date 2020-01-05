@@ -28,36 +28,7 @@ div.sidenav li a:hover {
 div.sidenav li span:hover {
   color: #c9c9c9;
 }
-/*.main {
-  margin-left: 160px; /* Same as the width of the sidenav */
-/*  font-size: 28px; /* Increased text to enable scrolling */
-/*  padding: 0px 10px;*/
 
-
-#sidebar {
-	  /* for the animation */
-	  transition: margin 0.3s ease;
-	}
-	.collapsed {
-	  /* hide it for small displays*/
-	  display: none;
-    margin-right: -30%;
-}
-	@media (min-width: 992px) {
-	  .collapsed {
-	    display: block;
-	    /* same width as sidebar */
-	    margin-left: -30%;
-	  }
-	}
-  #row-main {
-  	  /* necessary to hide collapsed sidebar */
-  	  overflow-x: hidden;
-  	}
-	#content {
-  	  /* for the animation */
-  	  transition: width 0.3s ease;
-  	}
 /*FUTURE: modify padding for pretty view*/
 @media screen and (max-width: 990px) {
   div.sidenav {

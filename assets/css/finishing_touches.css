@@ -1,0 +1,76 @@
+/* makes the front page look pretty */
+
+.input_page div {
+    float: none;
+    clear: none;
+}
+
+.post-desc {
+    display: inline;
+}
+
+.quote-size {
+  font-size: 23px;
+}
+
+.post_vision {
+  margin-top: -5%;
+}
+
+@media screen and (max-width: 600px) {
+.quote-size {
+    font-size: 17px;
+  }
+}
+
+#post_mark {
+  list-style-type: inherit;
+}
+
+.cookie_jar {
+	display: inline-block;
+	margin-left: 30%;
+  margin-right: 8%;
+  flex: 1 0 auto;
+}
+
+.dramatic {
+  margin-top: -1%;
+  margin-bottom: 3%;
+}
+
+.cookie_cutter {
+  margin-top:-30%;
+  margin-right: 10%;
+  float:right;
+}
+
+@media screen and (max-width: 990px) {
+	.cookie_jar {
+		display: inline-block;
+		margin-left: 8%;
+    margin-top: 5%;
+    margin-right: 0%;
+	}
+
+  .icon_closer {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+
+  .dramatic {
+    margin-top: -1%;
+    margin-bottom: 1%;
+  }
+
+  .cookie_cutter {
+    margin-top: -5%;
+    margin-bottom: -3%;
+    margin-right: 0%;
+    float: none;
+  }
+
+  .post_vision {
+    margin-top: -15%;
+  }
+}
