@@ -40,9 +40,10 @@
 }
 
 .cookie_cutter {
-  margin-top:-30%;
-  margin-right: 10%;
-  float:right;
+  margin-top: -5%;
+  margin-bottom: -3%;
+  margin-right: 0%;
+  float: none;
 }
 
 @media screen and (max-width: 990px) {
