@@ -86,6 +86,6 @@ Just some fallacies in logic (I've been guilty of them in the past and present (
 
     The mistake is overgeneralizing the class of an object as that of the antecedent given it is in the class of the consequent. The circle representing leaves is *inside* the circle representing those things that are green. So, when something is green, it is not always a leaf.
 
-    Well, that wraps up this post. Hope you had fun reading it! I look forward to making more posts on logic fallacies like this one. Until then!
+Well, that wraps up this post. Hope you had fun reading it! I look forward to making more posts on logic fallacies like this one. Until then!
 
-    (づ｡◕‿‿◕｡)づ
+(づ｡◕‿‿◕｡)づ
