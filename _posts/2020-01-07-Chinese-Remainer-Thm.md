@@ -28,7 +28,7 @@ First, let's assume that $o((1, 1)) \neq ab$. Since $(\mathbb{Z}_a \times \mathb
 1. $\mu a + \beta$ where $0 \leq \mu \leq b - 1$ and $0 <\beta < a$
 2. $\nu b + \beta'$ where $0 \leq \nu \leq a - 1$ and $0 < \beta' < b$
 
-Both forms are equal so $\mu a + \beta = \nu b + \beta'$. Further since $c$ is the order of $(1, 1)$ we know that $c$ iterations of the addition of $(1, 1)$ with itself recurses back to $(1, 1)$. Since addition is done modulo $a$ on the left coordinate and done modulo $b$ on the right, we can conclude that $(\mu a + \beta)\text{mod}\ a = (\mu b + \beta')\text{mod} \ b = 1$. All of this entails that $\beta = \beta' = 1$ which then entails $\mu a = \nu b$ which can never happen as the only whole number solution to this equation is when $\mu = b$ and $\nu = a$ ($a$ and $b$ are coprime so the LCM is $ab$). Hence, a contradiction, we have $\mu a = \nu b$ and $\mu a \neq \nu b$ at the same time. This means our assumption that began the reasoning that $o((1, 1)) \neq ab$ is faulty which entails that $o((1, 1)) = ab$, as we suspected.
+Both forms are equal so $\mu a + \beta = \nu b + \beta'$. Further since $c$ is the order of $(1, 1)$ we know that $c$ iterations of the addition of $(1, 1)$ with itself recurses back to $(1, 1)$. Since addition is done modulo $a$ on the left coordinate and done modulo $b$ on the right, we can conclude that $(\mu a + \beta)\text{mod}\ a = (\mu b + \beta')\text{mod} \ b = 1$. All of this entails that $\beta = \beta' = 1$ which then entails $\mu a = \nu b$ which can never happen as the only whole number solution to this equation is when $\mu = b$ and $\nu = a$ ($a$ and $b$ are coprime so the LCM is $ab$)[^2]. Hence, a contradiction, we have $\mu a = \nu b$ and $\mu a \neq \nu b$ at the same time. This means our assumption that began the reasoning that $o((1, 1)) \neq ab$ is faulty which entails that $o((1, 1)) = ab$, as we suspected.
 
 This enough to show that the generator of $(\mathbb{Z}_a \times \mathbb{Z}_b, +)$ is $(1, 1)$. Since both $(\mathbb{Z}\_{ab}, +)$ and $(\mathbb{Z}_a \times \mathbb{Z}_b, +)$ have the same order and are cyclic we can construct an isomorphism (bijective function) between the two. First, set $\gamma = 1$ and $\gamma^\ast = (1, 1)$ and map accordingly:
 
@@ -64,3 +64,5 @@ That seems plenty for this post, catch you on the flip-side!
 (づ｡◕‿‿◕｡)づ
 
 [^1]: A good beginning book for learning modern algebra is Clark's [*Elementary Abstract Algebra*](http://shell.cas.usf.edu/~wclark/Elem_abs_alg.pdf); it's more you doing things than reading, if you like that style of learning.  
+
+[^2]: See this [post]({% post_url 2020-01-07-Coprime-LCM %}) if it isn't clear.
