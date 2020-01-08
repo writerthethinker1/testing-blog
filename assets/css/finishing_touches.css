@@ -46,6 +46,11 @@
   float: none;
 }
 
+/* in case want to use box in md posts */
+.boxed {
+  border: 2px solid #c9c9c9;
+}
+
 @media screen and (max-width: 990px) {
 	.cookie_jar {
 		display: inline-block;

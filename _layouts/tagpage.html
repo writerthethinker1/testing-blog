@@ -4,7 +4,7 @@ layout: default
 
 
 <div class="post" style="margin-top: -5%">
-<h1>Tag: {{ page.tag }} <i class="fas fa-magic"></i></h1>
+<h1>{{ page.title }} <i class="fas fa-magic"></i></h1>
 <ul style="list-style-type:disclosure-closed">
 {% for post in site.tags[page.tag] %}
 <li><span style="margin-right:2px">{{ post.date | date: "%b %Y" }}</span> <blockquote style="margin-bottom:-10%; display:inline"><a href="{{ site.url }}\{{ post.url }}" style = "color: #32cd32"><i>{{ post.title }} <i class="fas fa-meteor"></i></i></a></blockquote><br>
