@@ -64,5 +64,4 @@ That seems plenty for this post, catch you on the flip-side!
 (づ｡◕‿‿◕｡)づ
 
 [^1]: A good beginning book for learning modern algebra is Clark's [*Elementary Abstract Algebra*](http://shell.cas.usf.edu/~wclark/Elem_abs_alg.pdf); it's more you doing things than reading, if you like that style of learning.  
-{% assign this_url = site.url %}
-[^2]: See this [post]({% post_url this_url/2020/Jan/2020-01-07-Coprime-LCM %}) if it isn't clear.
+[^2]: See this [post]({% post_url myblog/2020/Jan/2020-01-07-Coprime-LCM %}) if it isn't clear.
