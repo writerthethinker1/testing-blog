@@ -9,13 +9,13 @@ author: Ramneek Narayan
 This is just a mini-proof for the Chinese Remainder Theorem if the bit about why the LCM between two coprime whole numbers is the product of the two numbers doesn't make immediate sense. The writer hopes this clarifies any doubts. First the theorem:
 
 ---
-**Theorem (Coprime LCM):** The LCM between two coprime whole numbers $a$ and $b$ is $ab$, or $\text{lcm}(a,b) = ab$ $\blacksquare$
+**Theorem (Coprime LCM):** The LCM between two coprime whole numbers $a$ and $b$ is $ab$, or $\text{lcm}(a,b) = ab.$ $\blacksquare$
 
 ---
 
 On with the proof!
 
-***(Proof)*** We will prove this theorem by way of contradiction. Suppose there exist two whole numbers $\beta$ and $\beta'$ such that they satisfy
+***(Proof 1)*** We will prove this theorem by way of contradiction. Suppose there exist two whole numbers $\beta$ and $\beta'$ such that they satisfy
 
 $$
 \begin{equation}\beta a = \beta' b\end{equation}
@@ -36,13 +36,13 @@ $$
 as well as
 
 $$
-\frac{\beta'}{b} < \frac{a}{b} \ \text{ and }\ \frac{\beta'}{b} < \frac{\beta'}{\beta}
+\begin{equation}\frac{\beta'}{b} < \frac{a}{b} \ \text{ and }\ \frac{\beta'}{b} < \frac{\beta'}{\beta}\end{equation}
 $$
 
 Putting this all together we have:
 
 $$
-\frac{\beta'}{b} < \frac{\beta'}{\beta} < \frac{a}{\beta}
+\begin{equation}\frac{\beta'}{b} < \frac{\beta'}{\beta} < \frac{a}{\beta}\end{equation}
 $$
 
 which entails (with the help of $(2)$ and $(3)$) that exclusively either
@@ -51,9 +51,39 @@ which entails (with the help of $(2)$ and $(3)$) that exclusively either
 2. $\frac{a}{b} < \frac{\beta'}{\beta}$
 
 and nothing else. Yet from $(1)$ we can see (after some symbol manipulation) that $\frac{a}{b} = \frac{\beta'}{\beta}$ which contradicts both of the only 2 possibilities above. Hence, there cannot exist numbers $\beta < b$ and $\beta' < a$
- such that equation $(1)$ holds true. By this fact the lowest numbers that can satisfy equation $(1)$ are thus the least upper bounds of the $\beta$'s, or $\beta = b$ and $\beta' = a$. Thus, the LCM for $a$ and $b$ is the product between the two (all other products won't work by contradiction). Q.E.D.
+ such that equation $(1)$ holds true. This means (by De Morgan's) that either $\beta \not < b$ or $\beta' \not < a$. In either each respective case we can deduce the following (choosing the smallest value of the $\beta$'s in each case to minimize the product $\beta' b$ or $\beta a$):
 
-What follows isn't required for the Chinese Remainder Theorem but is interesting (I used it for the GRE's![^1])
+  1. $(\beta = b) \triangleright (\beta' = a)$ case $\beta \not < b$
+  2. $(\beta' = a) \triangleright (\beta = b)$ case $\beta' \not < a$
+
+Making the lowest multiple of the numbers $ab$ in either case.
+Put another way, the lowest numbers that can satisfy equation $(1)$ are thus the least upper bounds of the $\beta$'s, or $\beta = b$ and $\beta' = a$. This makes the LCM for $a$ and $b$ is the product between the two (all other products won't work by contradiction). Q.E.D.
+
+***(Proof 2)*** This uses a similar technique to the above where we assume there exist two whole numbers $\beta < b$ and $\beta' < a$ such that
+
+$$
+\begin{equation}\beta a = \beta' b.\end{equation}
+$$
+
+Only this time we assume one statement at a time; first we assume there is a number $\beta < b$ such that equation $(6)$ holds. In another way, we mean that there exists some positive number $0 < \eta < b$ such that $\beta = b - \eta$. Symbol manipulation of equation $(6)$ with this fact gives the form of $\beta'$ as
+
+$$
+\begin{equation}\beta' = a - \frac{a \eta}{b}\end{equation}
+$$
+
+and as $\beta'$ is a postitive whole number it must be the case that $\eta$ is a multiple of $b$, specifically it means that $\eta = b$ only (0 is not considered a multiple here). But this contradicts the bounds for $\eta$ which need to be true, so it is the case that $\beta \not < b$ by way of contradiction.
+
+When we assume that $\beta' < a$ and write $\beta' = a - \eta'$ for some $0 < \eta' < a$ and deduce
+
+$$
+\begin{equation}\beta = b - \frac{b \eta'}{a}\end{equation}
+$$
+
+in a similar fashion we arrive at $\eta' = a$, a condtradiction again. This means that $\beta' \not < a$ as well.
+
+Since both $\beta \not < b$ and $\beta' \not < a$ we pick the lowest numbers in these new bounds, namely $\beta = b$ and $\beta' = a$, which shows that the LCM between $a$ and $b$ is $ab$. This concludes the proof. Q.E.D.
+
+What follows isn't required for the Chinese Remainder Theorem but is interesting (It can be used for the GRE's as the writer did![^1])
 
  ---
  **Corollary (Product of GCD and LCM):** The product of the GCD and LCM of any two numbers $a$ and $b$ is simply the product of the two numbers.
@@ -85,6 +115,6 @@ What follows isn't required for the Chinese Remainder Theorem but is interesting
 
  Thanks for reading and thinking with me! Hope this made the Chinese Remainder Theorem proof easier to read. Catch you later!
 
- (づ｡◕‿‿◕｡)づ --- *All is number...*
+ (づ｡◕‿‿◕｡)づ --- *All is number...* (Pythagoras)
 
- [^1]: Just because a triangle looks like it's right, doesn't mean that it is until someone marks it so! Same with triangles that look isosceles... <i class="far fa-grin-squint-tears"></i>
+ [^1]: Just because a triangle looks like it's right, doesn't mean that it is until someone marks it so! Same with triangles that look isosceles... No room for induction! <i class="far fa-grin-squint-tears"></i>
