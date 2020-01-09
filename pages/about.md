@@ -17,4 +17,5 @@ My name is Ramneek Narayan and I'm the owner of this café. In this blog you wil
 - (09/2019): Graduated College <i class="fas fa-laugh-wink"></i>
 - (11/2019): Applied to Graduate Programs <i class="fas fa-pencil-alt"></i>
 - (11/2019): Applied for Jobs in the Meanwhile <i class="fas fa-file-signature"></i>
+- (11/2019): Started taking cold showers (57 days and counting...) <i class="fas fa-shower"></i> 
 - (11/2019): Started more theories <i class="fas fa-square-root-alt"></i>
