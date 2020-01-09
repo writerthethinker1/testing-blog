@@ -6,21 +6,21 @@ layout: default
   </head>
 <div class="post" style="margin-top: -5%">
 {% assign current_year = page.date | date: "%Y" %}
-<h1>{{ current_year }} <i class="fas fa-compact-disc"></i><h1>
+<h1 style="font-weight:bold;">{{ current_year }} <i class="fas fa-compact-disc"></i><h1>
   </div>
 
-<div>
+<div style="margin-top:0rem">
   {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
       {% for year in postsByYear %}
       {% if year.name == current_year %}
         {% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%B'" %}
 
         {% for month in postsByMonth %}
-          <h2>{{ month.name }} <i class="fa fa-moon"></i></h2>
+          <h2 style="margin-top:2rem;font-weight:bold;">{{ month.name }} <i class="fa fa-moon"></i></h2>
           <ul style="list-style-type:disclosure-closed">
             {% for post in month.items %}
             {% assign d = post.date | date: "%-d" %}
-              <li> <blockquote style="margin-bottom:-10%; display:inline; letter-spacing:0px"><a href="{{ site.url }}/{{ post.url }}"><i>{{ post.title }} <i class="fas fa-meteor"></i> </i></a>
+              <li> <blockquote style="margin-bottom:-10%; display:inline; letter-spacing:0px"><a href="{{ site.url }}{{ post.url }}"><i>{{ post.title }} <i class="fas fa-meteor"></i> </i></a>
                 ({% case d %}
   {% when '1' or '21' or '31' %}{{ d }}st)
   {% when '2' or '22' %}{{ d }}nd)

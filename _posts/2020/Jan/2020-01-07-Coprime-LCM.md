@@ -113,7 +113,7 @@ What follows isn't required for the Chinese Remainder Theorem but is interesting
 
  ---
 
- Thanks for reading and thinking with me! Hope this made the Chinese Remainder Theorem proof easier to read. Catch you later!
+ Thanks for reading and thinking with me! Hope this made the Chinese Remainder Theorem proof easier to read. Catch you later! <i class="fas fa-meteor"></i>
 
  (づ｡◕‿‿◕｡)づ --- *All is number...* (Pythagoras)
 

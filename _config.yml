@@ -56,7 +56,7 @@ remote_theme: huangyz0918/moving # note, please use huangyz0918/moving if you wa
 collections:
   project:
     output: true
-    permalink: /project/:year/:month/:day/:title/
+    permalink: /projects/:year/:month/:day/:title/
 
 
 plugins:

@@ -18,7 +18,7 @@ permalink: /archives/
   </head>
 <div class="post" style="margin-top: -5%">
 <h1>Archives <i class="fas fa-layer-group"></i> </h1>
-<i>Café Statistics!</i>
+<i>Café Statistics!</i> <i class="fas fa-chart-pie"></i>
 <ul class="arrow_view">
   <li>Number of posts: {{ site.posts | size }}</li>
   <li> Number of tags: {{ site.tags | size }}</li>
@@ -42,14 +42,9 @@ permalink: /archives/
 
 <!--make posts by year-->
 <h2>Posts by Year <i class="far fa-clock"></i></h2>
-<ul class="arrow_view">
   {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
       {% for year in postsByYear %}
-      <li>
-        <blockquote class="spacing_letters" style="margin-bottom:-10%; display:inline">
-        <a href="{{ site.url }}/{{ year.name }}">{{ year.name }}</a>
-        </blockquote>
-      </li>
+      <a href="{{ site.url }}/archives/{{ year.name }}" style = "color:#32cd32 "><code class="highligher-rouge"><nobr>{{ year.name }}</nobr></code></a>
       {% endfor %}
-</ul>
+      <hr/>
 </div>

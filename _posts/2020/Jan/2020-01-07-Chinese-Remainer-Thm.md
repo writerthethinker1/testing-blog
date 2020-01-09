@@ -59,7 +59,7 @@ Surprisingly, this is a time complexity reduction technique (less steps in the a
 
 ---
 
-That seems plenty for this post, catch you on the flip-side!
+That seems plenty for this post, catch you on the flip-side! <i class="fas fa-meteor"></i>
 
 (づ｡◕‿‿◕｡)づ
 

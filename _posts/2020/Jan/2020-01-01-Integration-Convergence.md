@@ -100,6 +100,6 @@ In practice this is impractical as direct computation might be of better help bu
 
 ---
 
-Hope you have a great 2020! See you next time!
+Hope you have a great 2020! See you next time! <i class="fas fa-meteor"></i>
 
 (づ｡◕‿‿◕｡)づ

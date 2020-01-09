@@ -174,6 +174,6 @@ $$
 
 **Note (Complex Numbers):** To get a feel for this theory, we'll stick to real numbers for an introduction, but we note that the entries within the outer sign wrapping can be complex as well, so we can write things like $(1 + 4i)^\ast$ too. But more on that later.
 
-This wraps up the basics, until next time!
+This wraps up the basics, until next time! <i class="fas fa-meteor"></i>
 
 (づ｡◕‿‿◕｡)づ

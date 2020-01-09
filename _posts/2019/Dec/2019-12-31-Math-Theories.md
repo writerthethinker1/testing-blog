@@ -86,6 +86,6 @@ When anyone creates a consistent theory like those of mathematicians, statistici
 
 ---
 
-This wraps up the thought organization in math and the like. It's very reductionist and a strength in one area aids in others. You might have seen so when you see geometry used in most branches of math or perhaps when making a miscalculation in a computation that left subsequent computations erroneous---every part or piece was important for the conclusion. In a broader sense, the sentences we say run on the same machinery in the mind. See you next post!
+This wraps up the thought organization in math and the like. It's very reductionist and a strength in one area aids in others. You might have seen so when you see geometry used in most branches of math or perhaps when making a miscalculation in a computation that left subsequent computations erroneous---every part or piece was important for the conclusion. In a broader sense, the sentences we say run on the same machinery in the mind. See you next post! <i class="fas fa-meteor"></i>
 
 (づ｡◕‿‿◕｡)づ
