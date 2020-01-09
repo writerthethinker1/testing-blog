@@ -13,9 +13,6 @@
   font-size: 23px;
 }
 
-.post_vision {
-  margin-top: -5%;
-}
 
 @media screen and (max-width: 600px) {
 .quote-size {
@@ -74,9 +71,5 @@
     margin-bottom: -3%;
     margin-right: 0%;
     float: none;
-  }
-
-  .post_vision {
-    margin-top: -15%;
   }
 }
