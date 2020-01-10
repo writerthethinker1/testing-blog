@@ -23,18 +23,56 @@ permalink: /archives/
 }
 </style>
 
+{% assign num_posts = site.posts | size %}
+{% assign num_tags = site.tags | size %}
+{% assign num_cats = site.categories | size %}
+{% assign num_cats_float = site.categories | size | times: 1.0 %}
+{% assign num_tags_float = site.tags | size | times: 1.0 %}
+{% assign avg_cats = num_posts | divided_by: num_cats_float %}
+{% assign avg_tags = num_posts | divided_by: num_tags_float %}
+{% assign square_sum_cat = 0 %}
+{% for item in site.categories %}
+    {% assign cat_count = item.last | size | times: 1.0 %}
+    {% assign diff_sq = cat_count | minus: avg_cats %}
+    {% assign diff_sq = diff_sq | times: diff_sq %}
+    {% assign square_sum_cat = square_sum_cat | plus: diff_sq %}
+{% endfor %}
+
+{% assign square_sum_tag = 0 %}
+{% for item in site.tags %}
+    {% assign tag_count = item.last | size | times: 1.0 %}
+    {% assign diff_sq = tag_count | minus: avg_tags %}
+    {% assign diff_sq = diff_sq | times: diff_sq %}
+    {% assign square_sum_tag = square_sum_tag | plus: diff_sq %}
+{% endfor %}
+
+{% assign tag_variance = square_sum_tag | divided_by: num_tags | round: 3 %}
+{% assign cat_variance = square_sum_cat | divided_by: num_cats | round: 3 %}
+
+
 <head>
   <title>{{ page.title }}</title>
   </head>
 <div class="post" style="margin-top: -5%">
 <h1>Archives <i class="fas fa-layer-group"></i> </h1>
-<h2><i>Café Statistics!</i> <i class="fas fa-chart-bar"></i></h2>
-<span style="color:#9ff781"> <ul class="arrow_view">
-  <li>&#9654;  &nbsp; Number of posts: {{ site.posts | size }} |</li>
-  <li> Number of tags: {{ site.tags | size }} |</li>
-  <li> Number of categories: {{ site.categories | size }}</li>
+<h2><i>Café Statistics</i> <i class="fas fa-chart-bar"></i></h2>
+<span style="color:#DA81F5"> <ul class="arrow_view">
+  <li>&#9654;  &nbsp; Posts: {{ num_posts }} |</li>
+  <li> Tags: {{ num_tags }} |</li>
+  <li> Categories: {{ num_cats }}</li>
 </ul></span>
-<h2 style="margin-top:1em">Posts by Category and Tag <i class="fas fa-coins"></i></h2>
+
+<span style="color:#DA81F5"> <ul class="arrow_view">
+  <li>&#9654;  &nbsp; Avg posts in category: {{ avg_cats }} |</li>
+  <li> Avg posts in tag: {{ avg_tags }}</li>
+</ul></span>
+
+<span style="color:#DA81F5"> <ul class="arrow_view">
+  <li> &#9654;  &nbsp; Category variance: {{ cat_variance }} |</li>
+  <li> Tag variance: {{ tag_variance }}</li>
+</ul></span>
+
+<h2 style="margin-top:1em">Posts by Category and Tag <i class="fas fa-cat"></i> <i class="fas fa-magic"></i></h2>
 <ul class="arrow_view">
 <!--make link to category page-->
   <li>
@@ -54,7 +92,7 @@ permalink: /archives/
 &#9654;  &nbsp;
   {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
       {% for year in postsByYear %}
-      <a href="{{ site.url }}/archives/{{ year.name }}" style = "color:#32cd32 "><code class="highligher-rouge"><nobr>{{ year.name }}</nobr></code></a>
+      <a href="{{ site.url }}/archives/{{ year.name }}" style = "color:#01BAF9 "><code class="highligher-rouge"><nobr>{{ year.name }}</nobr></code></a>
       {% endfor %}
 </p>
       <hr/>
