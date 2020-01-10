@@ -8,6 +8,8 @@ layout: default
   <head>
       <title>{{ site.title }}</title>
   </head>
+<h1 style="margin-top:0rem; margin-bottom:-1rem"><i>Posts</i> <i class="fas fa-mug-hot"></i></h1>
+<div style="margin-top: 1rem;margin-bottom: 0rem;"><i>"By the way, are you going to eat that piece of cake?"</i> (L Lawliet) </div>
 <div class="pagination">
 	<div id="pagination-demo"></div>
 </div>
@@ -18,7 +20,7 @@ layout: default
       {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
       {% if forloop.first %}
-      <h2 id="{{ this_year }}-ref" class="post-year">{{this_year}} <i class="fas fa-cookie-bite"></i></h2>
+      <h2 id="{{ this_year }}-ref" class="post-year" style="margin-top:1rem">{{this_year}} <i class="fas fa-cookie-bite"></i></h2>
       <ul id="post_mark">
       {% endif %}
       <!--the date of the post-->
