@@ -12,12 +12,6 @@ permalink: /archives/
     list-style-type:disclosure-closed;
   }
 
-  li {
-  display: inline-block;
-  zoom: 1;
-  *display: inline;
-}
-
 .tab {
   margin-left: 2rem;
 }
@@ -57,44 +51,34 @@ permalink: /archives/
 <h1>Archives <i class="fas fa-layer-group"></i> </h1>
 <i>"We are what we think. All that we are arises with our thoughts. With our thoughts, we make the world."</i> (Buddha)
 <h2 style="margin-top:1rem"><i>Café Statistics</i> <i class="fas fa-chart-bar"></i></h2>
-<span style="color:#81F7F3"> <ul class="arrow_view">
-  <li>&#9654;  &nbsp; Posts: {{ num_posts }} |</li>
-  <li> Tags: {{ num_tags }} |</li>
-  <li> Categories: {{ num_cats }}</li>
-</ul></span>
+<ul style="color:#81F7F3">
+  <li>Posts: {{ num_posts }} | Tags: {{ num_tags }} | Categories: {{ num_cats }}</li>
+</ul>
 
-<span style="color:#81F7F3"> <ul class="arrow_view">
-  <li>&#9654;  &nbsp; Avg posts per category: {{ avg_cats }} |</li>
-  <li> Avg posts per tag: {{ avg_tags }}</li>
-</ul></span>
+<ul style="color:#81F7F3">
+  <li> Avg posts per category: {{ avg_cats }} | Avg posts per tag: {{ avg_tags }}</li>
+</ul>
 
-<span style="color:#81F7F3"> <ul class="arrow_view">
-  <li> &#9654;  &nbsp; Category variance: {{ cat_variance }} |</li>
-  <li> Tag variance: {{ tag_variance }}</li>
-</ul></span>
+<ul style="color:#81F7F3">
+  <li> Category variance: {{ cat_variance }} | Tag variance: {{ tag_variance }}</li>
+</ul>
 
 <h2 style="margin-top:1em">Posts by Category and Tag <i class="fas fa-cat"></i> <i class="fas fa-magic"></i></h2>
 <ul class="arrow_view">
-<!--make link to category page-->
+<!--make link to category and tag page-->
   <li>
-    <!--<blockquote class="spacing_letters" style="margin-bottom:-10%; display:inline">-->
-    &#9654;  &nbsp; <a href="{{ site.url }}/category/">Categories</a> |
-  </li>
-
-<!--make link to tag page-->
-  <li>
-    <a href="{{ site.url }}/tag/">Tags</a>
+    <a href="{{ site.url }}/category/">Categories</a> | <a href="{{ site.url }}/tag/">Tags</a>
   </li>
 </ul>
-
 <!--make posts by year-->
 <h2 style="margin-top:1em">Posts by Year <i class="far fa-clock"></i></h2>
-<p class="tab">
-&#9654;  &nbsp;
+  <ul class="arrow_view">
+    <li>
   {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
       {% for year in postsByYear %}
       <a href="{{ site.url }}/archives/{{ year.name }}" style = "color:#01BAF9 "><code class="highligher-rouge"><nobr>{{ year.name }}</nobr></code></a>
       {% endfor %}
-</p>
+      </li>
+  </ul>
       <hr/>
 </div>
