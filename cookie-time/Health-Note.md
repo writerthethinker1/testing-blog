@@ -21,7 +21,7 @@ Facts about cold showers (below 70F/21C)[^2]
 * May increase metabolism
 * Promotes healthy blood circulation
 * Improves immune system performance
-* Usually take less time than warm showers
+* Usually take less time than warm showers (writer takes 5min. showers now vs. 18min. in past)
 * Saves on water heating bill
 * Saves on water consumption bill
 

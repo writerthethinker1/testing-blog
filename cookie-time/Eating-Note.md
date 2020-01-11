@@ -21,10 +21,11 @@ The writer noticed that foods that are processed have high number of ingredients
 - Preservatives
 - Sucralose (sugar substitutes)
 - Refined sugars (bleached sugar)
+- High sugar content
 
 Knowing thus, one can now select foods high in quality as a method to improve brain function which in turn improve themselves. The writer shares foods that help the brain (high quality):
 
-Foods that help the Brain[^3]
+Foods that help the Brain[^3][^4]
 
 - Blueberries (blood flow to the brain)
 - Green Tea/Matcha (energy, slow release of caffeine)
@@ -40,7 +41,7 @@ Foods that help the Brain[^3]
 
 If one wants to improve the brain further, there are supplements called *nootropics* that serve this idea. Among some of the popular ones that can be bought online or in stores. Conduct some research on these to see how they might affect you and seek a physician if you have any doubts about taking them or if they will interfere with any current medications you are on right now.
 
-Supplements that help brain[^4][^5]
+Supplements that help brain[^5][^6]
 
 - **Fish oils** (including krill): DHA/EPA, defense for brain aging
 - **Resveratrol:** helps the hippocampus, better spatial memory
@@ -61,5 +62,6 @@ Hope this helps with healthy eating for the brain and body! <i class="fas fa-coo
 [^1]: [Source](https://www.health.harvard.edu/blog/nutritional-psychiatry-your-brain-on-food-201511168626)
 [^2]: [Source](https://www.youtube.com/watch?v=VINtwoyaF_8)
 [^3]: [Source](https://alifeofproductivity.com/9-brain-foods-that-will-boost-your-ability-to-focus/)
-[^4]: [Source](https://www.healthline.com/nutrition/best-nootropic-brain-supplements)
-[^5]: [Source](https://www.healthline.com/nutrition/what-is-choline#brain-function)
+[^4]: [Source](https://www.webmd.com/diet/features/eat-smart-healthier-brain#1)
+[^5]: [Source](https://www.healthline.com/nutrition/best-nootropic-brain-supplements)
+[^6]: [Source](https://www.healthline.com/nutrition/what-is-choline#brain-function)
