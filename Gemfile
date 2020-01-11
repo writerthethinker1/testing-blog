@@ -30,3 +30,4 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 # for the moving theme
 gem "moving"
 gem "jekyll-paginate"
+gem 'jekyll-seo-tag'
