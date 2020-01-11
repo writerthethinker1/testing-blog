@@ -3,7 +3,7 @@ layout: default
 title: "Health Note"
 ---
 
-<h1 style="margin-top:1rem">Health Note</h1>
+<h1 style="margin-top:1rem">Health Note <i class="fas fa-cookie"></i></h1>
 
 Just some health facts that the writer has observed made a positive change in existence.
 
@@ -22,6 +22,10 @@ Facts about cold showers (below 70F/21C)[^2]
 * Promotes healthy blood circulation
 * Improves immune system performance
 * Usually take less time than warm showers
+* Saves on water heating bill
+* Saves on water consumption bill
+
+<i class="fas fa-cookie"></i>
 
 [^1]: [Source](https://www.diygenius.com/your-desk-job-is-killing-you-the-truth-about-sitting-down-infographic/)
 [^2]: [Source](https://www.healthline.com/health/cold-shower-benefits#takeaway)
