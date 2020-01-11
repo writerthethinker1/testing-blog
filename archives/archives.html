@@ -40,8 +40,9 @@ permalink: /archives/
     {% assign square_sum_tag = square_sum_tag | plus: diff_sq %}
 {% endfor %}
 
-{% assign tag_variance = square_sum_tag | divided_by: num_tags | round: 3 %}
-{% assign cat_variance = square_sum_cat | divided_by: num_cats | round: 3 %}
+{% assign tag_variance = square_sum_tag | divided_by: num_tags | round: 2 %}
+{% assign cat_variance = square_sum_cat | divided_by: num_cats | round: 2 %}
+{% assign var_avg = tag_variance | plus: cat_variance | divided_by: 2 | round: 2%}
 
 
 <head>
@@ -52,15 +53,17 @@ permalink: /archives/
 <i>"We are what we think. All that we are arises with our thoughts. With our thoughts, we make the world."</i> (Buddha)
 <h2 style="margin-top:1rem"><i>Café Statistics</i> <i class="fas fa-chart-bar"></i></h2>
 <ul style="color:#81F7F3">
-  <li>Posts: {{ num_posts }} | Tags: {{ num_tags }} | Categories: {{ num_cats }}</li>
+  <li>$\begin{pmatrix}\text{Posts} \\ \text{Tags} \\ \text{Categories}\end{pmatrix} = \begin{pmatrix} {{ num_posts }} \\ {{ num_tags }} \\ {{ num_cats }}\end{pmatrix}$</li>
 </ul>
 
 <ul style="color:#81F7F3">
-  <li> Avg posts per category: {{ avg_cats }} | Avg posts per tag: {{ avg_tags }}</li>
+  <li>$ \vec{\mu}_{posts} = \begin{pmatrix}\mu_{cat} \\ \mu_{tag}\end{pmatrix} = \begin{pmatrix}{{ avg_cats }} \\  {{ avg_tags }}\end{pmatrix}$</li>
 </ul>
 
 <ul style="color:#81F7F3">
-  <li> Category variance: {{ cat_variance }} | Tag variance: {{ tag_variance }}</li>
+  <li>$\begin{pmatrix}\sigma_{cat}^{2} & \tilde{\sigma}^{2}_{cat,tag} \\
+    \tilde{\sigma}^{2}_{cat,tag} & \sigma_{tag}^{2}\end{pmatrix} = \begin{pmatrix} {{ cat_variance }} & {{ var_avg }} \\ {{ var_avg }} & {{ tag_variance }}\end{pmatrix} {\Big| } \
+    \tilde{\sigma}^{2}_{cat,tag} \equiv \frac{\sigma_{cat}^{2} + \sigma_{tag}^{2}}{2}$</li>
 </ul>
 
 <h2 style="margin-top:1em">Posts by Category and Tag <i class="fas fa-cat"></i> <i class="fas fa-magic"></i></h2>

@@ -56,7 +56,7 @@ Supplements that help brain[^5][^6]
 
 Hope this helps with healthy eating for the brain and body! <i class="fas fa-cookie"></i>
 
-
+---
 
 
 [^1]: [Source](https://www.health.harvard.edu/blog/nutritional-psychiatry-your-brain-on-food-201511168626)

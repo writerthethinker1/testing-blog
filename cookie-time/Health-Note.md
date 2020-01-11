@@ -25,7 +25,9 @@ Facts about cold showers (below 70F/21C)[^2]
 * Saves on water heating bill
 * Saves on water consumption bill
 
-<i class="fas fa-cookie"></i>
+Wishing you good health! <i class="fas fa-cookie"></i>
+
+---
 
 [^1]: [Source](https://www.diygenius.com/your-desk-job-is-killing-you-the-truth-about-sitting-down-infographic/)
 [^2]: [Source](https://www.healthline.com/health/cold-shower-benefits#takeaway)

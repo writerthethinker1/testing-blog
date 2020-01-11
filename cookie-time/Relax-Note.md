@@ -26,6 +26,8 @@ Types of Meditation[^1]
     * The gains: Positive emotions, self-control, sense of oneness with world, more accurate perception of reality, bliss, better memories, **gamma waves**
 
 
-<i class="fas fa-cookie"></i>
+Wishing you Lovingkindness! <i class="fas fa-cookie"></i>
+
+---
 
 [^1]: [Source](https://mentalhealthdaily.com/2015/02/24/how-different-types-of-meditation-affect-the-brain/)
