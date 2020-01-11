@@ -53,7 +53,7 @@ permalink: /archives/
 <i>"We are what we think. All that we are arises with our thoughts. With our thoughts, we make the world."</i> (Buddha)
 <h2 style="margin-top:1rem"><i>Café Statistics</i> <i class="fas fa-chart-bar"></i></h2>
 <ul style="color:#81F7F3">
-  <li>$\begin{pmatrix}\text{Posts} \\ \text{Tags} \\ \text{Categories}\end{pmatrix} = \begin{pmatrix} {{ num_posts }} \\ {{ num_tags }} \\ {{ num_cats }}\end{pmatrix}$</li>
+  <li>$\vec{\beta}_{blog} = \begin{pmatrix}\text{Posts} \\ \text{Tags} \\ \text{Categories}\end{pmatrix} = \begin{pmatrix} {{ num_posts }} \\ {{ num_tags }} \\ {{ num_cats }}\end{pmatrix}$</li>
 </ul>
 
 <ul style="color:#81F7F3">
@@ -61,7 +61,7 @@ permalink: /archives/
 </ul>
 
 <ul style="color:#81F7F3">
-  <li>$\begin{pmatrix}\sigma_{cat}^{2} & \tilde{\sigma}^{2}_{cat,tag} \\
+  <li>$\tilde{\Sigma}_{posts} = \begin{pmatrix}\sigma_{cat}^{2} & \tilde{\sigma}^{2}_{cat,tag} \\
     \tilde{\sigma}^{2}_{cat,tag} & \sigma_{tag}^{2}\end{pmatrix} = \begin{pmatrix} {{ cat_variance }} & {{ var_avg }} \\ {{ var_avg }} & {{ tag_variance }}\end{pmatrix}$</li>
     <li>Note: $\tilde{\sigma}^{2}_{cat,tag} \equiv \frac{\sigma_{cat}^{2} + \sigma_{tag}^{2}}{2}$</li>
 </ul>
