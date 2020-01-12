@@ -27,7 +27,7 @@ moving:
   social_links:
     twitter: NarayanRamneek
     github: writerthethinker1
-#   rss: RSS
+    rss: RSS
     # dribbble:
    #facebook: Ramneek Narayan
     # flickr:
@@ -41,7 +41,7 @@ moving:
     # googleplus:
     # microdotblog:
     reddit: prob_thinker
-    tumblr: r-thought-stuff
+    #tumblr: r-thought-stuff
 
     # Mastodon instances
     # mastodon:
