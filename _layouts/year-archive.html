@@ -20,7 +20,7 @@ layout: default
           <ul style="list-style-type:disclosure-closed">
             {% for post in month.items %}
             {% assign d = post.date | date: "%-d" %}
-              <li> <blockquote style="margin-bottom:-10%; display:inline; letter-spacing:0px"><a href="{{ site.url }}{{ post.url }}"><i>{{ post.title }} <i class="fas fa-meteor"></i> </i></a>
+              <li> <blockquote style="margin-bottom:-10%; display:inline; letter-spacing:0px"><a href="{{ site.baseurl }}{{ post.url }}"><i>{{ post.title }} <i class="fas fa-meteor"></i> </i></a>
                 ({% case d %}
   {% when '1' or '21' or '31' %}{{ d }}st)
   {% when '2' or '22' %}{{ d }}nd)

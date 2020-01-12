@@ -21,7 +21,7 @@ layout: default
 
   {% for category in page.categories %}
     {% capture category_name %}{{ category }}{% endcapture %}
-    <a href="{{ site.url }}/category/{{ category_name }}" style = "color: #ff8c00 "><code class="highligher-rouge"><nobr>{{ category_name }}</nobr></code>&nbsp;</a>
+    <a href="{{ site.baseurl }}/category/{{ category_name }}" style = "color: #ff8c00 "><code class="highligher-rouge"><nobr>{{ category_name }}</nobr></code>&nbsp;</a>
   {% endfor %}<i class="fas fa-cat"></i>
 </span>
 <br>
@@ -30,7 +30,7 @@ layout: default
 
    {% for tag in page.tags %}
      {% capture tag_name %}{{ tag }}{% endcapture %}
-     <a href="{{ site.url }}/tag/{{ tag_name }}" style = "color:#32cd32 "><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+     <a href="{{ site.baseurl }}/tag/{{ tag_name }}" style = "color:#32cd32 "><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
   {% endfor %}  <i class="fas fa-magic"></i></span>
 <br>
 

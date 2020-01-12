@@ -90,7 +90,7 @@ Now that we have discussed basic sign operations and examples of them, we can ta
 The allure of using the word disk to describe the above set comes when we plot these numbers using the coordinate system below:
 
 {% capture num_disk_url %}
-{{ site.url | escape}}/images/num_disk.png
+{{ site.baseurl | escape}}/images/num_disk.png
 {% endcapture %}
 
 {% include image.html url=num_disk_url description='Figure 1: The number disk with sign axes marked. Code adapted from' link="http://www.texample.net/tikz/examples/unit-circle/" link_desc="here" %}
@@ -100,7 +100,7 @@ Given here is the number disk that has signs going in 3 directions: $+, -,$ and 
 In its entirety the number disk can be viewed as the color wheel:
 
 {% capture color_wheel_url %}
-{{ site.url | escape}}/images/color_wheel.png
+{{ site.baseurl | escape}}/images/color_wheel.png
 {% endcapture %}
 
 {% include image.html url=color_wheel_url description="Figure 2: The color wheel." link="https://stackoverflow.com/questions/45785653/how-to-draw-a-gradient-color-wheel-using-cagradientlayer" link_desc="Source" %}

@@ -70,7 +70,7 @@ permalink: /archives/
 <ul class="arrow_view">
 <!--make link to category and tag page-->
   <li>
-    <a href="{{ site.url }}/category/">Categories</a> | <a href="{{ site.url }}/tag/">Tags</a>
+    <a href="{{ site.baseurl }}/category/">Categories</a> | <a href="{{ site.baseurl }}/tag/">Tags</a>
   </li>
 </ul>
 <!--make posts by year-->
@@ -79,7 +79,7 @@ permalink: /archives/
     <li>
   {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
       {% for year in postsByYear %}
-      <a href="{{ site.url }}/archives/{{ year.name }}" style = "color:#01BAF9 "><code class="highligher-rouge"><nobr>{{ year.name }}</nobr></code></a>
+      <a href="{{ site.baseurl }}/archives/{{ year.name }}" style = "color:#01BAF9 "><code class="highligher-rouge"><nobr>{{ year.name }}</nobr></code></a>
       {% endfor %}
       </li>
   </ul>

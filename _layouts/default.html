@@ -7,22 +7,22 @@
 
 <!--the sidebar-->
 <div class="sidenav">
-<p class="home-heading"><i><a class="black-link" href="{{ site.url | relative_url }}">Cocoa-nut Café</i></a>
-  <div class="cookie_cutter"><ul class="social-media-list socialbtns"><li> <a class="socialbtns fa fa-cookie" href="{{ site.url | relative_url}}/cookie-time"></a></li><i>Cookie time!</i></ul></div>
+<p class="home-heading"><i><a class="black-link" href="{{ site.baseurl }}">Cocoa-nut Café</i></a>
+  <div class="cookie_cutter"><ul class="social-media-list socialbtns"><li> <a class="socialbtns fa fa-cookie" href="{{ site.baseurl }}/cookie-time"></a></li><i>Cookie time!</i></ul></div>
 </p>
 <p class="home-sub-heading"><i>{{- site.description | escape -}}</i></p>
-<img src="{{ site.url | escape}}/images/matcha-banana.jpg" />
+<img src="{{ site.baseurl | escape}}/images/matcha-banana.jpg" />
 
 <ul class="social-media-list socialbtns icon_closer">
 
   <li>
-      <a class="socialbtns fa fa-layer-group" href="{{ site.url }}/archives/"
+      <a class="socialbtns fa fa-layer-group" href="{{ site.baseurl }}/archives/"
         ></a>Archive
   </li>
 
     {%- if site.author -%}
     <li>
-    <a class="socialbtns fa fa-infinity" href="{{ site.url }}/about/"></a>About
+    <a class="socialbtns fa fa-infinity" href="{{ site.baseurl }}/about/"></a>About
     </li>
       {%- endif -%}
       {%- if site.email -%}
@@ -33,7 +33,7 @@
         {%- endif -%}
 
         <li>
-            <a class="socialbtns fa fa-dice" href="{{ site.url }}/projects/"
+            <a class="socialbtns fa fa-dice" href="{{ site.baseurl }}/projects/"
               ></a>Projects
         </li>
 
