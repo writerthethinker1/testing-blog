@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Totient Proof"
+title: "Totient Multiplicity"
 category: proofs
 tags: [number-theory]
 author: Ramneek Narayan
