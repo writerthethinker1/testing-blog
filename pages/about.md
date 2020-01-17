@@ -12,10 +12,12 @@ My name is Ramneek Narayan and I'm the owner of this café. In this blog you wil
 
 ---
 
-### *What's New in Life...*
+### *Life Log...*
 
-- (09/2019): Graduated College <i class="fas fa-laugh-wink"></i>
-- (11/2019): Applied to Graduate Programs <i class="fas fa-pencil-alt"></i>
-- (11/2019): Applied for Jobs in the Meanwhile <i class="fas fa-file-signature"></i>
-- (11/2019): Started taking cold showers (57 days and counting...) <i class="fas fa-shower"></i> 
-- (11/2019): Started more theories <i class="fas fa-square-root-alt"></i>
+- (09/2019): Graduated College <i class="fas fa-flag-checkered"></i> (Yay!)
+- (10/2019): Had to make life changes <i class="fas fa-exchange-alt"></i>
+- (11/2019): Applied to Graduate Programs <i class="fas fa-shapes"></i>
+- (11/2019): Applied for Jobs <i class="fas fa-file-signature"></i>
+- (11/2019): Started theories again <i class="fas fa-square-root-alt"></i>
+- (11/2019): Set last goal for life <i class="fas fa-cogs"></i>
+- (01/2020): Adopted Nihilism and Buddhism for life view <i class="fas fa-dharmachakra"></i>
