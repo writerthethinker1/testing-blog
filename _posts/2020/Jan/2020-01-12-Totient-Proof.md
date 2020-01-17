@@ -74,6 +74,6 @@ this makes calculation of totients easier than by trial and error.
 
 ---
 
-This wraps up the post 🌯, see you later!
+This wraps up the post 🌯, see you later! <i class="fas fa-meteor"></i>
 
 (づ｡◕‿‿◕｡)づ -- *"A man provided with paper, pencil, and rubber, and subject to strict discipline, is in effect a universal machine."* (Turing)

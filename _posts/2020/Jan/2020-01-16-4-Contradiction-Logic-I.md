@@ -182,7 +182,7 @@ $$
 These tables entail an operational hierarchy where from highest to least: $\lor \to \oslash \to \circledcirc \to \land$.
 Using these tables, we can then construct sentences like $(p \circledcirc \star q)$, $[(\odot p \oslash q) \land r]$, and $(\circ p \lor \star q)$ which are under further investigation!!!
 
-This seems plenty for the logic of contradiction and this post. The writer hopes this introduces you to ways logic can be extended to include contradictions and that things can be true and false many times in everyday life. See you next post!
+This seems plenty for the logic of contradiction and this post. The writer hopes this introduces you to ways logic can be extended to include contradictions and that things can be true and false many times in everyday life. See you next post! <i class="fas fa-meteor"></i>
 
 (づ｡◕‿‿◕｡)づ --- *"The energy of the mind is the essence of life."* (Aristotle)
 
