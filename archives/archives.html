@@ -22,8 +22,8 @@ permalink: /archives/
 {% assign num_cats = site.categories | size %}
 {% assign num_cats_float = site.categories | size | times: 1.0 %}
 {% assign num_tags_float = site.tags | size | times: 1.0 %}
-{% assign avg_cats = num_posts | divided_by: num_cats_float %}
-{% assign avg_tags = num_posts | divided_by: num_tags_float %}
+{% assign avg_cats = num_posts | divided_by: num_cats_float | round: 3 %}
+{% assign avg_tags = num_posts | divided_by: num_tags_float | round: 3 %}
 {% assign square_sum_cat = 0 %}
 {% for item in site.categories %}
     {% assign cat_count = item.last | size | times: 1.0 %}
