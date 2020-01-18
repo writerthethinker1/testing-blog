@@ -69,7 +69,7 @@ Given here are tools the writer found help with developing a memory that can be 
 
       * **When this was used:** understanding Simpson’s paradox by equations (ratios) or pictures (vectors), both are valid but one is easier to grasp at first and so will be used primarily to remember concept (both are correct however, pictures are faster and require less processing, at least it seems).
 
-      * Here's why[^1]: suppose we say $\frac{a}{b} < \frac{a'}{b'}$ and $\frac{c}{d} < \frac{c'}{d'}$. Then from this we can deduce $\frac{a + c}{b + d} > \frac{a' + c'}{b' + d'}$ paradoxically. This makes little sense algebraically, but let's say we have $\vec{v}_1 = (a, b)^T$, $\vec{v}_1' = (a', b')^T$, $\vec{v}_2 = (c, d)^T$, and $\vec{v}_2' = (c', d')^T$ and we plot them on a grid with the same slope relations given. Then geometrically we observe that $\text{slope}(\vec{v}_1 + \vec{v}_2) > \text{slope}(\vec{v}_1' + \vec{v}_2')$ without unintuitive symbol manipulation.
+      * Here's why[^1]: suppose we say $\frac{a}{b} < \frac{a'}{b'} < \frac{c}{d} < \frac{c'}{d'}$. Then from this we can deduce $\frac{a + c}{b + d} > \frac{a' + c'}{b' + d'}$ paradoxically. This makes little sense algebraically, but let's say we have $\vec{v}_1 = (a, b)^T$, $\vec{v}_1' = (a', b')^T$, $\vec{v}_2 = (c, d)^T$, and $\vec{v}_2' = (c', d')^T$ and we plot them on a grid with the same slope relations given. Then geometrically we observe that $\text{slope}(\vec{v}_1 + \vec{v}_2) > \text{slope}(\vec{v}_1' + \vec{v}_2')$ without unintuitive symbol manipulation.
 
     ---
 
