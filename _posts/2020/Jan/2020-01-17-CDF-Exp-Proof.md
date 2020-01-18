@@ -86,6 +86,6 @@ as intuitively guessed. This concludes the proof. Q.E.D.
 
 ---
 
-All credit for the proof goes to Shitong Wei who introduced me to it during discussion. The writer could not find it easily online so it is given here. Thanks Shitong! That concludes this post, and the writer will catch you later!
+All credit for the proof goes to Shitong Wei who introduced me to it during discussion in college. The writer could not find it easily online so it is given here. Thanks Shitong! That concludes this post, and the writer will catch you later!
 
 (づ｡◕‿‿◕｡)づ
