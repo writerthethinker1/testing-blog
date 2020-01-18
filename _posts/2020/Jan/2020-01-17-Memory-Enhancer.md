@@ -73,7 +73,7 @@ Given here are tools the writer found help with developing a memory that can be 
 
     ---
 
-That's it for some memory enhancing tips. The writer hopes they are of some value in utilization to the reader. Until the next writing! 
+That's it for some memory enhancing tips. The writer hopes they are of some value in utilization to the reader. Until the next writing! <i class="fas fa-meteor"></i>
 
 (づ｡◕‿‿◕｡)づ
 
