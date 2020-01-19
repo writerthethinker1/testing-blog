@@ -15,7 +15,7 @@ My name is Ramneek Narayan and I'm the owner of this café. In this blog you wil
 ### *Life Log...*
 
 - (09/2019): Graduated College <i class="fas fa-flag-checkered"></i> (Yay!)
-- (10/2019): Had to make life changes <i class="fas fa-exchange-alt"></i>
+- (10/2019): Effort to deal with [life changes]({{site.baseurl}}{% link pages/Life-Changes.md %}) <i class="fas fa-exchange-alt"></i>
 - (11/2019): Applied to Graduate Programs <i class="fas fa-shapes"></i>
 - (11/2019): Applied for Jobs <i class="fas fa-file-signature"></i>
 - (11/2019): Started theories again <i class="fas fa-square-root-alt"></i>
