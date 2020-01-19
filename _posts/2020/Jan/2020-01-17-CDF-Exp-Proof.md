@@ -6,7 +6,7 @@ tags: [stats, reasoning]
 author: Ramneek Narayan
 ---
 
-In non-parametric statistics it is often the case of assessing whether two populations have the same average result or not. In symbols this means that if a person from population 1 is modeled stochastically by a random variable $X_1$ (whose distribution is unknown) and person from population 2 is modeled stochastically by a random variable $X_2$, we seek to find out if $\mathbb{E}(X_1) \neq \mathbb{E}(X_2)$. If it is, then we would especially like to know the direction of the inequality: $\mathbb{E}(X_1) \leq \mathbb{E}(X_2)$ vs. $\mathbb{E}(X_1) \geq \mathbb{E}(X_2)$. In practice, however, it is difficult to develop hypothesis tests for the given inequalities. Instead, we make use of the cumulative density functions (CDFs) that describe these random variables. If we are given (from out hypothesis tests) information about $F_1(x) \odot F_2(x)$ where $\odot \in \lbrace \leq, \geq \rbrace$, then we may conclude $\mathbb{E}(X_1) \odot' \mathbb{E}(X_2)$ where $\odot'$ is the opposite inequality that $\odot$ is. In short we have the following statements:
+In non-parametric statistics it is often the case of assessing whether two populations have the same average result or not. In symbols this means that if a person from population 1 is modeled stochastically by a random variable $X_1$ (whose distribution is unknown) and person from population 2 is modeled stochastically by a random variable $X_2$ (whose distribution is also unknown), we seek to find out if $\mathbb{E}(X_1) \neq \mathbb{E}(X_2)$. If it is, then we would especially like to know the direction of the inequality: $\mathbb{E}(X_1) \leq \mathbb{E}(X_2)$ vs. $\mathbb{E}(X_1) \geq \mathbb{E}(X_2)$. In practice, however, it is difficult to develop hypothesis tests for the given inequalities. Instead, we make use of the cumulative density functions (CDFs) that describe these random variables. If we are given (from our hypothesis tests) information about $F_1(x) \odot F_2(x)$ where $\odot \in \lbrace \leq, \geq \rbrace$, then we may conclude $\mathbb{E}(X_1) \odot' \mathbb{E}(X_2)$ where $\odot'$ is the opposite inequality that $\odot$ is. In short, we have the following statements:
 
 1. $F_1(x) \leq F_2(x) \Rightarrow \mathbb{E}(X_1) \geq \mathbb{E}(X_2)$
 2. $F_1(x) \geq F_2(x) \Rightarrow \mathbb{E}(X_1) \leq \mathbb{E}(X_2)$
@@ -20,7 +20,7 @@ The this post aims to prove the above statements. But first an intuitive explana
 
 Now that we an idea for these statements might be true, let's demonstrate it.
 
-***(Proof)*** We will prove statement 2, as statement 1 can be shown with symbol permutation. We assume $F_1(x) \leq F_2(x)$ for all $x \in (-\infty, \infty)$ (the domain). One neat fact about this inequality is that for any number $c \in \mathbb{R}$ we have:
+***(Proof)*** We will prove statement 2, as statement 1 can be shown using the same argument with symbol permutation of 1 with 2 in the subscripts. We assume $F_1(x) \leq F_2(x)$ for all $x \in (-\infty, \infty)$ (the domain). One neat fact about this inequality is that for any number $c \in \mathbb{R}$ we have:
 
 $$
 \begin{equation}\int_{-\infty}^{c} F_1(x) dx \leq \int_{-\infty}^{c} F_2(x)dx.\end{equation}
