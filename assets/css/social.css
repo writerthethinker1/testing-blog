@@ -15,7 +15,7 @@ a, a:hover {
 }
 
 .socialbtns .fa {
-    color: #FFF;
+    color: #c9c9c9;
     background-color: #151515;
     width: 20px;
     height: 25px;
@@ -34,7 +34,7 @@ a, a:hover {
 @media (max-width: 400px) {
 
   .socialbtns .fa {
-      color: #FFF;
+      color: #c9c9c9;
       background-color: #151515;
       width: 20px;
       height: 18px;
@@ -59,7 +59,7 @@ a, a:hover {
 
 @media (min-width: 401px) and (max-width: 990px) {
   .socialbtns .fa {
-      color: #FFF;
+      color: #c9c9c9;
       background-color: #151515;
       height: 11px;
       width: 18px;
