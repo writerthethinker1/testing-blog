@@ -129,7 +129,12 @@
       href="https://reddit.com/user/{{ social.reddit | cgi_escape | escape }}"
     ></a>
   </li>
-  {%- endif -%} {%- if social.rss -%}
+  {%- endif -%} {%- if site.email -%}
+    <li>
+        <a class="socialbtns fa fa-paper-plane" href="mailto:{{ site.email }}"
+          ></a>
+    </li>
+    {%- endif -%} {%- if social.rss -%}
   <li>
     <a class="socialbtns fa fa-rss" href="{{ 'feed.xml' | relative_url }}"></a>
   </li>
@@ -142,4 +147,5 @@
     ></a>
   </li>
 {%- endif -%}
+
 </ul>
