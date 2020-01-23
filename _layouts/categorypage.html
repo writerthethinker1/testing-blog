@@ -2,7 +2,6 @@
 layout: default
 ---
 
-<div class="post" style="margin-top:-5%">
 <h1>{{ page.title }} <i class="fas fa-cat"></i></h1>
 <ul style="list-style-type:disclosure-closed">
 {% for post in site.categories[page.category] %}
@@ -13,4 +12,3 @@ layout: default
 <hr>
 
 {% include category_archive.html %}
-</div>
