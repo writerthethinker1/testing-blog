@@ -5,11 +5,11 @@ title: "Time Count"
 
 # Time Count <i class="fas fa-stopwatch"></i>
 
-## Tasks thought would ‘take forever’:
+<h2 style="color:#b7cbfd">Tasks thought would ‘take forever’</h2>
 
-<h3 style="color:#8181F7">Food</h3>
+<h3 style="color:#b7cbfd">Food</h3>
 
-<ul style="color:#8181F7">
+<ul style="color:#b7cbfd">
 <li>Fill up water: 30sec.</li>
 <li>Wash Dishes: 5-8min.</li>
 <li>Wash Dishes (Not done night before): 12.5min</li>
@@ -22,9 +22,9 @@ title: "Time Count"
 <li>Make Smoothie: ???</li>
 </ul>
 
-<h3 style="color:#8181F7">Hygiene</h3>
+<h3 style="color:#b7cbfd">Hygiene</h3>
 
-<ul style="color:#8181F7">
+<ul style="color:#b7cbfd">
 <li>Take Shower: 5min.</li>
 <li>Morning Bathroom Routine: 9min.</li>
 <li>Evening Bathroom Routine: 11min.</li>
@@ -34,9 +34,9 @@ title: "Time Count"
 <li>Cut toe nails: ???</li>
 </ul>
 
-<h3 style="color:#8181F7">Lifestyle</h3>
+<h3 style="color:#b7cbfd">Lifestyle</h3>
 
-<ul style="color:#8181F7">
+<ul style="color:#b7cbfd">
 <li>Make Bed: 1.5min.</li>
 <li>Total Time Awake (avg.): ???</li>
 <li>Total Time asleep (avg.): ???</li>
