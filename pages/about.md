@@ -8,6 +8,6 @@ My name is Ramneek Narayan and I'm the owner of this café. In this blog you wil
 
 ---
 
-**About the café title:** I love to eat chocolate and salted cashews together. Together they make a *Cocoa-nut*. I named the café after this concept.
+**About the café title:** I love to eat chocolate and salted roasted cashews together. Together they make a *Cocoa-nut*. I named the café after this concept.
 
 ---
