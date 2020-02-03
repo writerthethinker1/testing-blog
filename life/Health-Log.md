@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Health Log
+# Health Log <i class="fas fa-dna"></i>
 
 <span style="color:#58FAF4">~ Last Update: 02/02/20</span>
 
