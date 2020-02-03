@@ -6,7 +6,7 @@ layout: default
 
 <span style="color:#58FAF4">~ Last Update: 02/02/20 <i class="fas fa-fire-alt"></i></span>
 
-## [2019]({% link {{ site.baseurl }}life/life-log/2019.md %})
+## [2019]({{ site.baseurl }}{% link life/life-log/2019.md %})
 
 ---
 
