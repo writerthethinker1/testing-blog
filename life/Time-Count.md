@@ -5,6 +5,8 @@ title: "Time Count"
 
 # Time Count <i class="fas fa-stopwatch"></i>
 
+<span style="color:#58FAF4">~ Last Update: 02/02/20 <i class="fas fa-fire-alt"></i></span>
+
 <h2 style="color:#b7cbfd">Tasks thought would ‘take forever’</h2>
 
 <h3 style="color:#b7cbfd">Food</h3>
@@ -17,7 +19,7 @@ title: "Time Count"
 <li>Eat Lunch: 15min.</li>
 <li>Drink Dinner: 15min.</li>
 <li>Make Lunch: 20min. (stir-fry noodles pre-made)</li>
-<li>Make Lunch: ??? (stir-fry noodles not pre-made)</li>
+<li>Make Lunch: 40min. (stir-fry noodles not pre-made)</li>
 <li>Make Breakfast: 15min. (Oatmeal)</li>
 <li>Make Smoothie: ???</li>
 </ul>
@@ -29,6 +31,7 @@ title: "Time Count"
 <li>Morning Bathroom Routine: 9min.</li>
 <li>Evening Bathroom Routine: 11min.</li>
 <li>Clean Retainers: 2min.</li>
+<li>Use Bathroom (as day goes on): 3min. </li>
 <li>Make Bed: 1.5min.</li>
 <li>Cut finger nails: 2min.</li>
 <li>Cut toe nails: ???</li>
@@ -44,5 +47,3 @@ title: "Time Count"
 <li>Do 60 situps: 2.5min.</li>
 <li>Use Elliptical: 20min.</li>
 </ul>
-
-<span style="color:#58FAF4">~ Last Update: 01/31/20 <i class="fas fa-fire-alt"></i></span>

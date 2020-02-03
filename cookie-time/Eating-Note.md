@@ -59,9 +59,9 @@ Hope this helps with healthy eating for the brain and body! <i class="fas fa-coo
 ---
 
 
-[^1]: [Source](https://www.health.harvard.edu/blog/nutritional-psychiatry-your-brain-on-food-201511168626)
-[^2]: [Source](https://www.youtube.com/watch?v=VINtwoyaF_8)
-[^3]: [Source](https://alifeofproductivity.com/9-brain-foods-that-will-boost-your-ability-to-focus/)
-[^4]: [Source](https://www.webmd.com/diet/features/eat-smart-healthier-brain#1)
-[^5]: [Source](https://www.healthline.com/nutrition/best-nootropic-brain-supplements)
-[^6]: [Source](https://www.healthline.com/nutrition/what-is-choline#brain-function)
+[^1]: [Harvard Health](https://www.health.harvard.edu/blog/nutritional-psychiatry-your-brain-on-food-201511168626)
+[^2]: [Eating only Chips & French Fries](https://www.youtube.com/watch?v=VINtwoyaF_8)
+[^3]: [A Life of Productivity](https://alifeofproductivity.com/9-brain-foods-that-will-boost-your-ability-to-focus/)
+[^4]: [WebMD](https://www.webmd.com/diet/features/eat-smart-healthier-brain#1)
+[^5]: [Healthline: Nootropics](https://www.healthline.com/nutrition/best-nootropic-brain-supplements)
+[^6]: [Healthline: Choline](https://www.healthline.com/nutrition/what-is-choline#brain-function)

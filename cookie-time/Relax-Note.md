@@ -30,4 +30,4 @@ Wishing you Lovingkindness! <i class="fas fa-cookie"></i>
 
 ---
 
-[^1]: [Source](https://mentalhealthdaily.com/2015/02/24/how-different-types-of-meditation-affect-the-brain/)
+[^1]: [Mental Health Daily](https://mentalhealthdaily.com/2015/02/24/how-different-types-of-meditation-affect-the-brain/)

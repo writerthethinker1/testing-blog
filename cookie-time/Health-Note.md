@@ -29,5 +29,5 @@ Wishing you good health! <i class="fas fa-cookie"></i>
 
 ---
 
-[^1]: [Source](https://www.diygenius.com/your-desk-job-is-killing-you-the-truth-about-sitting-down-infographic/)
-[^2]: [Source](https://www.healthline.com/health/cold-shower-benefits#takeaway)
+[^1]: [DIYGenius](https://www.diygenius.com/your-desk-job-is-killing-you-the-truth-about-sitting-down-infographic/)
+[^2]: [Healthline: Cold Shower Benefits](https://www.healthline.com/health/cold-shower-benefits#takeaway)
