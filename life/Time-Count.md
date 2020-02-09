@@ -5,7 +5,7 @@ title: "Time Count"
 
 # Time Count <i class="fas fa-stopwatch"></i>
 
-<span style="color:#58FAF4">~ Last Update: 02/02/20 <i class="fas fa-fire-alt"></i></span>
+<span style="color:#58FAF4">~ Last Update: 02/08/20 <i class="fas fa-fire-alt"></i></span>
 
 <h2 style="color:#b7cbfd">Tasks thought would ‘take forever’</h2>
 
@@ -44,6 +44,6 @@ title: "Time Count"
 <li>Total Time Awake (avg.): ???</li>
 <li>Total Time asleep (avg.): ???</li>
 <li>Sleep for next day (avg/week): ???</li>
-<li>Do 60 situps: 2.5min.</li>
+<li>Do 70 situps: 2:52 min.</li>
 <li>Use Elliptical: 20min.</li>
 </ul>

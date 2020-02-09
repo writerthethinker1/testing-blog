@@ -4,7 +4,7 @@ layout: default
 
 # Health Log <i class="fas fa-dna"></i>
 
-<span style="color:#58FAF4">~ Last Update: 02/02/20</span>
+<span style="color:#58FAF4">~ Last Update: 02/08/20</span>
 
 This note contains health information to note current health trends in the writer's life as well as a general way to track how healthy a life is followed.
 
@@ -25,7 +25,7 @@ This note contains health information to note current health trends in the write
 
 - Oatmeal
 
-  - 6tbsp. Oats, 1tsp. Flaxseeds, 0.5cup Almond Milk, 2tbsp. Mixed Nut Butter, 1.5tsp. Coconut Sugar, 0.5tsp. Coconut Oil, 1handful Cacao Nibs
+  - 6tbsp. Oats, 1tsp. Flaxseeds, 0.5cup Almond Milk, 1tbsp. Mixed Nut Butter, 1.5tsp. Coconut Sugar, 0.5tsp. Coconut Oil, 1handful Cacao Nibs
 
 ### Lunch
 
@@ -43,10 +43,10 @@ This note contains health information to note current health trends in the write
 
 ### Snacks
 
-- Chocolate Bar (85-95% Cacao Solids)
+- Chocolate Bar (90-95% Cacao Solids)
 - Mixed Nuts w/ raisins and cranberries
 - Pomegranate Juice
 
 ---
 
-**Note:** When I wake up late or sleep in (as has been the case lately), I don't eat all three meals and instead have 2 meals.
+**Note:** When I wake up late or sleep in (as has been the case lately), I don't eat all three meals and instead have 2 meals. **In either case, I am grateful to be eating everyday when others have nothing.**
