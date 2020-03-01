@@ -5,7 +5,7 @@ permalink: /life/Life-Changes
 ---
 
 # Life after Psychosis <i class="fas fa-tablets"></i>
-<span style="color: #58FAF4"> ~ Last Revision: 02/08/20 <i class="fas fa-fire-alt"></i></span>
+<span style="color: #58FAF4"> ~ Last Revision: 02/08/20 <i class="fas fa-dharmachakra"></i></span>
 
 > *"Life doesn't get any better after mental illness."* - Pysch Ward Nurse
 

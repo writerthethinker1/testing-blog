@@ -5,7 +5,7 @@ title: "The World"
 
 # The World <i class="fas fa-globe-americas"></i>
 
-<span style="color:#00FFFF">~ Last update: 02/08/20 <i class="fas fa-fire-alt"></i></span>
+<span style="color:#00FFFF">~ Last update: 02/08/20 <i class="fas fa-dharmachakra"></i></span>
 
 > *"We could have saved the Earth but we were too damned cheap."* (Kurt Vonnegut)
 

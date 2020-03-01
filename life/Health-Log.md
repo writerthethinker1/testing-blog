@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Health Log <i class="fas fa-dna"></i>
+# Health Log <i class="fas fa-heartbeat"></i>
 
 <span style="color:#58FAF4">~ Last Update: 02/08/20</span>
 
@@ -10,7 +10,7 @@ This note contains health information to note current health trends in the write
 
 ## General Health Stats
 
-- Weight: 128.7lbs. (01/28/20)
+- Weight: 125lbs. (02/28/20)
 
 ## Diet
 
@@ -18,14 +18,17 @@ This note contains health information to note current health trends in the write
 
 - Ginko Biloba
 - Multivitamin
-- Choline (250mg)
+- Choline & Inositol (250mg & 250mg)
+- GABA (500mg morning, 250mg night)
 - 1tbsp. Flaxseed Oil
+- 1tbsp. Coconut Oil
+- Melatonin (5mg @ night)
 
 ### Breakfast
 
 - Oatmeal
 
-  - 6tbsp. Oats, 1tsp. Flaxseeds, 0.5cup Almond Milk, 1tbsp. Mixed Nut Butter, 1.5tsp. Coconut Sugar, 0.5tsp. Coconut Oil, 1handful Cacao Nibs
+  - 6tbsp. Oats, 1tsp. Flaxseeds, 0.5cup Almond Milk, 1tbsp. Mixed Nut Butter, 1tbsp. Coconut Sugar, 0.5tsp. Coconut Oil, 1handful Cacao Nibs
 
 ### Lunch
 

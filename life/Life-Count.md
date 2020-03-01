@@ -5,7 +5,7 @@ title: "Life Count"
 
 <h1 style="margin-top:0.5em">Life Count <i class="fas fa-sliders-h"></i></h1>
 
-<span style="color:#00FFFF">~ Last update: 02/08/20 <i class="fas fa-fire-alt"></i></span>
+<span style="color:#00FFFF">~ Last update: 02/08/20 <i class="fas fa-dharmachakra"></i></span>
 
 This note is a place to record the amount of things that happen in the writer's life mindfully so as to see how the mind is reflected and which ways to change its direction. Its aim is to keep the writer motivated in counting things in life so as not to go off course and become unfocused. The construction of wholesome states (habits) of mind and weakening of unwholesome states (habits) of mind essentially. At the end there is a dated reflection on what things have been observed. Times recorded are since the idea was first thought of, so no particular start date, just the idea.
 
