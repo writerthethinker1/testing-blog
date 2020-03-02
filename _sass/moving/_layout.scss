@@ -275,6 +275,7 @@
 .post-content {
   margin-top: 0rem;
   margin-bottom: $spacing-unit;
+  font-size: 19px;
 
   h2 {
     @include relative-font-size(1.75);
