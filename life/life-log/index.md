@@ -14,4 +14,5 @@ layout: default
 - (01/2020): Went Nihilist and Buddhist
 - (01/2020): Voices went down suddenly (yes!)
 - (01/2020): Started reviewing material for graduate studies
-- (02/2020): Mind dipped in mood, very sad
+- (03/2020): Completed Bulmer's Statistics Book (yes!)
+- (04/2020): Getting Ready for Graduate School...
