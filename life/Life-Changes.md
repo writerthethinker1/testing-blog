@@ -4,8 +4,8 @@ title: "Life after Psychosis"
 permalink: /life/Life-Changes
 ---
 
-# Life after Psychosis <i class="fas fa-tablets"></i>
-<span style="color: #58FAF4"> ~ Last Revision: 02/08/20 <i class="fas fa-dharmachakra"></i></span>
+# Life after Psychosis <i class="fas fa-circle"></i>
+<span style="color: #58FAF4"> ~ Last Revision: 02/08/20 <i class="fas fa-feather-alt"></i></span>
 
 > *"Life doesn't get any better after mental illness."* - Pysch Ward Nurse
 
@@ -53,7 +53,7 @@ The medication was sedating and interfered with waking up on time and also led t
 1. The disease itself
 2. The stigma associated with it (people are misinformed and the media gives an inaccurate depiction of people with schizophrenia to attract more viewers)
 
-So, people with this disease face a load of effects on them all of which they did nothing to receive; first there is a diagnosis and then comes a withdrawal from other people who don't understand let alone care what you have.  
+So, people with this disease face a load of effects on them all of which they did nothing to receive; first there is a diagnosis and then comes a withdrawal from other people who don't understand let alone care what you have.
 
 But, anyhow, what does this mean to you? It means that if you are free of mental illness, then there is plenty to be grateful for. You have good chance to improve your life without mental blocks like the writer. The writer was once normal and can see what this is like and would be glad to have it again. Because here is what it is like for the writer:
 
@@ -76,4 +76,4 @@ All remarks aside, this is what mental illness can do, its effects are negative.
 
 ---
 
-[^1]: If you are wondering what my disease is, the psychiatrist diagnosed me with schizoaffective disorder depression type.  
+[^1]: If you are wondering what my disease is, the psychiatrist diagnosed me with schizoaffective disorder depression type.

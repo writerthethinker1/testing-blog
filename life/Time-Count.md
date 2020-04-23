@@ -5,7 +5,7 @@ title: "Time Count"
 
 # Time Count <i class="fas fa-stopwatch"></i>
 
-<span style="color:#58FAF4">~ Last Update: 02/08/20 <i class="fas fa-dharmachakra"></i></span>
+<span style="color:#58FAF4">~ Last Update: 02/08/20 <i class="fas fa-feather-alt"></i></span>
 
 <h2 style="color:#b7cbfd">Tasks thought would ‘take forever’</h2>
 
