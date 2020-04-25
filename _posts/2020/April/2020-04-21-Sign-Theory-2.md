@@ -101,8 +101,9 @@ Let's see if it can work:
 $$
  \left[\left(\frac{3}{13}\right)^+ + \left(\frac{4}{13}\right)^*\right] \cdot \left[3^+ + 4^-\right] =
 $$
+
 $$
-\left(\frac{9}{13}\right)^+ + \left(\frac{12}{13}\right)^* + \left(\frac{12}{13}\right)^- + \left(\frac{16}{13}\right)^+
+= \left(\frac{9}{13}\right)^+ + \left(\frac{12}{13}\right)^* + \left(\frac{12}{13}\right)^- + \left(\frac{16}{13}\right)^+
 $$
 
 $$

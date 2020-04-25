@@ -5,7 +5,7 @@ title: "Time Count"
 
 # Time Count <i class="fas fa-stopwatch"></i>
 
-<span style="color:#58FAF4">~ Last Update: 02/08/20 <i class="fas fa-feather-alt"></i></span>
+<span style="color:#58FAF4">~ Last Update: 04/23/20 <i class="fas fa-feather-alt"></i></span>
 
 <h2 style="color:#b7cbfd">Tasks thought would ‘take forever’</h2>
 
@@ -27,7 +27,7 @@ title: "Time Count"
 <h3 style="color:#b7cbfd">Hygiene</h3>
 
 <ul style="color:#b7cbfd">
-<li>Take Shower: 5min.</li>
+<li>Take Shower: 4min.</li>
 <li>Morning Bathroom Routine: 9min.</li>
 <li>Evening Bathroom Routine: 11min.</li>
 <li>Clean Retainers: 2min.</li>
