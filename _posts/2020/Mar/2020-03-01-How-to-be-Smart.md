@@ -61,5 +61,3 @@ This note just lists ideas I found about being smart. What was the most importan
   - This is a memory enhancer. Remember the last time you did something fun? Joke with friends? Play a video game? Do you remember how easy it is to recall those moments? The brain works the same way when one enjoys what they learn.
 
 This ends the post on how to be smart. The most important lesson is that 'smartness' is like making a muscle in the brain and this muscle can shrink when one is lazy and grow when one is disciplined. **Every advancement society has came from people who could think.** If we didn't think as we do, then we have no way to improve our lives. Our experiences wouldn't be as detailed and we would be slaves to our own minds design. See you next post! <i class="fas fa-meteor"></i>
-
-(づ｡◕‿‿◕｡)づ

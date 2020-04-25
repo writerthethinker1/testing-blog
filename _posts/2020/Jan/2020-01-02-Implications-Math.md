@@ -77,5 +77,3 @@ $$
 Which is just as valid as the cookies dancing inside a teapot implying 2 is an even number.
 
 This wraps up the discussion, thanks for reading.  ¡Hasta luego! See you next post! <i class="fas fa-meteor"></i>
-
-(づ｡◕‿‿◕｡)づ

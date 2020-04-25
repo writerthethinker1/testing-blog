@@ -28,7 +28,7 @@ Note: These are some tips that I will try to follow to live a higher quality of 
 
 4. **Eat a nutritious diet and avoid fried and ‘junk’ food**
 
-    - Try to include a variety of greens and other wholesome fruits and vegetables into your diet. Also, cut the consumption of meat and dairy replacing them with beans, lentils, nuts, and plant milks like almond or soy milk. Absolutely no eating of fried food as these foods are known to cause sluggishness and contribute little to your health. Eating foods that contain gluten such as bread or regular pasta is OK but you can avoid gluten if you want to, just note that you will feel the need to eat more frequently.  
+    - Try to include a variety of greens and other wholesome fruits and vegetables into your diet. Also, cut the consumption of meat and dairy replacing them with beans, lentils, nuts, and plant milks like almond or soy milk. Absolutely no eating of fried food as these foods are known to cause sluggishness and contribute little to your health. Eating foods that contain gluten such as bread or regular pasta is OK but you can avoid gluten if you want to, just note that you will feel the need to eat more frequently.
 
     ---
 
@@ -61,5 +61,3 @@ Note: These are some tips that I will try to follow to live a higher quality of 
     - This is helpful to the body as it does not have to digest anything during the late hours. Unless your work involves strenuous activity, you most likely do not need the extra calories as your body needs less calories to keep you alive and organs healthy.
 
 Hope these tips helped, will see you later! <i class="fas fa-meteor"></i>
-
-(づ｡◕‿‿◕｡)づ

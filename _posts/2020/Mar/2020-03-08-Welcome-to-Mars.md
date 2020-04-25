@@ -27,5 +27,3 @@ Welcome to Mars! We have a lot to show you. This planet is abundant in wonder.
 **Experience and words are strongly connected, if not entailed.** Without sensory experience, words lack utility and we have to resort to mathematical interpretations to make sense of what we are told. Personally, without giving a machine senses as ours, it would not be possible for it to reason like us, to have the same type of problems as us, to even think at all! By thinking, I don't mean computations in the way we have for calculators, I mean rather the ability to take in information, process it in a way so as to have an interpretation or *abstraction* of the information. I wouldn't waste time loading a dictionary into a machine expecting it to think; let it make it's own dictionary as we once did. It is more the process that we try to abstract rather than what the process is about.
 
 Anyway, I hope this gives reason as to why machine intelligence relies on some replication of human senses. Just some food for thought... Catch you on the flip side! <i class="fas fa-meteor"></i>
-
-(づ｡◕‿‿◕｡)づ

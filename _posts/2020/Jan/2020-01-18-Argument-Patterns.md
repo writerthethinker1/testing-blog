@@ -55,7 +55,5 @@ There are **systematic ways** to evaluate the validity of arguments. Use these t
 
 This is the end of the first post about argument patterns, the writer hopes to find more in an effort to aid reasoning processes and effectively assess people's arguments. In the process we can see what things are worth argument (time) and what things are useless to think about. There are limitations to human logic in a broader sense; certain things can be said with validity and others can never be assessed. Anyways, goodnight (or morning or afternoon depending on where you are) and see you in the next writing! <i class="fas fa-meteor"></i>
 
-(づ｡◕‿‿◕｡)づ
-
 
 [^1]: See this [post]({{ site.baseurl }}{% link _posts/2020/Jan/2020-01-04-Logic-Fallacies.md %}) for more about fallacies.

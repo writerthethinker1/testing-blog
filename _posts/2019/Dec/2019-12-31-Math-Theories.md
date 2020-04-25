@@ -82,10 +82,8 @@ When anyone creates a consistent theory like those of mathematicians, statistici
   * Axioms, Postulates, Definition:
     * Taken to be true by themselves. (Like building blocks).
   * Propositions, Lemmas, Corollaries, Theorem:
-    * True by means of proof (demonstration). (Made up of the building blocks and other things like themselves).  
+    * True by means of proof (demonstration). (Made up of the building blocks and other things like themselves).
 
 ---
 
 This wraps up the thought organization in math and the like. It's very reductionist and a strength in one area aids in others. You might have seen so when you see geometry used in most branches of math or perhaps when making a miscalculation in a computation that left subsequent computations erroneous---every part or piece was important for the conclusion. In a broader sense, the sentences we say run on the same machinery in the mind. See you next post! <i class="fas fa-meteor"></i>
-
-(づ｡◕‿‿◕｡)づ

@@ -50,7 +50,7 @@ Thus we can add more precision about truth with respect to a proposition $p$ by 
 
 ---
 
-One of these 4 ways of stating the truth of $p$ is going to evaluate to true and only true. Now, truth evaluations in classical logic are given as $\top$ and $\bot$ for true and false. Truth and falsehood are *orientations*, like top and bottom. In this logic there are 4 *orientations* of truth and we will mark them as $\top^\bullet$, $\top^\circ$, $\top^{\star}$, and $\top^{\odot}$ to indicate the truth for each truth value. So, for example, something that is false and only false evaluates to $\top^\circ$ and somthing that is neither true nor false evaluates to $\top^\odot$. We can symbolize the former as $p \to \top^\circ$ and the latter as $p \to \top^\odot$ informally (we haven't defined implication yet). These 4 orientations of truth are much like the ripeness of bananas, where a banana is green ($\bullet$), yellow ($\circ$), green and yellow ($\star$), or black (rotten) ($\odot$). The statements we make correspond to the state of the banana's ripeness; for example, $\odot(\text{banana is green})$ means it is neither true nor false that the banana is green (the banana lost all property of color, maybe it is invisible).  
+One of these 4 ways of stating the truth of $p$ is going to evaluate to true and only true. Now, truth evaluations in classical logic are given as $\top$ and $\bot$ for true and false. Truth and falsehood are *orientations*, like top and bottom. In this logic there are 4 *orientations* of truth and we will mark them as $\top^\bullet$, $\top^\circ$, $\top^{\star}$, and $\top^{\odot}$ to indicate the truth for each truth value. So, for example, something that is false and only false evaluates to $\top^\circ$ and somthing that is neither true nor false evaluates to $\top^\odot$. We can symbolize the former as $p \to \top^\circ$ and the latter as $p \to \top^\odot$ informally (we haven't defined implication yet). These 4 orientations of truth are much like the ripeness of bananas, where a banana is green ($\bullet$), yellow ($\circ$), green and yellow ($\star$), or black (rotten) ($\odot$). The statements we make correspond to the state of the banana's ripeness; for example, $\odot(\text{banana is green})$ means it is neither true nor false that the banana is green (the banana lost all property of color, maybe it is invisible).
 
 Now, what of chained truth statements? What of statements like $\star{\odot}p$? How can we simplify them and have them be logically valid? A simple way is to reason the sentence '*it is true and false that it is neither true nor false that...*' and see that this is never true, so it simplifies to false and only false. Thus, $\star{\odot} = \circ$. Using similar reasoning for all pairs of truth we arrive at the following table for sentence modifiers:
 
@@ -75,7 +75,7 @@ We read the table from the first column to the first row for the first and secon
 ---
 **Example 1:** Evaluate the truth of the sentence '*it is true and false that the banana is green.*' (the banana seen is yellow, not green; we claim that it is green and not green (yellow)).
 
-*Solution:* We can symbolize a *nested proposition* $p$ as follows: $p = \text{banana is green}$. Clearly, by the given information, the value of $p$ is $p \simeq \circ$. The given italicized sentence can then be written as $\star p$. Now $\star p$ can't be true as that would mean that the banana has some element of greenness (which it doesn't) and $\star p$ can't be false since that would mean the banana can't have any green or yellow (it has yellow though). This makes it so that $\star p \simeq \odot$, it is beyond truth and falsehood for description.    
+*Solution:* We can symbolize a *nested proposition* $p$ as follows: $p = \text{banana is green}$. Clearly, by the given information, the value of $p$ is $p \simeq \circ$. The given italicized sentence can then be written as $\star p$. Now $\star p$ can't be true as that would mean that the banana has some element of greenness (which it doesn't) and $\star p$ can't be false since that would mean the banana can't have any green or yellow (it has yellow though). This makes it so that $\star p \simeq \odot$, it is beyond truth and falsehood for description.
 
 ---
 
@@ -184,7 +184,7 @@ Using these tables, we can then construct sentences like $(p \circledcirc \star 
 
 This seems plenty for the logic of contradiction and this post. The writer hopes this introduces you to ways logic can be extended to include contradictions and that things can be true and false many times in everyday life. See you next post! <i class="fas fa-meteor"></i>
 
-(づ｡◕‿‿◕｡)づ --- *"The energy of the mind is the essence of life."* (Aristotle)
+--- *"The energy of the mind is the essence of life."* (Aristotle)
 
 ---
 
@@ -193,4 +193,4 @@ This seems plenty for the logic of contradiction and this post. The writer hopes
 
 [^2]: **Remark:** The writer admits this is rather confusing and not natural linguistically, however it reflects the inability to place truth and falsehood on things which are false but declared true and false and the ability to express truth-hood and falsehood to things which are true but declared true and false. Any comments about explaining this further are *graciously* welcomed.
 
-[^1]: The writer holds that this marks a limitation of logic by its nature and design. It is an interesting topic to resolve using a fifth truth value for such a case, but at this point the logic seems recursive. It is a topic the writer wishes to explore later and encourages others too to develop as well: a logic with 5 truth values.  
+[^1]: The writer holds that this marks a limitation of logic by its nature and design. It is an interesting topic to resolve using a fifth truth value for such a case, but at this point the logic seems recursive. It is a topic the writer wishes to explore later and encourages others too to develop as well: a logic with 5 truth values.

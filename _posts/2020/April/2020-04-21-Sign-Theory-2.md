@@ -119,5 +119,3 @@ $$
 $$
 
 This concludes the post and I hope you had a good time reading it and taking in new ideas. Catch you later! <i class="fas fa-meteor"></i>
-
-(づ｡◕‿‿◕｡)づ

@@ -115,6 +115,6 @@ What follows isn't required for the Chinese Remainder Theorem but is interesting
 
  Thanks for reading and thinking with me! Hope this made the Chinese Remainder Theorem proof easier to read. Catch you later! <i class="fas fa-meteor"></i>
 
- (づ｡◕‿‿◕｡)づ --- *All is number...* (Pythagoras)
+--- *All is number...* (Pythagoras)
 
  [^1]: Just because a triangle looks like it's right, doesn't mean that it is until someone marks it so! Same with triangles that look isosceles... No room for induction! <i class="far fa-grin-squint-tears"></i>

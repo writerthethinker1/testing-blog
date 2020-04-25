@@ -14,7 +14,7 @@ In this post we will prove that the totient function for the product of any natu
 
 **Example 1:** The totient of $13$ is 12 since $13$ is a prime number. 2 is coprime to 13, 3 is coprime to 13, 4 is coprime to 13, &etc... up to the number 12 inclusive. Hence, $\phi(13) = 12$.
 
-**Example 2:** The totient of $8$ is 4 since all odd numbers less than 8 are coprime to it and all even numbers less than 8 have 2 as their GCD. Thus, $\phi(8) = 4$.  
+**Example 2:** The totient of $8$ is 4 since all odd numbers less than 8 are coprime to it and all even numbers less than 8 have 2 as their GCD. Thus, $\phi(8) = 4$.
 
 **Remark:** All the totient does is record the number of coprime numbers less than the given number in question. It is a record keeper and is a function such that $\phi: \mathbb{N} \to \mathbb{N}$. Quick fact: $\phi(\alpha) < \alpha$ for all $\alpha \in \mathbb{N}$.
 
@@ -76,4 +76,4 @@ this makes calculation of totients easier than by trial and error.
 
 This wraps up the post 🌯, see you later! <i class="fas fa-meteor"></i>
 
-(づ｡◕‿‿◕｡)づ -- *"A man provided with paper, pencil, and rubber, and subject to strict discipline, is in effect a universal machine."* (Turing)
+-- *"A man provided with paper, pencil, and rubber, and subject to strict discipline, is in effect a universal machine."* (Turing)

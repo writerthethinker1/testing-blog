@@ -57,5 +57,3 @@ This post is about ways to improve one's life through organization and determina
    - Once you know all of the tasks you want to perform, order the list from the most difficult to the least difficult. Then, complete the tasks in that order, leaving the easiest/least time consuming tasks last. Doing this allows you to strategically devote your best cognition to the most time consuming and mentally challenging activities where they are undoubtedly needed the most. Not only that, you’ll end up having more energy for the most draining tasks as you won’t be winded from completing the easier less taxing goals if you had done that opposite. This can also be a good method to prevent procrastination as we tend to put the hardest most complex tasks last in our minds when it comes to completion, leaving them for the last days before the deadline and subsequently rushing to finish them subpar than had planning been done prior.
 
 Having a clear mind free of any other thoughts can help promote the above tips, I hope practicing them give a huge life improvement! <i class="fas fa-meteor"></i>
-
-(づ｡◕‿‿◕｡)づ

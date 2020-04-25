@@ -79,5 +79,3 @@ $$
 Hence, $\text{Cov}(X_i,X_j) = -np_ip_j$ as we sought to solve for.
 
 This is one method of computing the covariance of the multinomial distribution and others use a *multivariate probability generating function (pgf)* or use the simplification of $X_i = \sum_k (Y_i)_k$ and $X_j = \sum_j(Y_j)_k$ in the covariance term giving $\text{Cov}(X_i,X_j) = \text{Cov}(\sum_k(Y_i)_k, \sum_k(Y_j)_k) = n \text{Cov}(Y_i, Y_j)$ where $Y_i \sim \text{Bernoulli}(p_i)$. They are also valid and give the same answer as we have calculated. The quickest is using the pgf, but the one given here is another method that shows direct methods can work as well. Anyway, this concludes the post, see you later! <i class="fas fa-meteor"></i>
-
-(づ｡◕‿‿◕｡)づ

@@ -58,5 +58,3 @@ $$
 which amounts to the same calculation if ranks were not adjusted between the same data set. Between data sets, however, is when the adjusting of ranks makes the difference as fractional amounts for $U_1$ entail ties between data entries. In the end, we get a statistic that records both *ties and entries from the other data set lower than the one in question*. This concludes the proof. Q.E.D.
 
 Hope you enjoyed this explanation of the statistic used in the Mann-Whitney *U* test. See you next time! <i class="fas fa-meteor"></i>
-
-(づ｡◕‿‿◕｡)づ

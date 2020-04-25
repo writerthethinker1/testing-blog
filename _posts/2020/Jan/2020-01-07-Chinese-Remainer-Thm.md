@@ -61,7 +61,6 @@ Surprisingly, this is a time complexity reduction technique (less steps in the a
 
 That seems plenty for this post, catch you on the flip-side! <i class="fas fa-meteor"></i>
 
-(づ｡◕‿‿◕｡)づ
 
-[^1]: A good beginning book for learning modern algebra is Clark's [*Elementary Abstract Algebra*](http://shell.cas.usf.edu/~wclark/Elem_abs_alg.pdf); it's more you doing things than reading, if you like that style of learning.  
+[^1]: A good beginning book for learning modern algebra is Clark's [*Elementary Abstract Algebra*](http://shell.cas.usf.edu/~wclark/Elem_abs_alg.pdf); it's more you doing things than reading, if you like that style of learning.
 [^2]: See this [post]({{ site.baseurl }}{% link _posts/2020/Jan/2020-01-07-Coprime-LCM.md %}) if it isn't clear.

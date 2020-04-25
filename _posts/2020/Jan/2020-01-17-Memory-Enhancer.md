@@ -52,7 +52,7 @@ Given here are tools the writer found help with developing a memory that can be 
 
 6. **Rephrase concepts in your own words***
 
-    By putting the author’s words in your own, you can more easily see how the ideas connect as the words you use are better defined (to you) and connect with how the specific abstractions you made. You will remember them better as a result. People use words differently in different contexts, all you can do is interpret them, it is your interpretation that is known to you. By using your own words, you become closer to that interpretation and see the ideas clearly than had you used the author’s words (which most likely made sense to them). Everyone has their own interpretation, make the subject of its own variety in the mind. If you really have the time the writer recommends the *[Feynman Method](https://fs.blog/2012/04/feynman-technique/)* for learning.  
+    By putting the author’s words in your own, you can more easily see how the ideas connect as the words you use are better defined (to you) and connect with how the specific abstractions you made. You will remember them better as a result. People use words differently in different contexts, all you can do is interpret them, it is your interpretation that is known to you. By using your own words, you become closer to that interpretation and see the ideas clearly than had you used the author’s words (which most likely made sense to them). Everyone has their own interpretation, make the subject of its own variety in the mind. If you really have the time the writer recommends the *[Feynman Method](https://fs.blog/2012/04/feynman-technique/)* for learning.
 
       * **Questions to guide:**
         * What does this idea mean (own words)?
@@ -74,8 +74,6 @@ Given here are tools the writer found help with developing a memory that can be 
     ---
 
 That's it for some memory enhancing tips. The writer hopes they are of some value in utilization to the reader. Until the next writing! <i class="fas fa-meteor"></i>
-
-(づ｡◕‿‿◕｡)づ
 
 ---
 [^1]: Credit for this interpretation goes to [Wikipedia](https://en.wikipedia.org/wiki/Simpson%27s_paradox).

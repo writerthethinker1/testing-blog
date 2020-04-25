@@ -53,5 +53,3 @@ Rocket: *Why are the potatoes who signed up for ice cream not eating it?* <br>
 Potatoes: *Because it was on the list of things to eat before graduating into baked potatoes.*
 
 In short, students who don't want certain knowledge or don't see how it can help them in the future are in courses designed for the opposite types of students, creating a conflict for teacher and student for generations past and yet to come. The writer hopes you take these thoughts with a grain of salt, but it sums up education and how making it compulsory takes away one's intentions for learning which prove vital for benefiting from that information. Anyway, see you next time! <i class="fas fa-meteor"></i>
-
-(づ｡◕‿‿◕｡)づ
