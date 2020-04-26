@@ -116,7 +116,7 @@ figure > img {
   display: block;
 }
 
-figcaption {
+caption {
   font-size: $small-font-size;
 }
 
@@ -153,11 +153,11 @@ h6 {
   * Links
   */
 a {
-  color: #9ff781;
+  color: #668cff;
   text-decoration: none;
 
   &:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 

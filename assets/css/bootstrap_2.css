@@ -35,8 +35,8 @@
 .pagination > li > a:focus,
 .pagination > li > span:focus {
   color: #000;
-  background-color: #9ff781;
-  border-color: #9ff781;
+  background-color: #668cff;
+  border-color: #668cff;
 }
 .pagination > .active > a,
 .pagination > .active > span,
@@ -47,8 +47,8 @@
   z-index: 2;
   color: #000;
   cursor: default;
-  background-color: #9ff781;
-  border-color: #9ff781;
+  background-color: #668cff;
+  border-color: #668cff;
 }
 .pagination > .disabled > span,
 .pagination > .disabled > span:hover,
