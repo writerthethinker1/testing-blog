@@ -26,7 +26,7 @@ figure {
   */
 body {
   font: $base-font-weight #{$small-font-size}/#{$small-line-height}
-    "Courier";
+    "Courier New";
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
@@ -43,7 +43,7 @@ body {
   @media screen and (min-width: $on-medium) {
     padding: 0 5%;
     font: $base-font-weight #{$base-font-size}/#{$base-line-height}
-      $base-font-family;
+      "Courier New";
   }
 }
 
