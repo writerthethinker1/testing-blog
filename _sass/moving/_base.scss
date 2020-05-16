@@ -26,7 +26,7 @@ figure {
   */
 body {
   font: $base-font-weight #{$small-font-size}/#{$small-line-height}
-    "Courier New";
+    "Seravek";
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
@@ -43,7 +43,7 @@ body {
   @media screen and (min-width: $on-medium) {
     padding: 0 5%;
     font: $base-font-weight #{$base-font-size}/#{$base-line-height}
-      "Courier New";
+      "Seravek";
   }
 }
 
@@ -85,13 +85,13 @@ hr {
   background: -webkit-linear-gradient(
     left,
     transparent,
-    rgba(255, 255, 255, 1),
-    transparent
+    #8181F7,
+    transparent,
   );
   background: linear-gradient(
     left,
     transparent,
-    rgba(255, 255, 255, 1),
+    #8181F7,
     transparent
   );
 }
