@@ -50,20 +50,18 @@ permalink: /archives/
   </head>
 <div class="post" style="margin-top: -0%">
 <h1>Archives <i class="fas fa-layer-group"></i> </h1>
-<blockquote style="color:#99bbff"><i>"We are what we think. All that we are arises with our thoughts. With our thoughts, we make the world."</i> (Buddha)</blockquote>
+<blockquote style="color:#fff"><i>"We are what we think. All that we are arises with our thoughts. With our thoughts, we make the world."</i> (Buddha)</blockquote>
 <h2 style="margin-top:1rem"><i>Café Statistics</i> <i class="fas fa-chart-bar"></i></h2>
-<ul style="color:#81F7F3">
-  <li>$\vec{\beta}_{blog} = \begin{pmatrix}\text{Posts} \\ \text{Tags} \\ \text{Categories}\end{pmatrix} = \begin{pmatrix} {{ num_posts }} \\ {{ num_tags }} \\ {{ num_cats }}\end{pmatrix}$</li>
+<ul style="color:#fff">
+  <li> Posts: {{ num_posts }} | Tags: {{ num_tags }} | Categories: {{ num_cats }}</li>
 </ul>
 
-<ul style="color:#81F7F3">
-  <li>$ \vec{\mu}_{posts} = \begin{pmatrix}\mu_{cat} \\ \mu_{tag}\end{pmatrix} = \begin{pmatrix}{{ avg_cats }} \\  {{ avg_tags }}\end{pmatrix}$</li>
+<ul style="color:#fff">
+  <li>Average Posts in Tag: {{ avg_tags }} | Average Posts in Categories: {{ avg_cats }}</li>
 </ul>
 
-<ul style="color:#81F7F3">
-  <li>$\tilde{\Sigma}_{posts} = \begin{pmatrix}\sigma_{cat}^{2} & \tilde{\sigma}^{2}_{cat,tag} \\
-    \tilde{\sigma}^{2}_{cat,tag} & \sigma_{tag}^{2}\end{pmatrix} = \begin{pmatrix} {{ cat_variance }} & {{ var_avg }} \\ {{ var_avg }} & {{ tag_variance }}\end{pmatrix}$</li>
-    <li>Note: $\tilde{\sigma}^{2}_{cat,tag} \equiv \frac{\sigma_{cat}^{2} + \sigma_{tag}^{2}}{2}$</li>
+<ul style="color:#fff">
+  <li>Variance of Posts in Tag: {{ tag_variance }} | Variance of Posts in Category: {{ cat_variance }}</li>
 </ul>
 
 <h2 style="margin-top:1em">Posts by Category and Tag <i class="fas fa-cat"></i> <i class="fas fa-magic"></i></h2>
@@ -79,7 +77,7 @@ permalink: /archives/
     <li>
   {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
       {% for year in postsByYear %}
-      <a href="{{ site.baseurl }}/archives/{{ year.name }}" style = "color:#01BAF9 "><code class="highligher-rouge"><nobr>{{ year.name }}</nobr></code></a>
+      <a href="{{ site.baseurl }}/archives/{{ year.name }}" style = "color:#000 "><code class="highligher-rouge"><nobr>{{ year.name }}</nobr></code></a>
       {% endfor %}
       </li>
   </ul>

@@ -26,7 +26,7 @@ figure {
   */
 body {
   font: $base-font-weight #{$small-font-size}/#{$small-line-height}
-    "Seravek";
+    "Monaco";
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
@@ -43,7 +43,7 @@ body {
   @media screen and (min-width: $on-medium) {
     padding: 0 5%;
     font: $base-font-weight #{$base-font-size}/#{$base-line-height}
-      "Seravek";
+      "Monaco";
   }
 }
 
@@ -146,14 +146,14 @@ h5,
 h6 {
   margin-top: 0.5rem;
   font-weight: $base-font-weight;
-  color: #99bbff;
+  color: #fafafa;
 }
 
 /**
   * Links
   */
 a {
-  color: #668cff;
+  color: #fafafa;
   text-decoration: none;
 
   &:hover {
