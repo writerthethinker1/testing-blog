@@ -2,13 +2,11 @@
 layout: default
 ---
 
-# Life Log (What's Happening)...
+# Life Log (What's Happening...)
 
 <span style="color:#58FAF4">~ Last Update: 02/02/20 <i class="fas fa-feather-alt"></i></span>
 
-## [2019]({{ site.baseurl }}{% link life/life-log/2019.md %})
-
----
+## [2019 (Click me!)]({{ site.baseurl }}{% link life/life-log/2019.md %})
 
 ## 2020
 - (01/2020): Went Nihilist and Buddhist
