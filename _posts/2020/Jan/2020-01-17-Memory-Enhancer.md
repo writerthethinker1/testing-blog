@@ -8,7 +8,7 @@ author: Ramneek Narayan
 
 Given here are tools the writer found help with developing a memory that can be used to aid in learning or life. The writer uses these implicitly to retain information and has (since 2018) mapped out those methods. They are now shared with the reader for similar effects. Those marked with stars are used heavily for recall by the writer, but the reader may have their own preferences.
 
-1. **Picture Data Compression***
+1. **Picture Data Compression**
 
     In this method we take a picture that represents a concept or some memory and keep it in mind whenever it comes up again. For example, if one is concerned with finding the formula of a curve rotated about an axis, one could remember a picture used to derive the formula and piece together what the formula is from that picture. In statistics, the p-value is an area, so when the concept of a p-value comes up again, a curve with a tail shaded comes up in the mind, this makes recall easier.
 
