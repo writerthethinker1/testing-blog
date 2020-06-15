@@ -6,16 +6,24 @@ title: "Projects"
   <title>{{ page.title }}</title>
   </head>
 <h1>Projects <i class="fas fa-dice"></i> </h1>
-Nothing here for now! Have a comet cookie in the mean time (it's freshly baked with the chololate melting and the dough warm)...<i class="fas fa-meteor"></i> Yum!
+<h2>Typeset Notes</h2>
+<p>These are just some notes typeset from classes taken in the past. Feel free to learn from them.</p>
+<ul>
+	<li>
+		<a href="{{site.baseurl}}notes/STA131B-Math-Stats.pdf" style="font-size:18px">STA131B: Math Stats</a>
+	</li>
+	<li>
+		<a href="{{site.baseurl}}/notes/STA104-Nonparametric-Stats.pdf" style="font-size:18px">STA104: Nonparametric Stats</a>
+	</li>
+</ul>
   <!--list the projects-->
 <ul>
 {% for project in site.project %}
   <li>
-    <a href="{{ project.url }}">
+    <a href="{{site.baseurl}}{{ project.url }}">
       {{ project.title }}
     </a>({{ project.date | date_to_string }})<br>
   </li>
 {% endfor %}
-<ul>
+</ul>
   <!--end list-->
-<hr>
