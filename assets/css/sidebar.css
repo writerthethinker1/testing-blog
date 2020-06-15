@@ -17,12 +17,12 @@ div.sidenav li a {
   text-align: center;
   text-decoration: none;
   font-size: 17px;
-  color: #fff;
+  color: #FEE36E;
   display: block;
 }
 
 div.sidenav li a:hover {
-  color: #fff;
+  color: #FEE36E;
 }
 
 div.sidenav li span:hover {
