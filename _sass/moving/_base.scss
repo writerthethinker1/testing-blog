@@ -85,13 +85,13 @@ hr {
   background: -webkit-linear-gradient(
     left,
     transparent,
-    #8181F7,
+    #9FDBC1,
     transparent,
   );
   background: linear-gradient(
     left,
     transparent,
-    #8181F7,
+    #9FDBC1,
     transparent
   );
 }
@@ -165,7 +165,7 @@ a {
   * Blockquotes
   */
 blockquote {
-  color: #c9c9c9;
+  color: #9FDBC1;
   border-left: 4px solid #c9c9c9;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1);
