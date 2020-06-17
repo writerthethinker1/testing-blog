@@ -19,6 +19,6 @@ Purrrrr... Meow! Here are all of the cat-egories for this blog. Read on!
 {% for tempcategory in sortedtempcategories %}
   {% assign categoryitems = tempcategory | split: '#' %}
   {% capture categoryname %}{{ categoryitems[1] }}{% endcapture %}
-  <a href="{{ site.baseurl }}/category/{{ categoryname }}" style = "color: #ff8c00 "><code class="highligher-rouge"><nobr>{{ categoryname }}</nobr></code></a>
+  <a href="{{ site.baseurl }}/category/{{ categoryname }}" style = "color: #181818"><code class="highligher-rouge"><nobr>{{ categoryname }}</nobr></code></a>
 {% endfor %}
 <hr/>
