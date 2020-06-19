@@ -40,10 +40,10 @@ layout: default
         datetime="{{ page.date | date_to_xmlschema }}"
         itemprop="datePublished"
       >
-        {%- assign date_format = "%Y/%m/%d" -%}
+        {%- assign date_format = "%d/%m/%Y" -%}
         {{ page.date | date: date_format }}
       </time>
-      {%- if page.author -%} <span style="color:#fff">◼︎</span>
+      {%- if page.author -%} <span style="color:#fff">:::</span>
       <span itemprop="author" itemscope itemtype="http://schema.org/Person"
         ><span class="p-author h-card" itemprop="name">{{
           page.author | escape
