@@ -5,7 +5,7 @@ baseurl: /myblog/
 url: https://writerthethinker1.github.io # this is your site's root address.
 
 description: > # this means to ignore newlines until "show_excerpts:"
-  Welcome!
+ Welcome! ^^
 
 show_excerpts: true  # set to true to show excerpts on the homepage
 paginate: 8

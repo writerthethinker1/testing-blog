@@ -7,28 +7,31 @@
 
 <!--the sidebar-->
 <div class="sidenav">
-<p class="home-heading"><a href="{{ site.baseurl }}" style="font-size:30px"><i>Cocoa-nut Café</i></a>
-  <div class="cookie_cutter"><ul class="social-media-list socialbtns"><li> <a class="socialbtns fa fa-cookie" href="{{ site.baseurl }}cookie-time"></a></li>Cookie me!</ul></div>
+<p class="home-heading"><a href="{{ site.baseurl }}" style="font-size:30px"><i>Cocoa-nut Café</i><br/></a> 
+	<span style="color:#9FDBC1;font-size:19px">:::--------------:</span>
 </p>
+
 <p class="home-sub-heading" style="color:#c9c9c9;margin-bottom:-0.3%;font-size:17px;color:#9FDBC1"><i>{{site.description}}</i></p> <a href="{{site.baseurl}}scroll/" style="font-size:21px;color:#FEE36E">オムマニペメフム • ཨོཾ་མ་ཎི་པ་དྨེ་ཧཱུྃ</a>
 
 <!---<img src="{{ site.baseurl | escape}}/images/om_mani_2.jpg" style="width:188px;height:38px" />--->
-<img src="{{ site.baseurl | escape}}/images/chamomile_tea.jpg" />
+<img src="{{ site.baseurl | escape}}/images/chamomile_tea.jpg" /> <span>::::::::::::::::::::::::::::</span>
 
 <ul class="social-media-list socialbtns icon_closer">
 
   <li>
       <a class="socialbtns fa fa-layer-group" href="{{ site.baseurl }}archives/"
-        ></a>Archive
+        ></a>
   </li>
 
+			<li> <a class="socialbtns fa fa-cookie" href="{{ site.baseurl }}cookie-time"></a></li>
+			
       <li>
-      <a class="socialbtns fa fa-feather-alt" href="{{ site.baseurl }}life/"></a>Life
+      <a class="socialbtns fa fa-feather-alt" href="{{ site.baseurl }}life/"></a>
       </li>
-
+			
         <li>
             <a class="socialbtns fa fa-dice" href="{{ site.baseurl }}projects/"
-              ></a>Projects
+              ></a>
         </li>
 
 
@@ -38,7 +41,7 @@
 
             {%- include social.html -%}
 
-
+<span style="text-align: left">::::::::::::::::::</span>
             <footer class="site-footer h-card" style="margin-top:-1rem"><i>Updated = {{ site.time | date:"%Y/%m/%d + %H:%M %Z"}}</i>  </footer>
             <div style="margin-top:-1rem;">Hosted with <i class="fas fa-heart"></i> by Github </div>
 </div>
