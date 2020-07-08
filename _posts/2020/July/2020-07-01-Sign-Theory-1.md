@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sign Theory 101: The Basics"
+title: "Sign Theory 101: Beginning"
 category: sign-theory
 tags: discussion
 year: "2019"
