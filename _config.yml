@@ -5,7 +5,7 @@ baseurl: /myblog/
 url: https://writerthethinker1.github.io # this is your site's root address.
 
 description: > # this means to ignore newlines until "show_excerpts:"
- Welcome! ^^
+ Welcome! Our thoughts are hot and aromatic, like a cup of tea...
 
 show_excerpts: true  # set to true to show excerpts on the homepage
 paginate: 8
@@ -26,7 +26,7 @@ moving:
 
   # generate social links in about page.
   social_links:
-    twitter: NarayanRamneek
+    #twitter: NarayanRamneek
     github: writerthethinker1
     rss: RSS
     # dribbble:
@@ -42,7 +42,7 @@ moving:
     # googleplus:
     # microdotblog:
     #reddit: prob_thinker
-    #tumblr: r-thought-stuff
+    tumblr: r-thought-stuff
 
     # Mastodon instances
     # mastodon:
