@@ -21,7 +21,7 @@ layout: default
 
   {% for category in page.categories %}
     {% capture category_name %}{{ category }}{% endcapture %}
-    <a href="{{ site.baseurl }}category/{{ category_name }}" style = "color: #181818"><code class="highligher-rouge"><nobr>{{ category_name }}</nobr></code>&nbsp;</a>
+    <a href="{{ site.baseurl }}category/{{ category_name }}" style = "color: #514ADE"><code class="highligher-rouge"><nobr>{{ category_name }}</nobr></code>&nbsp;</a>
   {% endfor %}<i class="fas fa-cat"></i>
 </span>
 <br>
@@ -30,7 +30,7 @@ layout: default
 
    {% for tag in page.tags %}
      {% capture tag_name %}{{ tag }}{% endcapture %}
-     <a href="{{ site.baseurl }}tag/{{ tag_name }}" style = "color:#A90023 "><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+     <a href="{{ site.baseurl }}tag/{{ tag_name }}" style = "color:#DE693D "><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
   {% endfor %}  <i class="fas fa-magic"></i></span>
 <br>
 
@@ -43,7 +43,7 @@ layout: default
         {%- assign date_format = "%d/%m/%Y" -%}
         {{ page.date | date: date_format }}
       </time>
-      {%- if page.author -%} <span style="color:#fff">:::</span>
+      {%- if page.author -%} <span style="color:#fff">|</span>
       <span itemprop="author" itemscope itemtype="http://schema.org/Person"
         ><span class="p-author h-card" itemprop="name">{{
           page.author | escape

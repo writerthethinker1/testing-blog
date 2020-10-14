@@ -146,14 +146,14 @@ h5,
 h6 {
   margin-top: 0.5rem;
   font-weight: $base-font-weight;
-  color: #FEE36E;
+  color: #CFD8DA;
 }
 
 /**
   * Links
   */
 a {
-  color: #FEE36E;
+  color: #CFD8DA;
   text-decoration: none;
 
   &:hover {
@@ -166,7 +166,7 @@ a {
   */
 blockquote {
   color: #9FDBC1;
-  border-left: 4px solid #FEE36E;
+  border-left: 4px solid #CFD8DA;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1);
   letter-spacing: 0px;
