@@ -184,4 +184,4 @@ Shortly, I will give explanations as to how this works for those curious as well
 
 You can download the code using this link:
 
-[sequence-extractor.py]("{{site.baseurl}}/code/sequence-matcher.py")
+<a href="{{site.baseurl}}/code/sequence-matcher.py" style="font-size:18px">sequence-extractor.py</a>
