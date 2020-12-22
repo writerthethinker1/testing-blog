@@ -77,7 +77,7 @@ permalink: /archives/
     <li>
   {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
       {% for year in postsByYear %}
-      <a href="{{ site.baseurl }}/archives/{{ year.name }}" style = "color:#000 "><code class="highligher-rouge"><nobr>{{ year.name }}</nobr></code></a>
+      <a href="{{ site.baseurl }}/archives/{{ year.name }}" style = "color:#000 "><tag class="highligher-rouge"><nobr>{{ year.name }}</nobr></tag></a>
       {% endfor %}
       </li>
   </ul>

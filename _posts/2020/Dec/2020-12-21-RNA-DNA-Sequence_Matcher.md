@@ -10,7 +10,7 @@ Recently with the interest of spliced DNA and recombinant DNA/RNA techniques for
 
 the code in it's entirety is given below, feel free to use it on various genomes:
 
-```{python}
+```python
 # here to see various sequences in snake order 1 2 3 4 5 | 2 3 4 5 6 | 3 4 5 6 7 and so on...
 #then...detect spliced rna or just sequence matches...
 # author: ramneek narayan
@@ -170,12 +170,6 @@ else:
     sleep(2)
     print("there were no matches for " + str(splice_length) + " splice length.")
 
-
-
-
-
-
-
 #let's test the code:
 
 ```
@@ -186,8 +180,10 @@ You can download the code using this link:
 
 <a href="{{site.baseurl}}/code/sequence-matcher.py" style="font-size:18px">sequence-extractor.py</a>
 
-You can test the code using the 'virus.txt' and 'suspect.txt' files, the virus.txt is the virus we will do the matching on and the suspect is the virus or code was suspect is in the virus. All of the matching code is given in 'match_code.txt'. Note, for the program, all file inputs work for .txt extensions. If it works, you'll see a first character match at position 513 and a last character match at 950. Due to historical significance, I'm personally interested in polio, aids, and other largely impacting diseases. 
+You can test the code using the 'virus.txt' and 'suspect.txt' files, the virus.txt is the virus we will do the matching on and the suspect is the virus or code was suspect is in the virus. All of the matching code is given in 'match_code.txt'. Note, for the program, all file inputs work for .txt extensions. If it works, you'll see a first character match at position 513 and a last character match at 950. Due to historical significance, I'm personally interested in polio, aids, and other largely impacting diseases.
 
 <a href="{{site.baseurl}}/code/virus.txt" style="font-size:18px">virus.txt</a>
 <a href="{{site.baseurl}}/code/suspect.txt" style="font-size:18px">suspect.txt</a>
 <a href="{{site.baseurl}}/code/match_code.txt" style="font-size:18px">match_code.txt</a>
+
+#### ⨳ “think freely, anytime, anywhere.”
