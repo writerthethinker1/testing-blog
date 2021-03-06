@@ -1,5 +1,5 @@
 /**
- * Reset some basic elements
+ * Reset some basic elements, this is the basic markdown or html formatting..., added a new format called 'tag' to make things easier...
  */
 body,
 h1,
@@ -180,6 +180,7 @@ blockquote {
   }
 }
 
+// new element!
 tag {
   @include relative-font-size(0.9);
   border: 1px solid darken($grey-color-light, 3%);
@@ -190,6 +191,7 @@ tag {
 /**
   * Code formatting
   */
+  // going old school...think 80s...
 code, pre {
   @include relative-font-size(0.9);
   border: 1px solid darken(#99e085, 1%); //#99e085
