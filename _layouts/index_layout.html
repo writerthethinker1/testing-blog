@@ -6,21 +6,26 @@ layout: default
 
 <div class="home">
 
-<h1 style="margin-top:0rem; margin-bottom:-1rem">Posts オムマニペメフム • ཨོཾ་མ་ཎི་པ་དྨེ་ཧཱུྃ</h1>
+<h1 style="margin-top:0rem; margin-bottom:-1rem">Posts | Think Critically...</h1>
 <div style="margin-top: 1rem;margin-bottom: 0rem; margin-right:3rem; font-size:23px">Just some articles for reading...</div>
 <div class="pagination">
 	<div id="pagination-demo"></div>
 </div>
 {%- if site.posts.size > 0 -%}
   <ul class="post-list" style="margin-top:0rem">
+    <!-- <p>current: 2021</p> -->
       {% for post in paginator.posts  %}
+      <!-- for the current page -->
       {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
       {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
+      <!-- if the first post, per page -->
       {% if forloop.first %}
-      <h2 id="{{ this_year }}-ref" class="post-year" style="margin-top:1rem;color:#ECB055">{{this_year}} <i class="fas fa-cookie-bite"></i> </h2>
+      <h2 id="{{ this_year }}-ref" class="post-year" style="margin-top:1rem;color:#ECB055">{{ this_year }} <i class="fas fa-cookie-bite"></i></h2>
       <ul id="post_mark">
       {% endif %}
+      <!-- #ECB055 -->
+
       <!--the date of the post-->
       <li>
           {%- assign date_format = site.moving.date_format | default: "%b %-d, %Y" -%}
@@ -35,18 +40,21 @@ layout: default
           </a>
 	    </li>
     <!--link ends here-->
+    <!-- if last post -->
       {% if forloop.last %}
       </ul>
+      <!-- end the list -->
+      <!-- if not... -->
       {% else %}
           {% if this_year != next_year %}
           </ul>
-	  <h2 id="{{ next_year }}-ref" class="post-year" style="color:#CFD8DA">{{next_year}} <i class="fas fa-cookie-bite"></i> </h2>
+	  <h2 id="{{ next_year }}-ref" class="post-year" style="color:#CFD8DA">{{ next_year }} <i class="fas fa-cookie-bite"></i> </h2>
           <ul id="post_mark">
           {% endif %}
       {% endif %}
-  {% endfor %}
+      {% endfor %}
   </ul>
-  {%- endif -%}
+{%- endif -%}
 <!-- Pagination links -->
 
 <!--script that makes paginator work-->
