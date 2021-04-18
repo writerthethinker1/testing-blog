@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: number-theory"
+title: "Number Theory Posts"
 tag: number-theory
 ---

@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<article
+  class="post h-entry"
+  itemscope
+  itemtype="http://schema.org/BlogPosting"
+>
+
+  <head>
+    <title>{{ page.title }}</title>
+  </head>
+  <header class="post-header">
+
+    <h1 class="post-title p-name" itemprop="name headline" style="margin-bottom: .1%">
+       ## {{ page.title | escape }} <i class="fas fa-feather-alt"></i>
+    </h1>
+
+   <br>
+        {%- assign date_format = "%d/%m/%Y" -%}
+        <blockquote>written: {{ page.date | date: date_format }}</blockquote>
+  </header>
+
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+</article>

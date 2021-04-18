@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: calc"
+title: "Calc Posts"
 tag: calc
 ---

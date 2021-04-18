@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: group-theory"
+title: "Group Theory Posts"
 tag: group-theory
 ---

@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: lessons"
+title: "Lessons Posts"
 tag: lessons
 ---

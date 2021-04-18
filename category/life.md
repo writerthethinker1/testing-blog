@@ -1,5 +1,5 @@
 ---
 layout: categorypage
-title: "Category: life"
+title: "Life Topic"
 category: life
 ---

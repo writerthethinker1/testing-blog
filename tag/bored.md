@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: bored"
+title: "Bored Posts"
 tag: bored
 ---

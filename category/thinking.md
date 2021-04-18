@@ -1,5 +1,5 @@
 ---
 layout: categorypage
-title: "Category: thinking"
+title: "Thinking Topic"
 category: logic
 ---

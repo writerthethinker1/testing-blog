@@ -1,13 +1,8 @@
 ---
-layout: default
-title: "Life after Psychosis"
-permalink: /life/Life-Changes
+layout: life_layout
+title: "Life & Psychosis"
+date: "2021-04-16"
 ---
-
-# Life after Psychosis <i class="fas fa-circle"></i>
-<span style="color: #58FAF4"> ~ Last Revision: 02/08/20 <i class="fas fa-feather-alt"></i></span>
-
-> *"Life doesn't get any better after mental illness."* - Pysch Ward Nurse
 
 This note is rather personal, so don't be offended if you don't always agree with what is written. It is a small reflection of what the writer experienced and hopes to give an account about mental illness and its effects. Now, on with the story...
 

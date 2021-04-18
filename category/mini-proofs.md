@@ -1,5 +1,5 @@
 ---
 layout: categorypage
-title: "Category: mini-proofs"
+title: "Mini Proofs Topic"
 category: mini-proofs
 ---

@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: mind"
+title: "Mind Posts"
 tag: mind
 ---

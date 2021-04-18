@@ -1,5 +1,5 @@
 ---
 layout: categorypage
-title: "Category: truth"
+title: "Truth Topic"
 category: truth
 ---

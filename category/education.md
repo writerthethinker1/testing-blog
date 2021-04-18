@@ -1,5 +1,5 @@
 ---
 layout: categorypage
-title: "Category: education"
+title: "Education Topic"
 category: education
 ---

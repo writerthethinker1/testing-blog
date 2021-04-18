@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: extra"
+title: "Extra Posts"
 tag: extra
 ---

@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: algebra"
+title: "Algebra Posts"
 tag: algebra
 ---

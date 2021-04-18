@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: fallacies"
+title: "Fallacies Posts"
 tag: fallacies
 ---

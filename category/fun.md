@@ -1,5 +1,5 @@
 ---
 layout: categorypage
-title: "Category: fun"
+title: "Fun Topic"
 category: fun
 ---

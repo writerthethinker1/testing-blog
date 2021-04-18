@@ -1,5 +1,5 @@
 ---
 layout: categorypage
-title: "Category: studies"
+title: "Studies Topic"
 category: studies
 ---

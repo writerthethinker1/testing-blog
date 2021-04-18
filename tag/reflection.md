@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: reflection"
+title: "Reflection Posts"
 tag: reflection
 ---

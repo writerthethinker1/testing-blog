@@ -1,8 +1,10 @@
 title: Cocoa-nut Café # The title of the blog
 author: Ramneek Narayan # Your name
 email: ramneeknarayan@gmail.com # your email shown in the footer
-baseurl: /myblog/
 url: https://writerthethinker1.github.io # this is your site's root address.
+baseurl: /myblog/
+date_format: "%b %-d, %Y"
+
 
 description: > # this means to ignore newlines until "show_excerpts:"
  Welcome! Our thoughts are hot and aromatic, like a cup of tea...
@@ -58,9 +60,25 @@ moving:
 remote_theme: huangyz0918/moving # note, please use huangyz0918/moving if you want to publish to Github Pages.
 
 collections:
-  project:
+  # project:
+  #   output: true
+  life:
     output: true
-    permalink: /projects/:year/:month/:day/:title/
+
+# static files
+defaults:
+  - scope:
+      path: "cool_files/notes"
+    values:
+      notes: true
+  - scope:
+      path: "cool_files/books"
+    values:
+     books: true
+  - scope:
+      path: "cool_files/papers"
+    values:
+     papers: true
 
 
 plugins:

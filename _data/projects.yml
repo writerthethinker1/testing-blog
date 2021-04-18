@@ -1,0 +1,16 @@
+projects_list_title: "cool projects!"
+structure:
+
+- title: "Notes"
+  reference: "notes"
+  desc: "Some cool notes typset in the past. Hard work and patience involved."
+
+- title: "Books"
+  reference: "books"
+  desc: "Books for leisure reading..."
+
+- title: "Papers"
+  reference: "papers"
+  desc: "Papers involving rational inquiries. Feel free to contact about them..."
+
+# add more titles as time goes on...

@@ -1,5 +1,5 @@
 ---
 layout: categorypage
-title: "Category: math"
+title: "Math Topic"
 category: math
 ---

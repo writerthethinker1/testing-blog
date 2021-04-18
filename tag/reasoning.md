@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: reasoning"
+title: "Reasoning Posts"
 tag: reasoning
 ---

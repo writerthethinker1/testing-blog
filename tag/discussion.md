@@ -1,6 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: discussion"
+title: "Discussion Posts"
 tag: discussion
 ---
-

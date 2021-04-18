@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: quick-read"
+title: "Quick-Read Posts"
 tag: quick-read
 ---

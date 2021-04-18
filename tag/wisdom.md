@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: wisdom"
+title: "Wisdom Posts"
 tag: wisdom
 ---

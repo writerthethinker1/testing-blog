@@ -1,20 +1,12 @@
 ---
-layout: default
-title: "Why I Do Not Drink"
+layout: life_layout
+title: "Drinking is Boring"
+date: "2021-04-17"
 ---
 
-# Why I Do Not Drink <i class="fas fa-radiation-alt"></i>
+To solidify this view, I write more about the harmful nature of alcohol by itself. While there are positive effects to drinking[^1], the net effect is negative and any amount consumed hurts the brain. For people who say alcohol is an absolute must for relaxation, I say that there are many more ways to relax such as taking GABA supplements, meditating, and listening to music. First, we examine why people drink it in the first place...
 
-Ever since I was a child I have been around people that like to drink beer/wine etc... on many occasions (birthdays, holidays, etc...) and each time I noticed that these people were different after they had their beers and whatnot. They were apt on minute, but then completely different in their mentality after one or two drinks; they weren't people that could have normal conversations (the type where one is calm and reasonable). Instead, they lost their sense of intellect and became 'fools'; these people couldn't reason anymore and because of this they lost their humanity. Some may disagree with that I have to say and argue that drinking helps one relax and that no harm can come of it. I offer a simple counterargument that exposes what alcohol truly does to the body and is the main reason why I do not want to consume it at all:
-
----
-**Counterargument to Alcohol Consumption:** When people drink, their driving skills are impaired. It does not require supreme intelligence to operate a motor vehicle (16 year olds can drive and there is not a lengthy process to getting a drivers license and one does not critically think when driving as one does when reasoning about academic subjects). Put frankly, driving is not an academic pursuit and it requires little knowledge to efficiently operate the vehicle. Since, one's ability to perform the most basic task (like putting on clothes) is compromised, alcohol by itself prevents the brain from performing its natural functions responsible for cognition. Humans rely on their intelligence to survive, drinking impairs this ability and allows for foolish decisions (i.e. DUIs).
-
----
-
-But, to solidify this view, I write more about the harmful nature of alcohol by itself. While there are positive effects to drinking[^1], the net effect is negative and any amount consumed hurts the brain. For people who say alcohol is an absolute must for relaxation, I say that there are many more ways to relax such as taking GABA supplements, meditating, and listening to music. First, we examine why people drink it in the first place...
-
-## Reasons People Buy Alcohol
+## Reasons We Buy Alcohol
 
 I begin with the stereotypical notion of why we buy alcohol: it relieves stress[^3] and helps one be more social in gatherings; 'helps break the ice' since alcohol is found in many social gatherings (bars, restaurants, orientations, fairs, parties, etc...). In turn, alcohol by itself is known as harmful, but relieving one's own stress is worth more than one's own health in those times, ironically. Also, alcohol is freely advertised on TV screens with the only warning attached to the substance as 'drink responsibly'. The media gives a false portrayal of alcohol is a 'safe' drink that can is acceptable to buy and use and continues the false idea that it is a 'social norm'. In a sense, advertisements condition people to see it as some right or entitlement for adults and when one becomes an adult they can partake without any consequences. Not only that, news media promotes stories that make the general population fearful and anxious which (for some people) can turn into a reason to open up some bottles of alcohol[^4]. In turn, people use alcohol to cope with news that the media 'flared up' on *purpose* (the same news could have been delivered without the emotional development, i.e. same story but calmer). The industrial 9-5 culture that most developed nations have today creates a hefty amount of stress (work is demanding, commute times are lengthy), which people turn to substances like alcohol to 'solve the problem'.
 

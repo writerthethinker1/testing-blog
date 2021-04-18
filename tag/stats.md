@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: stats"
+title: "Stats Posts"
 tag: stats
 ---

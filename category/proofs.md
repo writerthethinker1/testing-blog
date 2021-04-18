@@ -1,5 +1,5 @@
 ---
 layout: categorypage
-title: "Category: proofs"
+title: "Proofs Topic"
 category: proofs
 ---

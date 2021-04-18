@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: coding"
+title: "Coding Posts"
 tag: coding
 ---
