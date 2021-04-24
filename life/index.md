@@ -10,5 +10,5 @@ title: "Life"
 ---
 
 {% for thing in site.life %}
-  <h2><a href="{{ site.baseurl }}{{ thing.url }}">{{ thing.title }} <i class="fas fa-feather-alt"></i></a></h2>
+  <h2><a href="{{ site.baseurl }}{{ thing.url }}">## {{ thing.title }} <i class="fas fa-feather-alt"></i></a></h2>
 {% endfor %}
