@@ -125,7 +125,7 @@ caption {
   */
 ul,
 ol {
-  margin-left: $spacing-unit;
+  margin-left: 4rem;
 }
 
 li {
@@ -166,6 +166,7 @@ a {
   */
 blockquote {
   color: #9FDBC1;
+  margin-left: 1rem;
   border-left: 4px solid #CFD8DA;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1);
