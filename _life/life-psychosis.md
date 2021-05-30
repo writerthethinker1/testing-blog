@@ -1,7 +1,7 @@
 ---
 layout: life_layout
 title: "Managing Psychosis"
-date: "2021-04-24"
+date: "2021-05-29"
 ---
 
 This life entry deals with coping well with psychotic behaviour and how to regulate action against it. What I share is just a personal experience when dealing with a psychosis, mental tips to not feel 'down', and how to slowly heal with minimal or reduced medicinal use (e.g. olanzapine, risperdal, and other anti-psychotics dangerous to one's health and general well being). Before going on...
@@ -127,18 +127,6 @@ Try it out with a friend or just solo. Make it routine.
 Keep a journal for logging your thoughts and mood for any day. You can also reflect on what happened and how you are managing life on lower doses as well as any changes in perception. It's nice to relax while writing and just write without caring about criticism; it's there for you and your mind and no one needs to even read. You can also log the doses you've been having each day or however often you have one. Wake time and sleep time as well.
 
 > **The benefits:** Better recollection of what happened in a day, what things mattered, what things were useless, mood regulation, awareness of medication intervals, inner thought reflections, and cooling down all the drama you thought was happening but really wasn't. More self-awareness and control.
-
-### 6. Stones and Metals (optional)
-
-Also what helped me recover from mental hardship were 3 key items:
-
-1. Quartz
-2. Black Obsidian
-3. Copper (Tibet)
-
-Wearing these 3 items helped me stay calm and kept me focused more often. I wasn't as scared as I used to be and the paranoia became smaller. I have quartz and black obsidian items with me like stones, bracelets, and malas. I also carry copper in the form of copper rings and bracelets from tibet as well as a copper water bottle. While I can't explain well why these items work, they have helped me with mental problems or anxiety that might happen occasionally. They also help me be more compassionate and redirect mental activity away from a narrow mind and to a more rational way of thinking.
-
-Maybe they will work for you too. Try it out if you are curious, carrying these 3 things. It's optional though.
 
 ---
 
