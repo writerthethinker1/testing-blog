@@ -9,7 +9,7 @@ h4,
 h5,
 h6,
 p,
-blockquote,
+quote,
 pre,
 hr,
 dl,
@@ -25,7 +25,7 @@ figure {
   * Basic styling
   */
 body {
-  font: $base-font-weight #{$small-font-size}/#{$small-line-height}
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height}
     $base-font-family;
   color: $text-color;
   background-color: $background-color;
@@ -39,12 +39,6 @@ body {
   min-height: 100vh;
   flex-direction: column;
   padding: 0 2%;
-
-  @media screen and (min-width: $on-medium) {
-    padding: 0 5%;
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height}
-      $base-font-family;
-  }
 }
 
 /**
@@ -57,7 +51,7 @@ h4,
 h5,
 h6,
 p,
-blockquote,
+quote,
 pre,
 ul,
 ol,
@@ -166,7 +160,11 @@ a {
   */
 blockquote {
   color: #9FDBC1;
-  margin-left: 1rem;
+  margin-left: 4rem;
+  margin-right: 5rem;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  font-style:italic;
   border-left: 4px solid #CFD8DA;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1);
@@ -174,6 +172,9 @@ blockquote {
 
 @media (max-width: 600px) {
   @include relative-font-size(0.8);
+  margin-left: 1.2rem;
+  margin-right: 1.3rem;
+  font-size: 15px;
 }
 
   > :last-child {
@@ -264,7 +265,7 @@ pre {
 .svg-icon {
   width: 16px;
   height: 16px;
-  display: inline-block;
+  display: inline-;
   fill: currentColor;
   padding: 5px 3px 2px 5px;
   vertical-align: text-bottom;

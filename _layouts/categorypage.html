@@ -3,12 +3,11 @@ layout: default
 ---
 
 <h1>{{ page.title }} <i class="fas fa-cat"></i></h1>
-<ul style="list-style-type:disclosure-closed">
 {% for post in site.categories[page.category] %}
-<li> <span style="margin-right:2px">{{ post.date | date: "%b %Y" }}</span> <blockquote style="margin-bottom:-10%; display:inline"><a href="{{ site.baseurl }}{{ post.url }}" style = "color: #9585FF"><i>{{ post.title }} <i class="fas fa-meteor"></i> </i></a></blockquote><br>
-  </li>
+<div style="display:flex">
+<a href="{{ site.baseurl }}{{ post.url }}" style = "color:#9585FF;font-size:20px;margin-left:3rem;"><i>## {{ post.title }} <i class="fas fa-meteor"></i> </i></a><br>
+</div>
 {% endfor %}
-</ul>
 <hr>
 
 {% include category_archive.html %}

@@ -18,7 +18,7 @@ layout: default
     </h1>
 
  <span>
-   
+
   {% for category in page.categories %}
     {% capture category_name %}{{ category }}{% endcapture %}
     <a href="{{ site.baseurl }}category/{{ category_name }}" style = "color: #514ADE"><tag class="highligher-rouge"><nobr>{{ category_name }}</nobr></tag>&nbsp;</a>
@@ -54,7 +54,7 @@ layout: default
   </header>
 
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
 </article>

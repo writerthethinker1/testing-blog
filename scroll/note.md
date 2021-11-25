@@ -3,7 +3,7 @@ layout: default
 title: "Note"
 ---
 
-## Zen Board
+# Zen Board
 
 ---
 

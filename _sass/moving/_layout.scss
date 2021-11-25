@@ -196,7 +196,7 @@
   color: #c9c9c9;
 
   @media (max-width: 500px) {
-    @include relative-font-size(1.2);
+    @include relative-font-size(1.6);
     margin-top: 0rem;
   }
 
@@ -204,7 +204,7 @@
     margin-top: 0rem;
   }
 
-  @include relative-font-size(1.5);
+  @include relative-font-size(1.8);
 }
 
 .post-meta {
@@ -222,13 +222,12 @@
 .post-link-layout {
   margin: 0%;
   display: inline;
-
+  margin-left: 2rem;
+  font-size: 24px;
 
   @media (max-width: 600px) {
-    @include relative-font-size(1);
+    font-size: 18px;
   }
-
-  @include relative-font-size(1.2);
 
 }
 

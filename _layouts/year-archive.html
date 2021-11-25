@@ -18,18 +18,20 @@ layout: default
 
         {% for month in postsByMonth %}
           <h2 style="margin-top:0rem;font-weight:bold;">{{ month.name }} <i class="fa fa-moon"></i></h2>
-          <ul style="list-style-type:disclosure-closed">
+          <!-- <ul style="list-style-type:disclosure-closed"> -->
             {% for post in month.items %}
             {% assign d = post.date | date: "%-d" %}
-              <li> <blockquote style="margin-bottom:-10%; display:inline; letter-spacing:0px"><a href="{{ site.baseurl }}{{ post.url }}"><i>{{ post.title }} <i class="fas fa-meteor"></i> </i></a>
-                ({% case d %}
+            <div style="display:flex">
+              <a href="{{ site.baseurl }}{{ post.url }}" style="margin-left:3rem;font-size:21px"><i>## {{ post.title }} <i class="fas fa-meteor"></i> </i></a><br>
+              </div>
+                <!-- ({% case d %}
   {% when '1' or '21' or '31' %}{{ d }}st)
   {% when '2' or '22' %}{{ d }}nd)
   {% when '3' or '23' %}{{ d }}rd)
-  {% else %}{{ d }}th){% endcase %}</blockquote></li>
+  {% else %}{{ d }}th){% endcase %} -->
             {% endfor %}
 
-          </ul>
+          <!-- </ul> -->
 
         {% endfor %}
         {% endif %}

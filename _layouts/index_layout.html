@@ -6,8 +6,8 @@ layout: default
 
 <div class="home">
 
-<h1 style="margin-top:0rem; margin-bottom:-1rem">## Posts | Think Critically...</h1>
-<div style="margin-top: 1rem;margin-bottom: 0rem; margin-right:3rem; font-size:23px"><blockquote style="margin-top: 2rem"><h3>"What we think, we become." -- Buddha</h3></blockquote></div>
+<h1 style="margin-bottom:-1rem">## Writings...</h1>
+<blockquote style="margin-top: 2rem">"What we think, we become." -- Buddha</blockquote>
 <div class="pagination">
 	<div id="pagination-demo"></div>
 </div>
@@ -28,30 +28,31 @@ layout: default
     {% else %}
       <h2 id="{{ this_year }}-ref" class="post-year" style="margin-top:1rem;color:#CFD8DA">{{ this_year }} <i class="fas fa-cookie-bite"></i></h2>
     {% endif %}
-      <ul id="post_mark">
+      <!-- <ul id="post_mark"> -->
     {% endif %}
     <!--the date of the post-->
-    <li>
+    <!-- <li> -->
       {%- assign date_format = site.moving.date_format | default: "%b %-d, %Y" -%}
-      <span class="post-meta">
+      <!-- <span class="post-meta">
         {{ post.date | date: date_format }}
-      </span>
+      </span> -->
 <!--date ends here-->
 <!--the post link-->
-      <a class="black-link post-link-layout post-desc" href="{{ post.url | relative_url }}">
-        <i><blockquote style="margin-left:0%" class="post-desc quote-size">
-          {{ post.title | escape }}  <i class="fas fa-meteor"></i></blockquote></i>
+    <div style="margin-bottom:0.3rem;font-size:20px;display:flex">
+      <a class="post-link-layout" href="{{ post.url | relative_url }}">
+        <i style="color:#9FDBC1">## {{ post.title | escape }}  <i class="fas fa-meteor"></i></i><br>
       </a>
-    </li>
+      </div>
+    <!-- </li> -->
 
     {% if this_year != past_year and forloop.last == false %}
       {% assign marker = true %}
     {% endif %}
 
     {% if marker == true %}
-      </ul>
+      <!-- </ul> -->
         <h2 id="{{ next_year }}-ref" class="post-year" style="color:#CFD8DA">{{ past_year }} <i class="fas fa-cookie-bite"></i></h2>
-      <ul id="post_mark">
+      <!-- <ul id="post_mark"> -->
     {% endif %}
 
   <!--link ends here-->
@@ -73,7 +74,7 @@ layout: default
 
  var pagination2 = new Pagination({
     container: $("#pagination-demo"),
-    showInput: true,
+    showInput: false,
     showSlider: false,
     enhancedMode: false,
     maxVisibleElements: 9,
