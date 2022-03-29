@@ -1,5 +1,5 @@
 ---
-layout: tagpage
+layout: categorypage
 title: "Music Topic"
 category: music
 ---
