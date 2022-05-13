@@ -2,6 +2,7 @@
 layout: life_layout
 title: "Drinking is Boring"
 date: "2021-04-17"
+published: false
 ---
 
 To solidify this view, I write more about the harmful nature of alcohol by itself. While there are positive effects to drinking[^1], the net effect is negative and any amount consumed hurts the brain. For people who say alcohol is an absolute must for relaxation, I say that there are many more ways to relax such as taking GABA supplements, meditating, and listening to music. First, we examine why people drink it in the first place...
